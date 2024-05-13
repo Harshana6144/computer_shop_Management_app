@@ -103,7 +103,7 @@ class _RegisterPageState extends State<RegisterPage> {
                   fontWeight: FontWeight.bold,  
                     ),
                   ),
-              ),
+                ),
               ],
             ),
           ],
