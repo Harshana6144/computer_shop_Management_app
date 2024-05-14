@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:food_dilivery_app/components/my_button.dart';
 import 'package:food_dilivery_app/components/my_textfield.dart';
+import 'package:food_dilivery_app/pages/home_page.dart';
 
 
 
@@ -17,6 +18,21 @@ class _LogingPageState extends State<LogingPage> {
   //text editing controllers
   final TextEditingController emailController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();
+
+  //login method
+  void login(){
+    /*
+      fill out authentication here..
+
+    */
+
+    //navigate to the home page
+  Navigator.push(context,MaterialPageRoute(
+    builder: (context) => const HomePage(),
+        ),
+    );
+
+  }
 
   @override
   Widget build(BuildContext context){
@@ -65,7 +81,7 @@ class _LogingPageState extends State<LogingPage> {
           //sign in button
         MyButton(
           text:"Sign In",
-          onTap:() {}
+          onTap:login,
          ),
 
          const SizedBox(height: 25),
