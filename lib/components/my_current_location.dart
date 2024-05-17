@@ -9,13 +9,19 @@ class MyCurrentLocation extends StatelessWidget {
     context: context,
      builder: (context)=>AlertDialog(
           title:const Text("Your Location"),
-          content: const TextField(decoration:const InputDecoration(hintText: "Search address.."),
+          content: const TextField(
+            decoration: InputDecoration(hintText: "Search address.."),
           ),
           actions: [
             //cancal button
-
+              MaterialButton(onPressed: () => Navigator.pop(context),
+              child: const Text('Cancel'),
+              ),
 
             //save button
+             MaterialButton(onPressed: () => Navigator.pop(context),
+              child: const Text('Save'),
+              ),
           ],
        ),
      );
