@@ -1,6 +1,8 @@
+import 'package:flutter/material.dart';
+
 import 'parts.dart';
 
-class Shop{
+class Shop extends ChangeNotifier{
 //list of parts menu
   final List<Part> _menu = [
 
@@ -75,6 +77,7 @@ class Shop{
         Addon(name: "cooler", price: 24000),
         ],
       ),
+     
 //========================================================================================================================================
 
     //motherBoards
@@ -237,7 +240,168 @@ class Shop{
         ],
       ),
 
+      // for ASUS ROG Strix RTX 4080 SUPER 16GB GDDR6X
+      Part(
+      name: "ASUS ROG Strix RTX 4080 SUPER 16GB GDDR6X",
+      description: "Graphic Engine NVIDIA® GeForce RTX® 4090,Bus Standard, PCI Express 4.0, OpenGL, OpenGL®4.6, Video Memory 24GB GDDR6X, Engine ClockOC mode: 2640 MHz,Gaming mode: 2610 MHz (Boost Clock),CUDA Core 6384",
+      imagePath: "lib/images/graphicCards/card2.png",
+      price: 619000,
+      category: PartsCategory.graphicCards,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
 
-    //storage
+      // for ASUS ROG Strix RTX 4070 SUPER 12GB GDDR6X
+      Part(
+      name: "ASUS ROG Strix RTX 4070 SUPER 12GB GDDR6X",
+      description: "Graphic Engine NVIDIA® GeForce RTX® 4090,Bus Standard, PCI Express 4.0, OpenGL, OpenGL®4.6, Video Memory 24GB GDDR6X, Engine ClockOC mode: 2640 MHz,Gaming mode: 2610 MHz (Boost Clock),CUDA Core 6384",
+      imagePath: "lib/images/graphicCards/card3.png",
+      price: 386000,
+      category: PartsCategory.graphicCards,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for MSI GeForce RTX 4090 SUPRIM X 24G
+      Part(
+      name: " MSI GeForce RTX 4090 SUPRIM X 24G",
+      description: "Graphic Engine NVIDIA® GeForce RTX® 4090,Bus Standard, PCI Express 4.0, OpenGL, OpenGL®4.6, Video Memory 24GB GDDR6X, Engine ClockOC mode: 2640 MHz,Gaming mode: 2610 MHz (Boost Clock),CUDA Core 6384",
+      imagePath: "lib/images/graphicCards/card4.png",
+      price: 956000,
+      category: PartsCategory.graphicCards,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+       // for MSI GeForce RTX 4070 SUPER 12G GAMING X SLIM
+      Part(
+      name: "MSI GeForce RTX 4070 SUPER 12G GAMING X SLIM",
+      description: "Graphic Engine NVIDIA® GeForce RTX® 4090,Bus Standard, PCI Express 4.0, OpenGL, OpenGL®4.6, Video Memory 24GB GDDR6X, Engine ClockOC mode: 2640 MHz,Gaming mode: 2610 MHz (Boost Clock),CUDA Core 6384",
+      imagePath: "lib/images/graphicCards/card5.png",
+      price: 350500,
+      category: PartsCategory.graphicCards,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //==============================================================================================================================
+      //storage
+
+       // for ASUSTOR LOCKERSTOR 2 (AS6602T) 2 BAY WITH 2 M.2 SLOTS
+      Part(
+      name: "ASUSTOR LOCKERSTOR 2 (AS6602T) 2 BAY WITH 2 M.2 SLOTS",
+      description: "Power for the power user Bringing Double Performance, and SSD Caching to the Small Business,Two 2.5 GbE ports with up to 5 Gbps under Link AggregationDual M.2 NVMe SSD ports for fast caching,Overwhelming 4K experience,Intel Celeron quad core CPU - 30% faster than previous generation.",
+      imagePath: "lib/images/storage/nas_2.png",
+      price: 189000,
+      category: PartsCategory.storage,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+       // for ASUSTOR DRIVESTOR 4 (AS1104T) NAS
+      Part(
+      name: "ASUSTOR DRIVESTOR 4 (AS1104T) NAS",
+      description: "Power for the power user Bringing Double Performance, and SSD Caching to the Small Business,Two 2.5 GbE ports with up to 5 Gbps under Link AggregationDual M.2 NVMe SSD ports for fast caching,Overwhelming 4K experience,Intel Celeron quad core CPU - 30% faster than previous generation.",
+      imagePath: "lib/images/storage/nas_1.png",
+      price: 165000,
+      category: PartsCategory.storage,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+       // for ASUSTOR FLASHSTOR 6 (FS6706T)
+      Part(
+      name: "ASUSTOR FLASHSTOR 6 (FS6706T)",
+      description: "Power for the power user Bringing Double Performance, and SSD Caching to the Small Business,Two 2.5 GbE ports with up to 5 Gbps under Link AggregationDual M.2 NVMe SSD ports for fast caching,Overwhelming 4K experience,Intel Celeron quad core CPU - 30% faster than previous generation.",
+      imagePath: "lib/images/storage/nas_3.png",
+      price: 264000,
+      category: PartsCategory.storage,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+       // for Lexar NM620 M.2 Gen3x4 NVMe 2TB
+      Part(
+      name: "Lexar NM620 M.2 Gen3x4 NVMe 2TB",
+      description: "Power for the power user Bringing Double Performance, and SSD Caching to the Small Business,Two 2.5 GbE ports with up to 5 Gbps under Link AggregationDual M.2 NVMe SSD ports for fast caching,Overwhelming 4K experience,Intel Celeron quad core CPU - 30% faster than previous generation.",
+      imagePath: "lib/images/storage/nvme_1.png",
+      price: 37500,
+      category: PartsCategory.storage,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+       // for SAMSUNG 990 PRO SSD 1TB PCIe 4.0
+      Part(
+      name: "SAMSUNG 990 PRO SSD 1TB PCIe 4.0",
+      description: "Power for the power user Bringing Double Performance, and SSD Caching to the Small Business,Two 2.5 GbE ports with up to 5 Gbps under Link AggregationDual M.2 NVMe SSD ports for fast caching,Overwhelming 4K experience,Intel Celeron quad core CPU - 30% faster than previous generation.",
+      imagePath: "lib/images/storage/nvme_2.png",
+      price: 37500,
+      category: PartsCategory.storage,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      
+      
+
   ];
+
+  /*
+  G E T T E R S
+  
+  */
+  List<Part> get menu => _menu;
+  /*
+
+  O P E R A T I O N S
+
+  */
+  //add to cart 
+
+  //remove from cart 
+
+  // get total price of cart
+
+  // get total number of item in the cart
+
+  //clear the cart
+
+  /*
+  H E L P E R S
+  
+  */
+
+  // generate the receipt
+
+  // format double value into money
+
+  //format list of addons into a String summary
 }

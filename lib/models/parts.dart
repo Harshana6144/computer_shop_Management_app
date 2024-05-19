@@ -18,15 +18,22 @@ class Part{
 }
 
 // parts categories
-enum PartsCategory{
+enum PartsCategory
+{
   processors,
   motherBoards,
   ram,
   graphicCards,
   storage,
+ 
+  
+ 
 }
 
+
+
 // parts addons
+//icon:const Icon(Icons.shopping_cart),
 
 class Addon{
   String name;

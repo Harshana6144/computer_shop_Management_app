@@ -4,6 +4,9 @@ import 'package:food_dilivery_app/components/my_description_box.dart';
 import 'package:food_dilivery_app/components/my_drawer.dart';
 import 'package:food_dilivery_app/components/my_silver_app_bar.dart';
 import 'package:food_dilivery_app/components/my_tab_bar.dart';
+import 'package:food_dilivery_app/models/parts.dart';
+import 'package:food_dilivery_app/models/shop.dart';
+import 'package:provider/provider.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -20,7 +23,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
   @override
   void initState() {
     super.initState();
-    _tabController = TabController(length: 3, vsync: this);
+    _tabController = TabController(length: PartsCategory.values.length, vsync: this);
   }
 
   @override
@@ -28,11 +31,34 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
     _tabController.dispose();
     super.dispose();
   }
+ 
+//sort out and return a list of parts item that belong to a spesic catogery
+List <Part>_filterMenuByCategory(PartsCategory category,List<Part> fullMenu){
+  return fullMenu.where((part)=> part.category==category).toList();
+}
+
+//return list of foods in given category
+List<Widget>getPartInThisCategory(List<Part> fullMenu){
+  return PartsCategory.values.map((category) {
+    List<Part> categoryMenu = _filterMenuByCategory(category, fullMenu);
+
+    return ListView.builder(
+      itemCount: categoryMenu.length,
+      physics: const NeverScrollableScrollPhysics(),
+      padding: EdgeInsets.zero,
+      itemBuilder: (context, index) {
+        return ListTile(
+          title:Text(categoryMenu[index].name),
+        );
+      },
+    );
+  }).toList();
+}
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-     drawer: MyDrawer(),
+     drawer: const MyDrawer(),
       body:NestedScrollView(
         headerSliverBuilder: (context,innerBoxIsScrolled) =>[
           MySliverAppBar(
@@ -47,7 +73,6 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
                   color: Theme.of(context).colorScheme.secondary,
                 ),
 
-
                // my current location
                 const MyCurrentLocation(),
 
@@ -57,22 +82,10 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
              ),
           ),
         ],
-        body:TabBarView(
+        body:Consumer<Shop>(builder: (context, Shop, child) => TabBarView(
           controller: _tabController,
-          children: [
-            ListView.builder(
-              itemCount:5,
-              itemBuilder: (context, index) => Text("first tab item"),
-              ),
-           ListView.builder(
-              itemCount:5,
-              itemBuilder: (context, index) => Text("second tab item"),
-              ),
-              ListView.builder(
-              itemCount:5,
-              itemBuilder: (context, index) => Text("third tab item"),
-              ),
-          ],
+          children: getPartInThisCategory(Shop.menu),
+          ),
         ),
       ),
     );
