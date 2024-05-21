@@ -11,7 +11,7 @@ class Shop extends ChangeNotifier{
     // for Intel Core i9 14900KS
     Part(
       name: "Intel Core i9 14900KS",
-      description: "3 Years Warranty,Total Cores 24,# of Performance-cores8,# of Efficient-cores16,Total Threads 32,Max Turbo Frequency 6.2 GHz",
+      description: "3 Years Warranty,Total Cores 24,# of Performance-cores8,# of Efficient-cores16,",
       imagePath: "lib/images/processors/cpu_1.png",
       price: 229000,
       category: PartsCategory.processors,
@@ -25,7 +25,7 @@ class Shop extends ChangeNotifier{
       // for Intel Core i9 14900K
     Part(
       name: "Intel Core i9 14900K",
-      description: "3 Years Warranty,Total Cores 24,# of Performance-cores8,# of Efficient-cores16,Total Threads 32,Max Turbo Frequency 6.00 GHz",
+      description: "3 Years Warranty,Total Cores 24,# of Performance-cores8,# of Efficient-cores16,",
       imagePath: "lib/images/processors/cpu_2.png",
       price: 199000,
       category: PartsCategory.processors,
@@ -39,7 +39,7 @@ class Shop extends ChangeNotifier{
       // for Intel Core i7 14700K
     Part(
       name: "Intel Core i7 14700K",
-      description: "3 Years Warranty,Total Cores 20,# of Performance-cores8,# of Efficient-cores12,Total Threads 28,Max Turbo Frequency 5.6 GHz",
+      description: "3 Years Warranty,Total Cores 20,# of Performance-cores8,# of Efficient-cores12,",
       imagePath: "lib/images/processors/cpu_3.png",
       price: 137500,
       category: PartsCategory.processors,
@@ -270,7 +270,7 @@ class Shop extends ChangeNotifier{
 
       // for MSI GeForce RTX 4090 SUPRIM X 24G
       Part(
-      name: " MSI GeForce RTX 4090 SUPRIM X 24G",
+      name: "MSI GeForce RTX 4090 SUPRIM X 24G",
       description: "Graphic Engine NVIDIA® GeForce RTX® 4090,Bus Standard, PCI Express 4.0, OpenGL, OpenGL®4.6, Video Memory 24GB GDDR6X, Engine ClockOC mode: 2640 MHz,Gaming mode: 2610 MHz (Boost Clock),CUDA Core 6384",
       imagePath: "lib/images/graphicCards/card4.png",
       price: 956000,

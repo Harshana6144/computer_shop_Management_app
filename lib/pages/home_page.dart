@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:food_dilivery_app/components/my_current_location.dart';
 import 'package:food_dilivery_app/components/my_description_box.dart';
 import 'package:food_dilivery_app/components/my_drawer.dart';
+import 'package:food_dilivery_app/components/my_part_title.dart';
 import 'package:food_dilivery_app/components/my_silver_app_bar.dart';
 import 'package:food_dilivery_app/components/my_tab_bar.dart';
 import 'package:food_dilivery_app/models/parts.dart';
@@ -37,9 +38,12 @@ List <Part>_filterMenuByCategory(PartsCategory category,List<Part> fullMenu){
   return fullMenu.where((part)=> part.category==category).toList();
 }
 
-//return list of foods in given category
+//return list of parts in given category
 List<Widget>getPartInThisCategory(List<Part> fullMenu){
   return PartsCategory.values.map((category) {
+
+
+    //get category menu
     List<Part> categoryMenu = _filterMenuByCategory(category, fullMenu);
 
     return ListView.builder(
@@ -47,8 +51,13 @@ List<Widget>getPartInThisCategory(List<Part> fullMenu){
       physics: const NeverScrollableScrollPhysics(),
       padding: EdgeInsets.zero,
       itemBuilder: (context, index) {
-        return ListTile(
-          title:Text(categoryMenu[index].name),
+        //get individual part
+        final part = categoryMenu[index];
+
+        //return part title UI
+        return PartTitle(
+          part: part,
+           onTap: () {},
         );
       },
     );

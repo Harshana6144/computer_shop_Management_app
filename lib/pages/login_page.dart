@@ -44,7 +44,7 @@ class _LogingPageState extends State<LogingPage> {
           children: [
           //logo
           Icon(
-            Icons.lock_open_rounded,
+            Icons.computer_sharp,
             size: 100,
             color: Theme.of(context).colorScheme.inversePrimary,
             ),
@@ -52,7 +52,7 @@ class _LogingPageState extends State<LogingPage> {
             const SizedBox(height: 25),
         
           //mesage,app slogan
-          Text("Food Delivery App",style: TextStyle(
+          Text("MAKE YOUR DREAM PC BUILD",style: TextStyle(
             fontSize: 16,
             color: Theme.of(context).colorScheme.inversePrimary,
             ),
