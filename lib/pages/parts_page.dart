@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter/widgets.dart';
 import 'package:food_dilivery_app/models/parts.dart';
 
 class PartsPage extends StatefulWidget {
@@ -39,9 +41,9 @@ class _PartsPageState extends State<PartsPage> {
               ),
             ),
 
-            //part Price
+           //part Price
           Text(
-            widget.part.price.toString(),
+            '\LKR '+widget.part.price.toString(),
             style:TextStyle(
              fontSize:16,
              color:Theme.of(context).colorScheme.primary,
@@ -53,25 +55,48 @@ class _PartsPageState extends State<PartsPage> {
           //part description
           Text(widget.part.description,),
           
-          const SizedBox(height: 10), 
+
+          const SizedBox(height: 10),
+
+          Divider(color:Theme.of(context).colorScheme.secondary),
+
+          const SizedBox(height: 10),
           
           //addons
-          ListView.builder(
-            shrinkWrap: true,
-            physics: const NeverScrollableScrollPhysics(),
-            itemCount: widget.part.availableAddons.length,
-            itemBuilder: (context, index) {
-            //get individual addon
-            Addon addon = widget.part.availableAddons[index];
-          
-            //retuen checkbox IU
-            return CheckboxListTile(
-              title:Text(addon.name),
-              subtitle: Text(addon.price.toString()),
-              value: false, onChanged: (value){},
-              );
-            },
-           )
+          Text(
+            "Add-ons",
+            style:TextStyle(color:Theme.of(context).colorScheme.inversePrimary,
+            fontSize:16,
+            fontWeight:FontWeight.bold,
+              ),
+            ),
+
+          const SizedBox(height: 10),
+
+          Container(
+            decoration:BoxDecoration(
+              border:Border.all(
+                color: Theme.of(context).colorScheme.secondary),
+                borderRadius:BorderRadius.circular(8),
+                ),
+            child: ListView.builder(
+              shrinkWrap: true,
+              physics: const NeverScrollableScrollPhysics(),
+              padding: EdgeInsets.zero,
+              itemCount: widget.part.availableAddons.length,
+              itemBuilder: (context, index) {
+              //get individual addon
+              Addon addon = widget.part.availableAddons[index];
+            
+              //retuen checkbox IU
+              return CheckboxListTile(
+                title:Text(addon.name),
+                subtitle: Text(addon.price.toString()),
+                value: false, onChanged: (value){},
+                );
+              },
+             ),
+          )
                 ],
               ),
         ),
