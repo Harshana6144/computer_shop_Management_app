@@ -287,6 +287,7 @@ class Shop extends ChangeNotifier{
       name: "MSI GeForce RTX 4070 SUPER 12G GAMING X SLIM",
       description: "Graphic Engine NVIDIA® GeForce RTX® 4090,Bus Standard, PCI Express 4.0, OpenGL, OpenGL®4.6, Video Memory 24GB GDDR6X, Engine ClockOC mode: 2640 MHz,Gaming mode: 2610 MHz (Boost Clock),CUDA Core 6384",
       imagePath: "lib/images/graphicCards/card5.png",
+     // description1: ,
       price: 350500,
       category: PartsCategory.graphicCards,
       availableAddons: [
@@ -302,7 +303,7 @@ class Shop extends ChangeNotifier{
        // for ASUSTOR LOCKERSTOR 2 (AS6602T) 2 BAY WITH 2 M.2 SLOTS
       Part(
       name: "ASUSTOR LOCKERSTOR 2 (AS6602T) 2 BAY WITH 2 M.2 SLOTS",
-      description: "Power for the power user Bringing Double Performance, and SSD Caching to the Small Business,Two 2.5 GbE ports with up to 5 Gbps under Link AggregationDual M.2 NVMe SSD ports for fast caching,Overwhelming 4K experience,Intel Celeron quad core CPU - 30% faster than previous generation.",
+      description: "Power for the power user Bringing Double Performance, and SSD Caching to the Small Business,",
       imagePath: "lib/images/storage/nas_2.png",
       price: 189000,
       category: PartsCategory.storage,
