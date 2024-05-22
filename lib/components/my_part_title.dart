@@ -28,6 +28,9 @@ class PartTitle extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(part.name),
+
+                    const SizedBox(height:10),
+
                     Text(
                       '\LKR '+part.price.toString(),
                       style:TextStyle(color:Theme.of(context).colorScheme.inversePrimary),

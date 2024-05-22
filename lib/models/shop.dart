@@ -10,7 +10,7 @@ class Shop extends ChangeNotifier{
     //processors
     // for Intel Core i9 14900KS
     Part(
-      name: "Intel Core i9 14900KS",
+      name: "Intel Core i9 14900KS (36M Cache, up to 6.20 GHz)",
       description: "3 Years Warranty,Total Cores 24,# of Performance-cores8,# of Efficient-cores16,",
       imagePath: "lib/images/processors/cpu_1.png",
       price: 229000,
@@ -24,7 +24,7 @@ class Shop extends ChangeNotifier{
 
       // for Intel Core i9 14900K
     Part(
-      name: "Intel Core i9 14900K",
+      name: "Intel Core i9 14900K (36M Cache, up to 6.00 GHz)",
       description: "3 Years Warranty,Total Cores 24,# of Performance-cores8,# of Efficient-cores16,",
       imagePath: "lib/images/processors/cpu_2.png",
       price: 199000,

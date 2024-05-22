@@ -7,6 +7,7 @@ import 'package:food_dilivery_app/components/my_silver_app_bar.dart';
 import 'package:food_dilivery_app/components/my_tab_bar.dart';
 import 'package:food_dilivery_app/models/parts.dart';
 import 'package:food_dilivery_app/models/shop.dart';
+import 'package:food_dilivery_app/pages/parts_page.dart';
 import 'package:provider/provider.dart';
 
 class HomePage extends StatefulWidget {
@@ -57,7 +58,9 @@ List<Widget>getPartInThisCategory(List<Part> fullMenu){
         //return part title UI
         return PartTitle(
           part: part,
-           onTap: () {},
+           onTap: () => Navigator.push(context,MaterialPageRoute(builder: (context) => PartsPage(part: part),
+           ),
+          ),
         );
       },
     );
