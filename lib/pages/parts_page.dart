@@ -4,11 +4,19 @@ import 'package:food_dilivery_app/models/parts.dart';
 
 class PartsPage extends StatefulWidget {
   final Part part;
+  final Map<Addon, bool> selectedAddons = {};
 
-  const PartsPage({
+   PartsPage({
     super.key,
-    required this.part
-    });
+     required this.part
+    }){
+        //initalize selected addons to be false
+        for(Addon addon in part.availableAddons){
+          
+        }
+    }
+
+
 
   @override
   State<PartsPage> createState() => _PartsPageState();
