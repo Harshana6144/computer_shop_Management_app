@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:food_dilivery_app/components/my_button.dart';
 import 'package:food_dilivery_app/models/parts.dart';
 
@@ -10,9 +11,9 @@ class PartsPage extends StatefulWidget {
     super.key,
      required this.part
     }){
-        //initalize selected addons to be false
+        //initialize selected addons to be fales
         for(Addon addon in part.availableAddons){
-          
+          selectedAddons[addon] = false;
         }
     }
 
@@ -25,9 +26,14 @@ class PartsPage extends StatefulWidget {
 class _PartsPageState extends State<PartsPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Stack(children:[
+      //scaffold UI
+
+      Scaffold(
+      
       body:SingleChildScrollView(
         child: Column(
+
         children:[
         
           // part image
@@ -102,8 +108,13 @@ class _PartsPageState extends State<PartsPage> {
                   style:TextStyle(
                     color:Theme.of(context).colorScheme.primary),
                       ),
-                  value: false,
-                  onChanged: (value){},
+                  value: widget.selectedAddons[addon],
+                  onChanged: (bool? value){
+                    setState(() {
+                      widget.selectedAddons[addon] = value!;
+                        }
+                     );
+                  },
                     );
                   },
                ),
@@ -121,10 +132,30 @@ class _PartsPageState extends State<PartsPage> {
 
           const SizedBox(height: 25),
         
-          ],
-         ),
+            ],
+           ),
+        ),
       ),
-      );
-    
+
+
+      //back button
+      SafeArea(
+        //back button opacity
+        child: Opacity(
+          opacity:0.6 ,
+          child: Container(
+          margin: const EdgeInsets.only(left:25), 
+            decoration:BoxDecoration(color:Theme.of(context).colorScheme.secondary,
+            shape:BoxShape.circle,
+            ),
+          child:IconButton(
+            icon:Icon(Icons.arrow_back_ios_new_rounded),
+            onPressed: () => Navigator.pop(context),
+              ),
+            ),
+        ),
+      ),
+      ],
+    );
   }
 }
