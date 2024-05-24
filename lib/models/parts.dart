@@ -27,10 +27,14 @@ enum PartsCategory
   ram,
   graphicCards,
   storage,
- 
+  storage1,
+  
+
   
  
 }
+
+
 
 
 

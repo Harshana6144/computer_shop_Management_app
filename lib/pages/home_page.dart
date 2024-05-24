@@ -89,7 +89,7 @@ List<Widget>getPartInThisCategory(List<Part> fullMenu){
                 const MyCurrentLocation(),
 
                //discrption box
-                const MyDescriptionBox(),
+              const MyDescriptionBox(),
               ],
              ),
           ),

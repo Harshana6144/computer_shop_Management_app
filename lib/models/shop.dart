@@ -1,4 +1,6 @@
+import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
+import 'package:food_dilivery_app/models/cart_item.dart';
 
 import 'parts.dart';
 
@@ -370,6 +372,9 @@ class Shop extends ChangeNotifier{
         ],
       ),
 
+      //=============================================
+     
+
       
       
 
@@ -385,11 +390,69 @@ class Shop extends ChangeNotifier{
   O P E R A T I O N S
 
   */
+
+  //user cart
+  final List<CartItem> _cart = [];
+
   //add to cart 
+  void addToCart(Part part,List<Addon> selectedAddons){
+      //see if there is a cart item already with the same part and selected addons
+      CartItem? cartItem = _cart.firstWhereOrNull((item){
+        //check if the items are same
+        bool isSamePart = item.part == part;
+
+        //check if the list of selected adddons are the same
+        bool isSameAddons =
+            ListEquality().equals(item.selectedAddons, selectedAddons);
+        return isSamePart && isSameAddons;
+      });
+
+      //if item already exists,incress it's quantity
+      if (cartItem != null){
+        cartItem.quantity++;
+    }
+    // otherwise, add a new cart item to the cart
+    else{
+      _cart.add(
+        CartItem(
+          part: part,
+           selectedAddons: selectedAddons,
+           ),
+        );
+    }
+    notifyListeners();
+  }
 
   //remove from cart 
+    void removeFromCart(cartItem){
+      int cartIndex = _cart.indexOf(cartItem);
+
+      if(cartIndex!=1){
+        if(_cart[cartIndex].quantity >1){
+          _cart[cartIndex].quantity--;
+        }else{
+          _cart.removeAt(cartIndex);
+        }
+      }
+    }
 
   // get total price of cart
+  double getTotalPrice(){
+    double total =0.0;
+
+    for(CartItem cartItem in _cart){
+      double itemTotal = cartItem.part.price;
+
+      for (Addon addon in cartItem.selectedAddons){
+            itemTotal+= addon.price;
+        }
+
+        total +=itemTotal * cartItem.quantity;
+      }
+
+      return total;
+    }
+
 
   // get total number of item in the cart
 
