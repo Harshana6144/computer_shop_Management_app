@@ -1,5 +1,6 @@
 // parts item
 class Part{
+  final String name1;
   final String name;             // Intel Core i9 14900KS
   final String description; 
   //final String description1;     // 36M Cache, up to 6.20 GHz 
@@ -9,6 +10,7 @@ class Part{
   List<Addon> availableAddons;   // [stikers,thermal pasete,cooler]
 
   Part({
+    required this.name1,
     required this.name,
     required this.description,
     //required this.description1,
