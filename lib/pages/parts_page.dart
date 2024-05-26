@@ -168,7 +168,7 @@ void addToCart(Part part,Map<Addon,bool> selectedAddons){
             shape:BoxShape.circle,
             ),
           child:IconButton(
-            icon:Icon(Icons.arrow_back_ios_new_rounded),
+            icon:const Icon(Icons.arrow_back_ios_new_rounded),
             onPressed: () => Navigator.pop(context),
               ),
             ),

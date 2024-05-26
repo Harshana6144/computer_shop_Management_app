@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:food_dilivery_app/components/my_quantity_selector.dart';
 import 'package:food_dilivery_app/models/cart_item.dart';
 import 'package:food_dilivery_app/models/shop.dart';
@@ -17,7 +16,7 @@ class MyCartTitle extends StatelessWidget {
           color:Theme.of(context).colorScheme.secondary,
           borderRadius: BorderRadius.circular(8),
         ),
-        margin:EdgeInsets.symmetric(horizontal: 25,vertical: 10),
+        margin:const EdgeInsets.symmetric(horizontal: 25,vertical: 10),
         child:Column(
           children: [
             Padding(
@@ -61,13 +60,44 @@ class MyCartTitle extends StatelessWidget {
                       shop.addToCart(
                         cartItem.part,cartItem.selectedAddons);
                     },
-                ),
-              ],
-                        ),
+                   ),
+                ],
+              ),
             ),
 
 
               //addons
+              SizedBox(
+                height:cartItem.selectedAddons.isEmpty ? 0 :60,
+                child:ListView(
+                  scrollDirection: Axis.horizontal,
+                  padding:const EdgeInsets.only(left:10,bottom: 10,right: 10),
+                  children: cartItem.selectedAddons
+                  .map((addon) => FilterChip(
+                    label: Row(
+                      children: [
+                        // addon name
+                        Text(addon.name),
+
+                        //addon price
+                        Text('(\LKR ${addon.price})'),
+                        ],
+                      ),
+                      shape: StadiumBorder(
+                        side: BorderSide(
+                          color: Theme.of(context).colorScheme.primary)),
+                       onSelected: (value) {},
+                       backgroundColor: 
+                            Theme.of(context).colorScheme.secondary,
+                            labelStyle: TextStyle(
+                              color: Theme.of(context).colorScheme.inversePrimary,
+                              fontSize: 12,
+                          ),
+                        ),
+                       )
+                    .toList(),
+                )
+              )
             ],
           ),
         ),

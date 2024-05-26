@@ -22,6 +22,9 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
   //tab controller
   late TabController _tabController;
 
+  //Divider
+ 
+
   @override
   void initState() {
     super.initState();
@@ -33,6 +36,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
     _tabController.dispose();
     super.dispose();
   }
+
  
 //sort out and return a list of parts item that belong to a spesic catogery
 List <Part>_filterMenuByCategory(PartsCategory category,List<Part> fullMenu){
@@ -64,13 +68,15 @@ List<Widget>getPartInThisCategory(List<Part> fullMenu){
         );
       },
     );
+
+    
   }).toList();
 }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-     drawer: const MyDrawer(),
+    drawer: const MyDrawer(),
       body:NestedScrollView(
         headerSliverBuilder: (context,innerBoxIsScrolled) =>[
           MySliverAppBar(
@@ -85,7 +91,7 @@ List<Widget>getPartInThisCategory(List<Part> fullMenu){
                   color: Theme.of(context).colorScheme.secondary,
                 ),
 
-               // my current location
+                // my current location
                 const MyCurrentLocation(),
 
                //discrption box
@@ -97,6 +103,7 @@ List<Widget>getPartInThisCategory(List<Part> fullMenu){
         body:Consumer<Shop>(builder: (context, Shop, child) => TabBarView(
           controller: _tabController,
           children: getPartInThisCategory(Shop.menu),
+          
           ),
         ),
       ),
