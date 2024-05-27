@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:food_dilivery_app/components/my_quantity_selector.dart';
 import 'package:food_dilivery_app/models/cart_item.dart';
 import 'package:food_dilivery_app/models/shop.dart';
@@ -22,6 +23,7 @@ class MyCartTitle extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   //part image
                   ClipRRect(
@@ -43,7 +45,12 @@ class MyCartTitle extends StatelessWidget {
                       Text(cartItem.part.name1),
               
                       //part price
-                      Text('\LKR ' + cartItem.part.price.toString()),
+                      Text(
+                        '\LKR ' + cartItem.part.price.toString(),
+                        style:TextStyle(
+                          color: Theme.of(context).colorScheme.primary,
+                      )
+                      ),
                     ],
                   ),
 
@@ -73,27 +80,31 @@ class MyCartTitle extends StatelessWidget {
                   scrollDirection: Axis.horizontal,
                   padding:const EdgeInsets.only(left:10,bottom: 10,right: 10),
                   children: cartItem.selectedAddons
-                  .map((addon) => FilterChip(
-                    label: Row(
-                      children: [
-                        // addon name
-                        Text(addon.name),
-
-                        //addon price
-                        Text('(\LKR ${addon.price})'),
-                        ],
-                      ),
-                      shape: StadiumBorder(
-                        side: BorderSide(
-                          color: Theme.of(context).colorScheme.primary)),
-                       onSelected: (value) {},
-                       backgroundColor: 
-                            Theme.of(context).colorScheme.secondary,
-                            labelStyle: TextStyle(
-                              color: Theme.of(context).colorScheme.inversePrimary,
-                              fontSize: 12,
-                          ),
+                  .map(
+                    (addon) => Padding(
+                      padding: const EdgeInsets.only(right:8.0),
+                      child: FilterChip(
+                      label: Row(
+                        children: [
+                          // addon name
+                          Text(addon.name),
+                      
+                          //addon price
+                          Text('(\LKR ${addon.price})'),
+                          ],
                         ),
+                        shape: StadiumBorder(
+                          side: BorderSide(
+                            color: Theme.of(context).colorScheme.primary)),
+                         onSelected: (value) {},
+                         backgroundColor: 
+                              Theme.of(context).colorScheme.secondary,
+                              labelStyle: TextStyle(
+                                color: Theme.of(context).colorScheme.inversePrimary,
+                                fontSize: 12,
+                            ),
+                          ),
+                    ),
                        )
                     .toList(),
                 )
