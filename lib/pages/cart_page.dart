@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
+import 'package:food_dilivery_app/components/my_button.dart';
 import 'package:food_dilivery_app/components/my_cart_title.dart';
 import 'package:food_dilivery_app/models/shop.dart';
 import 'package:provider/provider.dart';
@@ -51,20 +53,42 @@ class CartPage extends StatelessWidget {
           ),
           //add list view
           body:Column(
-            children:[
-              Expanded(
-                child:ListView.builder(
-                  itemCount: userCart.length,
-                  itemBuilder: (context, index) {
+            children: [
 
-                    //get individual cart item
-                    final cartItem = userCart[index];
-                    
-                    //return cart title UI
-                    return MyCartTitle(cartItem: cartItem);
-                  }
+              //list of cart 
+              Expanded(
+                child: Column(
+                  children:[
+                    //show cart empty message
+                    userCart.isEmpty
+                    ? const Expanded(
+                      child: Center(
+                        child:  Text("Cart is empty..."),
+                          ),
+                        )
+                     :Expanded(
+                      child:ListView.builder(
+                        itemCount: userCart.length,
+                        itemBuilder: (context, index) {
+                
+                          //get individual cart item
+                          final cartItem = userCart[index];
+                          
+                          //return cart title UI
+                          return MyCartTitle(cartItem: cartItem);
+                        }
+                      ),
+                    ),
+                  ],
                 ),
               ),
+
+              //button to pay
+              MyButton(onTap:() {
+
+              },text:"Go to checkout"),
+
+              const SizedBox(height: 25),
             ],
           ),
         );
