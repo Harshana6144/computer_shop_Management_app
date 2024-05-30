@@ -16,6 +16,10 @@ class CartPage extends StatelessWidget {
       //cart
       final userCart = shop.cart;
 
+      //calculate the total price
+      double totalPrice = userCart.fold(0, (sum, CartItem) => sum + CartItem.totalPrice);
+      
+
       //scaffold UI
       return Scaffold(
           appBar: AppBar(
@@ -24,9 +28,12 @@ class CartPage extends StatelessWidget {
             foregroundColor: Theme.of(context).colorScheme.inversePrimary,
             actions: [
               //clear cart button
-              IconButton(onPressed: () {
+              IconButton(
+                onPressed: () {
                 //message alert
-                showDialog(context: context, builder: (context) => AlertDialog(
+                showDialog(
+                  context: context,
+                   builder: (context) => AlertDialog(
                     title:const Text("Are you sure you want to clear the cart?"),
                     actions:[
                       //cancel button
@@ -84,23 +91,38 @@ class CartPage extends StatelessWidget {
                 ),
               ),
 
-              //button to pay
+              //display total price to play
+              Padding(
+                padding: const EdgeInsets.all(16.0),
+                child:Column(
+                  children: [
+                    //total price text
+                    Text(
+                      'Total:\LKR ${totalPrice.toStringAsFixed(2)}',
+                      style:Theme.of(context).textTheme.headline6,
+                      textAlign: TextAlign.center,
+                    )
+                  ],)
+                ),
+            
+              const SizedBox(height: 10),
+
+              //go to checkout button
               MyButton(
                 onTap:() => Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const PaymentPage(),
+                    builder: (context)=>  const PaymentPage(),
+                    ),
                   ),
-                ),
-                
-              text:"Go to checkout",
+                text:"Go To Checkout",
               ),
+           
 
               const SizedBox(height: 25),
             ],
           ),
         );
-
       },
     );
   }

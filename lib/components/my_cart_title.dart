@@ -48,25 +48,30 @@ class MyCartTitle extends StatelessWidget {
                         '\LKR ' + cartItem.part.price.toString(),
                         style:TextStyle(
                           color: Theme.of(context).colorScheme.primary,
-                      )
+                        ),
                       ),
+
+                      const SizedBox(height: 10),
+
+                       quantitySelecter(
+                          quantity: cartItem.quantity,
+                          part: cartItem.part,
+                          onDecrement: (){
+                          shop.removeFromCart(cartItem);
+                           },
+                          onIncrement:(){
+                          shop.addToCart(
+                          cartItem.part,cartItem.selectedAddons);
+                      },
+                   ),
+
                     ],
                   ),
 
-                  const Spacer(),
+               
               
                   //increment or decrement quantity
-                  quantitySelecter(
-                    quantity: cartItem.quantity,
-                    part: cartItem.part,
-                    onDecrement: (){
-                      shop.removeFromCart(cartItem);
-                    },
-                    onIncrement:(){
-                      shop.addToCart(
-                        cartItem.part,cartItem.selectedAddons);
-                    },
-                   ),
+                 
                 ],
               ),
             ),
