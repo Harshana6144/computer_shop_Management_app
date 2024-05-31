@@ -500,6 +500,17 @@ class Shop extends ChangeNotifier{
     notifyListeners();
   }
 
+  //remove a spesicf item totly from the cart
+  void removeItemFromCart(CartItem cartItem){
+    _cart.remove(cartItem);
+    notifyListeners();
+  }
+
+  /*void clearAart(){
+    _cart.clear();
+    notifyListeners();
+  }*/
+
   /*
   H E L P E R S
   
@@ -513,7 +524,7 @@ class Shop extends ChangeNotifier{
 
     //format the data to include up to seconds only
     String formattedDate = 
-        DateFormat('yyyy-MM-dd HH:mm:ss').format(DateTime.now());
+        DateFormat('yyyy-MM-dd - HH:mm:ss').format(DateTime.now());
     
     receipt.writeln(formattedDate);
     receipt.writeln();

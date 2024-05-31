@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:food_dilivery_app/components/my_button.dart';
 import 'package:food_dilivery_app/components/my_cart_title.dart';
 import 'package:food_dilivery_app/models/shop.dart';

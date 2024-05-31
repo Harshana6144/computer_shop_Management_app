@@ -53,28 +53,65 @@ class MyCartTitle extends StatelessWidget {
 
                       const SizedBox(height: 10),
 
-                       quantitySelecter(
-                          quantity: cartItem.quantity,
-                          part: cartItem.part,
-                          onDecrement: (){
-                          shop.removeFromCart(cartItem);
-                           },
-                          onIncrement:(){
-                          shop.addToCart(
-                          cartItem.part,cartItem.selectedAddons);
-                      },
-                   ),
+                       Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                         children: [
+                           quantitySelecter(
+                              quantity: cartItem.quantity,
+                              part: cartItem.part,
+                              onDecrement: (){
+                              shop.removeFromCart(cartItem);
+                               },
+                              onIncrement:(){
+                              shop.addToCart(
+                              cartItem.part,cartItem.selectedAddons);
+                               }, 
+                               /*onDelete: () {
+                              shop.removeFromCart(cartItem);
+                                                 },*/
+                            ),
 
-                    ],
-                  ),
+                             const SizedBox(width:15),
 
-               
-              
-                  //increment or decrement quantity
-                 
+                            // Delete button
+                              GestureDetector(
+                              onTap: () {
+                                shop.removeItemFromCart(cartItem);
+                              },
+                              child: Icon(
+                                Icons.delete,
+                                size: 24,
+                                color: Theme.of(context).colorScheme.error,
+                              ),
+                            ),
+
+                         ],
+                       ),
+
+                   // Delete button
+                     
+
+                   
                 ],
               ),
-            ),
+            ],
+          ),
+        ),
+
+        //delete button
+
+        /*
+        GestureDetector(
+          onTap:(){
+            shop.removeFromCart(cartItem);
+          },
+          child:Icon(
+            Icons.delete,
+            size: 24,
+            color: Theme.of(context).colorScheme.error,
+          ),
+        ),
+        */
 
 
               //addons

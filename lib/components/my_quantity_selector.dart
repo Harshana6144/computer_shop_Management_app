@@ -6,6 +6,7 @@ class quantitySelecter extends StatelessWidget {
   final Part part;
   final VoidCallback onIncrement;
   final VoidCallback onDecrement;
+  //final VoidCallback onDelete;
 
   const quantitySelecter({
     super.key,
@@ -13,6 +14,7 @@ class quantitySelecter extends StatelessWidget {
     required this.part,
     required this.onIncrement,
     required this.onDecrement,
+    //required this.onDelete,
   });
 
   @override
@@ -54,8 +56,26 @@ class quantitySelecter extends StatelessWidget {
                 color: Theme.of(context).colorScheme.primary,
               ),
             ),
+
+            const SizedBox(width:15),
+
+            //delete bytton 
+          /*  GestureDetector(
+            onTap: onDelete,
+            child: Icon(
+              Icons.delete,
+              size: 20,
+              color: Theme.of(context).colorScheme.error, // Use error color for delete
+            ),
+          ),*/
+            
+           
+
+            
           ],
         ),
     );
+    
   }
+  
 }
