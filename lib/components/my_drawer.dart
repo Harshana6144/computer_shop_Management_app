@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_dilivery_app/components/my_drawer_tile.dart';
+import 'package:food_dilivery_app/pages/about_page.dart';
 import 'package:food_dilivery_app/pages/settings_page.dart';
 
 class MyDrawer extends StatelessWidget {
@@ -47,6 +48,23 @@ class MyDrawer extends StatelessWidget {
                 );
             },
           ),
+
+          //about us
+
+          MyDrawerTile(text: "A B O U T  U S",
+           icon: Icons.shop,
+            onTap: () {
+              Navigator.pop(context);
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const AboutPage(),
+                  ),
+                );
+            },
+          ),
+
+
 
         const Spacer(),
 
