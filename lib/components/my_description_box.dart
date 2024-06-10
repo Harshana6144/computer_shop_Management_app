@@ -36,6 +36,7 @@ class MyDescriptionBox extends StatelessWidget {
               ],
             ),
 
+          
           //delivery time
           Column(
               children: [
@@ -47,8 +48,11 @@ class MyDescriptionBox extends StatelessWidget {
                   style: mySecondaryTextStyle),
               ],
             ),
-        ],
-      ),
-    );
+           ],
+          ),
+        );
+
+     
+    
   }
 }

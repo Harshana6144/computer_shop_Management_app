@@ -52,7 +52,7 @@ class MyDrawer extends StatelessWidget {
           //about us
 
           MyDrawerTile(text: "A B O U T  U S",
-           icon: Icons.shop,
+           icon: Icons.info,
             onTap: () {
               Navigator.pop(context);
               Navigator.push(

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:food_dilivery_app/components/my_bottom_nav_bar.dart';
+import 'package:food_dilivery_app/components/my_bottom_nav_bar2.dart';
 import 'package:food_dilivery_app/components/my_current_location.dart';
 import 'package:food_dilivery_app/components/my_description_box.dart';
 import 'package:food_dilivery_app/components/my_drawer.dart';
@@ -19,8 +21,12 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin {
 
+
+
   //tab controller
   late TabController _tabController;
+
+   int _selectedIndex = 0;
 
   //Divider
  
@@ -73,18 +79,38 @@ List<Widget>getPartInThisCategory(List<Part> fullMenu){
   }).toList();
 }
 
+   /* final List<Widget> _pages = [
+    const HomePage(),
+    // Add other pages like SearchPage, LocationPage here
+    const Placeholder(), // For Search
+    const Placeholder(), // For Location
+  ];*/
+
+  void navigateBottomBar(int index) {
+    setState(() {
+      _selectedIndex = index;
+    });
+  }
+
+ 
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-    drawer: const MyDrawer(),
-      body:NestedScrollView(
+    //backgroundColor: Colors.grey[300],
+   bottomNavigationBar: MyBottemNavBar2(
+      onTabChange: (index) => navigateBottomBar(index),
+    ),
+    
+    drawer:const MyDrawer(),
+    body:NestedScrollView(
+       
         headerSliverBuilder: (context,innerBoxIsScrolled) =>[
           MySliverAppBar(
              title: MyTabBar(tabController: _tabController),
              child: Column(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
-
                 Divider(
                   indent: 25,
                   endIndent: 25,
@@ -107,6 +133,7 @@ List<Widget>getPartInThisCategory(List<Part> fullMenu){
           ),
         ),
       ),
+      
     );
   }
 }
