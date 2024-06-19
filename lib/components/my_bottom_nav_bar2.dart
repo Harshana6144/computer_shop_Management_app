@@ -27,6 +27,10 @@ class MyBottemNavBar2 extends StatelessWidget {
          color: Colors.white,
          size: 35,
         ),
+         Icon(Icons.favorite,
+         color: Colors.white,
+         size: 35,
+        ),
         
       ],
     );
