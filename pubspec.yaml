@@ -73,6 +73,17 @@ flutter:
      - lib/images/ram/
      - lib/images/storage/
      - lib/images/shp's_Images/
+     - lib/images/apple/
+     - lib/images/budget_desktop/
+     - lib/images/console/
+     - lib/images/coollers/
+     - lib/images/gaming_desktop/
+     - lib/images/grapics_tablet/
+     - lib/images/keyboard&mouse/
+     - lib/images/laptops/
+     - lib/images/monitors/
+     - lib/images/psu/
+     - lib/images/warktations/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

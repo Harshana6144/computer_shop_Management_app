@@ -85,7 +85,7 @@ void addToCart(Part part,Map<Addon,bool> selectedAddons){
                const SizedBox(height: 10), 
             
             //part description
-            Text(widget.part.description,),
+            Text(widget.part.description1,),
             
         
             const SizedBox(height: 10),

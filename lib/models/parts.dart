@@ -3,7 +3,7 @@ class Part{
   final String name1;
   final String name;             // Intel Core i9 14900KS
   final String description; 
-  //final String description1;     // 36M Cache, up to 6.20 GHz 
+  final String description1;     // 36M Cache, up to 6.20 GHz 
   final String imagePath;        // ilb/images/Core_i9_14900KS.png
   final double price;            // 229,000 LKR
   final PartsCategory category;  // processors
@@ -13,7 +13,7 @@ class Part{
     required this.name1,
     required this.name,
     required this.description,
-    //required this.description1,
+    required this.description1,
     required this.imagePath,
     required this.price,
     required this.category,
@@ -29,12 +29,21 @@ enum PartsCategory
   ram,
   graphicCards,
   storage,
-  storage1,
-  
+  Coollers,
+  PowerSupluy,
+  Monitors,
+  keyboardMouse,
+  GamingDesktop,
+  Warktations,
+  grapics_tablet,
+  Apple,
 
-  
- 
+
 }
+
+
+
+
 
 
 
@@ -53,3 +62,4 @@ class Addon{
     });
 
 }
+
