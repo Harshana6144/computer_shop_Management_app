@@ -2001,13 +2001,429 @@ class Shop extends ChangeNotifier{
         ],
       ),
 
-      // for ASUSTOR LOCKERSTOR 2 (AS6602T) 2 BAY WITH 2 M.2 SLOTS
+      // for SAMSUNG 870 QVO 1TB
       Part(
-      name1: "ASUSTOR LOCKERSTOR 2",
-      name: "ASUSTOR LOCKERSTOR 2 (AS6602T) 2 BAY WITH 2 M.2 SLOTS",
-      description: "Power for the power user Bringing Double Performance, and SSD Caching to the Small Business,",
-      description1:"",
-      imagePath: "lib/images/storage/nas_2.png",
+      name1: "SAMSUNG 870 QVO 1TB",
+      name: "SAMSUNG 870 QVO 1TB",
+      description: "3 Years Warranty,Power for the power user Bringing Double Performance, and SSD Caching to the Small Business.",
+      description1:"2nd generation 4-bit MLC technology that delivers fast,read/write speeds of 560/530 MB/s*,• V-NAND reliability backed by up to 3-year or 360 TBW warranty,General Feature Product Type,870 QVO SATA III 2.5 SSD 1TB,Family Line 870 QVO SATA III 2.5 SSD,Capacity 1TB,Compatibility Windows10/Windows 8/Windows 7/Windows Server 2003 (32 bit and 64 bit), Vista (SP1 and above), XP (SP2 and above), MAC OSX and Linux,depending on system hardware & configuration.",
+      imagePath: "lib/images/storage/7.png",
+      price: 189000,
+      category: PartsCategory.storage,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for SAMSUNG 870 EVO 500GB
+      Part(
+      name1: "SAMSUNG 870 EVO 500GB",
+      name: "SAMSUNG 870 EVO 500GB",
+      description: "3 Years Warranty,Power for the power user Bringing Double Performance, and SSD Caching to the Small Business.",
+      description1:"2nd generation 4-bit MLC technology that delivers fast,read/write speeds of 560/530 MB/s*,• V-NAND reliability backed by up to 3-year or 360 TBW warranty,General Feature Product Type,870 QVO SATA III 2.5 SSD 1TB,Family Line 870 QVO SATA III 2.5 SSD,Capacity 1TB,Compatibility Windows10/Windows 8/Windows 7/Windows Server 2003 (32 bit and 64 bit), Vista (SP1 and above), XP (SP2 and above), MAC OSX and Linux,depending on system hardware & configuration.",
+      imagePath: "lib/images/storage/8.png",
+      price: 189000,
+      category: PartsCategory.storage,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for TEAM TFORCE A440 LITE M.2 GEN4 2TB NVME up to 7400MBPs
+      Part(
+      name1: "TEAM TFORCE A440 LITE M.2",
+      name: "TEAM TFORCE A440 LITE M.2 GEN4 2TB NVME up to 7400MBPs",
+      description: "3 Years Warranty,Power for the power user Bringing Double Performance, and SSD Caching to the Small Business.",
+      description1:"2nd generation 4-bit MLC technology that delivers fast,read/write speeds of 560/530 MB/s*,• V-NAND reliability backed by up to 3-year or 360 TBW warranty,General Feature Product Type,870 QVO SATA III 2.5 SSD 1TB,Family Line 870 QVO SATA III 2.5 SSD,Capacity 1TB,Compatibility Windows10/Windows 8/Windows 7/Windows Server 2003 (32 bit and 64 bit), Vista (SP1 and above), XP (SP2 and above), MAC OSX and Linux,depending on system hardware & configuration.",
+      imagePath: "lib/images/storage/6.png",
+      price: 189000,
+      category: PartsCategory.storage,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for TEAM TFORCE VULCAN Z 256GB SATA SSD
+      Part(
+      name1: "TEAM TFORCE VULCAN Z",
+      name: "TEAM TFORCE VULCAN Z 256GB SATA SSD",
+      description: "3 Years Warranty,Power for the power user Bringing Double Performance, and SSD Caching to the Small Business.",
+      description1:"2nd generation 4-bit MLC technology that delivers fast,read/write speeds of 560/530 MB/s*,• V-NAND reliability backed by up to 3-year or 360 TBW warranty,General Feature Product Type,870 QVO SATA III 2.5 SSD 1TB,Family Line 870 QVO SATA III 2.5 SSD,Capacity 1TB,Compatibility Windows10/Windows 8/Windows 7/Windows Server 2003 (32 bit and 64 bit), Vista (SP1 and above), XP (SP2 and above), MAC OSX and Linux,depending on system hardware & configuration.",
+      imagePath: "lib/images/storage/10.png",
+      price: 189000,
+      category: PartsCategory.storage,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for TEAM TFORCE VULCAN Z QLC 2TB SATA SSD
+      Part(
+      name1: "TEAM TFORCE VULCAN Z",
+      name: "TEAM TFORCE VULCAN Z QLC 2TB SATA SSD",
+      description: "3 Years Warranty,Power for the power user Bringing Double Performance, and SSD Caching to the Small Business.",
+      description1:"2nd generation 4-bit MLC technology that delivers fast,read/write speeds of 560/530 MB/s*,• V-NAND reliability backed by up to 3-year or 360 TBW warranty,General Feature Product Type,870 QVO SATA III 2.5 SSD 1TB,Family Line 870 QVO SATA III 2.5 SSD,Capacity 1TB,Compatibility Windows10/Windows 8/Windows 7/Windows Server 2003 (32 bit and 64 bit), Vista (SP1 and above), XP (SP2 and above), MAC OSX and Linux,depending on system hardware & configuration.",
+      imagePath: "lib/images/storage/16.png",
+      price: 189000,
+      category: PartsCategory.storage,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for Seagate Barracuda 1TB Laptop Hard Disk ST1000LM048
+      Part(
+      name1: "Seagate Barracuda 1TB",
+      name: "Seagate Barracuda 1TB Laptop Hard Disk ST1000LM048",
+      description: "3 Years Warranty,Power for the power user Bringing Double Performance, and SSD Caching to the Small Business.",
+      description1:"2nd generation 4-bit MLC technology that delivers fast,read/write speeds of 560/530 MB/s*,• V-NAND reliability backed by up to 3-year or 360 TBW warranty,General Feature Product Type,870 QVO SATA III 2.5 SSD 1TB,Family Line 870 QVO SATA III 2.5 SSD,Capacity 1TB,Compatibility Windows10/Windows 8/Windows 7/Windows Server 2003 (32 bit and 64 bit), Vista (SP1 and above), XP (SP2 and above), MAC OSX and Linux,depending on system hardware & configuration.",
+      imagePath: "lib/images/storage/11.png",
+      price: 189000,
+      category: PartsCategory.storage,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for Seagate Barracuda 1TB ST1000DM010
+      Part(
+      name1: "Seagate Barracuda 1TB",
+      name: "Seagate Barracuda 1TB ST1000DM010",
+      description: "3 Years Warranty,Power for the power user Bringing Double Performance, and SSD Caching to the Small Business.",
+      description1:"2nd generation 4-bit MLC technology that delivers fast,read/write speeds of 560/530 MB/s*,• V-NAND reliability backed by up to 3-year or 360 TBW warranty,General Feature Product Type,870 QVO SATA III 2.5 SSD 1TB,Family Line 870 QVO SATA III 2.5 SSD,Capacity 1TB,Compatibility Windows10/Windows 8/Windows 7/Windows Server 2003 (32 bit and 64 bit), Vista (SP1 and above), XP (SP2 and above), MAC OSX and Linux,depending on system hardware & configuration.",
+      imagePath: "lib/images/storage/1.png",
+      price: 189000,
+      category: PartsCategory.storage,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for Seagate BarraCuda 4TB ST4000DM004
+      Part(
+      name1: "Seagate BarraCuda 4TB ST4000DM004",
+      name: "Seagate BarraCuda 4TB ST4000DM004",
+      description: "3 Years Warranty,Power for the power user Bringing Double Performance, and SSD Caching to the Small Business.",
+      description1:"2nd generation 4-bit MLC technology that delivers fast,read/write speeds of 560/530 MB/s*,• V-NAND reliability backed by up to 3-year or 360 TBW warranty,General Feature Product Type,870 QVO SATA III 2.5 SSD 1TB,Family Line 870 QVO SATA III 2.5 SSD,Capacity 1TB,Compatibility Windows10/Windows 8/Windows 7/Windows Server 2003 (32 bit and 64 bit), Vista (SP1 and above), XP (SP2 and above), MAC OSX and Linux,depending on system hardware & configuration.",
+      imagePath: "lib/images/storage/2.png",
+      price: 189000,
+      category: PartsCategory.storage,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for Seagate BarraCuda 2TB ST2000DM008 7200RPM
+      Part(
+      name1: "Seagate BarraCuda 2TB",
+      name: "Seagate BarraCuda 2TB ST2000DM008 7200RPM",
+      description: "3 Years Warranty,Power for the power user Bringing Double Performance, and SSD Caching to the Small Business.",
+      description1:"2nd generation 4-bit MLC technology that delivers fast,read/write speeds of 560/530 MB/s*,• V-NAND reliability backed by up to 3-year or 360 TBW warranty,General Feature Product Type,870 QVO SATA III 2.5 SSD 1TB,Family Line 870 QVO SATA III 2.5 SSD,Capacity 1TB,Compatibility Windows10/Windows 8/Windows 7/Windows Server 2003 (32 bit and 64 bit), Vista (SP1 and above), XP (SP2 and above), MAC OSX and Linux,depending on system hardware & configuration.",
+      imagePath: "lib/images/storage/9.png",
+      price: 189000,
+      category: PartsCategory.storage,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+       // for Western Digital CAVIAR Blue 7200rpm 1TB WD10EZEX
+      Part(
+      name1: "Western Digital 1TB ",
+      name: "Western Digital CAVIAR Blue 7200rpm 1TB WD10EZEX",
+      description: "3 Years Warranty,Power for the power user Bringing Double Performance, and SSD Caching to the Small Business.",
+      description1:"2nd generation 4-bit MLC technology that delivers fast,read/write speeds of 560/530 MB/s*,• V-NAND reliability backed by up to 3-year or 360 TBW warranty,General Feature Product Type,870 QVO SATA III 2.5 SSD 1TB,Family Line 870 QVO SATA III 2.5 SSD,Capacity 1TB,Compatibility Windows10/Windows 8/Windows 7/Windows Server 2003 (32 bit and 64 bit), Vista (SP1 and above), XP (SP2 and above), MAC OSX and Linux,depending on system hardware & configuration.",
+      imagePath: "lib/images/storage/3.png",
+      price: 189000,
+      category: PartsCategory.storage,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+       // for Western Digital Blue 4TB
+      Part(
+      name1: "Western Digital Blue 4TB",
+      name: "Western Digital Blue 4TB",
+      description: "3 Years Warranty,Power for the power user Bringing Double Performance, and SSD Caching to the Small Business.",
+      description1:"2nd generation 4-bit MLC technology that delivers fast,read/write speeds of 560/530 MB/s*,• V-NAND reliability backed by up to 3-year or 360 TBW warranty,General Feature Product Type,870 QVO SATA III 2.5 SSD 1TB,Family Line 870 QVO SATA III 2.5 SSD,Capacity 1TB,Compatibility Windows10/Windows 8/Windows 7/Windows Server 2003 (32 bit and 64 bit), Vista (SP1 and above), XP (SP2 and above), MAC OSX and Linux,depending on system hardware & configuration.",
+      imagePath: "lib/images/storage/5.png",
+      price: 189000,
+      category: PartsCategory.storage,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+       // for Western Digital Blue 7200RPM 2TB WD20EZBX
+      Part(
+      name1: "Western Digital Blue",
+      name: "Western Digital Blue 7200RPM 2TB WD20EZBX",
+      description: "3 Years Warranty,Power for the power user Bringing Double Performance, and SSD Caching to the Small Business.",
+      description1:"2nd generation 4-bit MLC technology that delivers fast,read/write speeds of 560/530 MB/s*,• V-NAND reliability backed by up to 3-year or 360 TBW warranty,General Feature Product Type,870 QVO SATA III 2.5 SSD 1TB,Family Line 870 QVO SATA III 2.5 SSD,Capacity 1TB,Compatibility Windows10/Windows 8/Windows 7/Windows Server 2003 (32 bit and 64 bit), Vista (SP1 and above), XP (SP2 and above), MAC OSX and Linux,depending on system hardware & configuration.",
+      imagePath: "lib/images/storage/4.png",
+      price: 189000,
+      category: PartsCategory.storage,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for WD Blue 1TB 128MB WD10SPZX Laptop Hard Disk
+      Part(
+      name1: "WD Blue 1TB 128MB",
+      name: "WD Blue 1TB 128MB WD10SPZX Laptop Hard Disk",
+      description: "3 Years Warranty,Power for the power user Bringing Double Performance, and SSD Caching to the Small Business.",
+      description1:"2nd generation 4-bit MLC technology that delivers fast,read/write speeds of 560/530 MB/s*,• V-NAND reliability backed by up to 3-year or 360 TBW warranty,General Feature Product Type,870 QVO SATA III 2.5 SSD 1TB,Family Line 870 QVO SATA III 2.5 SSD,Capacity 1TB,Compatibility Windows10/Windows 8/Windows 7/Windows Server 2003 (32 bit and 64 bit), Vista (SP1 and above), XP (SP2 and above), MAC OSX and Linux,depending on system hardware & configuration.",
+      imagePath: "lib/images/storage/12.png",
+      price: 189000,
+      category: PartsCategory.storage,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for TOSHIBA L200 1TB LAPTOP HARD DISK
+      Part(
+      name1: "TOSHIBA L200 1TB",
+      name: "TOSHIBA L200 1TB LAPTOP HARD DISK",
+      description: "3 Years Warranty,Power for the power user Bringing Double Performance, and SSD Caching to the Small Business.",
+      description1:"2nd generation 4-bit MLC technology that delivers fast,read/write speeds of 560/530 MB/s*,• V-NAND reliability backed by up to 3-year or 360 TBW warranty,General Feature Product Type,870 QVO SATA III 2.5 SSD 1TB,Family Line 870 QVO SATA III 2.5 SSD,Capacity 1TB,Compatibility Windows10/Windows 8/Windows 7/Windows Server 2003 (32 bit and 64 bit), Vista (SP1 and above), XP (SP2 and above), MAC OSX and Linux,depending on system hardware & configuration.",
+      imagePath: "lib/images/storage/13.png",
+      price: 189000,
+      category: PartsCategory.storage,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for PNY CS1031 500GB NVME SSD
+      Part(
+      name1: "PNY CS1031 500GB NVME SSD",
+      name: "PNY CS1031 500GB NVME SSD",
+      description: "3 Years Warranty,Power for the power user Bringing Double Performance, and SSD Caching to the Small Business.",
+      description1:"2nd generation 4-bit MLC technology that delivers fast,read/write speeds of 560/530 MB/s*,• V-NAND reliability backed by up to 3-year or 360 TBW warranty,General Feature Product Type,870 QVO SATA III 2.5 SSD 1TB,Family Line 870 QVO SATA III 2.5 SSD,Capacity 1TB,Compatibility Windows10/Windows 8/Windows 7/Windows Server 2003 (32 bit and 64 bit), Vista (SP1 and above), XP (SP2 and above), MAC OSX and Linux,depending on system hardware & configuration.",
+      imagePath: "lib/images/storage/14.png",
+      price: 189000,
+      category: PartsCategory.storage,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for SEAGATE IRONWOLF ST10000VN000 10TB 5400 RPM 256MB
+      Part(
+      name1: "SEAGATE IRONWOLF  10TB",
+      name: "SEAGATE IRONWOLF ST10000VN000 10TB 5400 RPM 256MB",
+      description: "3 Years Warranty,Power for the power user Bringing Double Performance, and SSD Caching to the Small Business.",
+      description1:"2nd generation 4-bit MLC technology that delivers fast,read/write speeds of 560/530 MB/s*,• V-NAND reliability backed by up to 3-year or 360 TBW warranty,General Feature Product Type,870 QVO SATA III 2.5 SSD 1TB,Family Line 870 QVO SATA III 2.5 SSD,Capacity 1TB,Compatibility Windows10/Windows 8/Windows 7/Windows Server 2003 (32 bit and 64 bit), Vista (SP1 and above), XP (SP2 and above), MAC OSX and Linux,depending on system hardware & configuration.",
+      imagePath: "lib/images/storage/15.png",
+      price: 189000,
+      category: PartsCategory.storage,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for Seagate IronWolf ST4000VN006 4TB 5400 RPM 256MB
+      Part(
+      name1: "Seagate IronWolf 4TB",
+      name: "Seagate IronWolf ST4000VN006 4TB 5400 RPM 256MB",
+      description: "3 Years Warranty,Power for the power user Bringing Double Performance, and SSD Caching to the Small Business.",
+      description1:"2nd generation 4-bit MLC technology that delivers fast,read/write speeds of 560/530 MB/s*,• V-NAND reliability backed by up to 3-year or 360 TBW warranty,General Feature Product Type,870 QVO SATA III 2.5 SSD 1TB,Family Line 870 QVO SATA III 2.5 SSD,Capacity 1TB,Compatibility Windows10/Windows 8/Windows 7/Windows Server 2003 (32 bit and 64 bit), Vista (SP1 and above), XP (SP2 and above), MAC OSX and Linux,depending on system hardware & configuration.",
+      imagePath: "lib/images/storage/17.png",
+      price: 189000,
+      category: PartsCategory.storage,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for Seagate IronWolf ST8000VN004 8TB 7200 RPM 256MB
+      Part(
+      name1: "Seagate IronWolf 8TB",
+      name: "Seagate IronWolf ST8000VN004 8TB 7200 RPM 256MB",
+      description: "3 Years Warranty,Power for the power user Bringing Double Performance, and SSD Caching to the Small Business.",
+      description1:"2nd generation 4-bit MLC technology that delivers fast,read/write speeds of 560/530 MB/s*,• V-NAND reliability backed by up to 3-year or 360 TBW warranty,General Feature Product Type,870 QVO SATA III 2.5 SSD 1TB,Family Line 870 QVO SATA III 2.5 SSD,Capacity 1TB,Compatibility Windows10/Windows 8/Windows 7/Windows Server 2003 (32 bit and 64 bit), Vista (SP1 and above), XP (SP2 and above), MAC OSX and Linux,depending on system hardware & configuration.",
+      imagePath: "lib/images/storage/18.png",
+      price: 189000,
+      category: PartsCategory.storage,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for Seagate IronWolf ST6000VN004 6TB 7200 RPM 256MB
+      Part(
+      name1: "Seagate IronWolf 6TB",
+      name: "Seagate IronWolf ST6000VN004 6TB 7200 RPM 256MB",
+      description: "3 Years Warranty,Power for the power user Bringing Double Performance, and SSD Caching to the Small Business.",
+      description1:"2nd generation 4-bit MLC technology that delivers fast,read/write speeds of 560/530 MB/s*,• V-NAND reliability backed by up to 3-year or 360 TBW warranty,General Feature Product Type,870 QVO SATA III 2.5 SSD 1TB,Family Line 870 QVO SATA III 2.5 SSD,Capacity 1TB,Compatibility Windows10/Windows 8/Windows 7/Windows Server 2003 (32 bit and 64 bit), Vista (SP1 and above), XP (SP2 and above), MAC OSX and Linux,depending on system hardware & configuration.",
+      imagePath: "lib/images/storage/18.png",
+      price: 189000,
+      category: PartsCategory.storage,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+       // for Corsair MP700 PRO 2TB PCIe Gen5 x4 NVMe 2.0 M.2 SSD
+      Part(
+      name1: "Corsair MP700 PRO 2TB",
+      name: "Corsair MP700 PRO 2TB PCIe Gen5 x4 NVMe 2.0 M.2 SSD",
+      description: "3 Years Warranty,Power for the power user Bringing Double Performance, and SSD Caching to the Small Business.",
+      description1:"2nd generation 4-bit MLC technology that delivers fast,read/write speeds of 560/530 MB/s*,• V-NAND reliability backed by up to 3-year or 360 TBW warranty,General Feature Product Type,870 QVO SATA III 2.5 SSD 1TB,Family Line 870 QVO SATA III 2.5 SSD,Capacity 1TB,Compatibility Windows10/Windows 8/Windows 7/Windows Server 2003 (32 bit and 64 bit), Vista (SP1 and above), XP (SP2 and above), MAC OSX and Linux,depending on system hardware & configuration.",
+      imagePath: "lib/images/storage/19.png",
+      price: 189000,
+      category: PartsCategory.storage,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+       // for Addlink S20 1TB SSD 3D NAND 2.5 inch
+      Part(
+      name1: "Addlink S20 1TB SSD",
+      name: "Addlink S20 1TB SSD 3D NAND 2.5 inch",
+      description: "3 Years Warranty,Power for the power user Bringing Double Performance, and SSD Caching to the Small Business.",
+      description1:"2nd generation 4-bit MLC technology that delivers fast,read/write speeds of 560/530 MB/s*,• V-NAND reliability backed by up to 3-year or 360 TBW warranty,General Feature Product Type,870 QVO SATA III 2.5 SSD 1TB,Family Line 870 QVO SATA III 2.5 SSD,Capacity 1TB,Compatibility Windows10/Windows 8/Windows 7/Windows Server 2003 (32 bit and 64 bit), Vista (SP1 and above), XP (SP2 and above), MAC OSX and Linux,depending on system hardware & configuration.",
+      imagePath: "lib/images/storage/21.png",
+      price: 189000,
+      category: PartsCategory.storage,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for TEAM TFORCE A440 LITE M.2 GEN4 1TB NVME up to 7200MBPs
+      Part(
+      name1: "TEAM TFORCE A440 LITE",
+      name: "TEAM TFORCE A440 LITE M.2 GEN4 1TB NVME up to 7200MBPs",
+      description: "3 Years Warranty,Power for the power user Bringing Double Performance, and SSD Caching to the Small Business.",
+      description1:"2nd generation 4-bit MLC technology that delivers fast,read/write speeds of 560/530 MB/s*,• V-NAND reliability backed by up to 3-year or 360 TBW warranty,General Feature Product Type,870 QVO SATA III 2.5 SSD 1TB,Family Line 870 QVO SATA III 2.5 SSD,Capacity 1TB,Compatibility Windows10/Windows 8/Windows 7/Windows Server 2003 (32 bit and 64 bit), Vista (SP1 and above), XP (SP2 and above), MAC OSX and Linux,depending on system hardware & configuration.",
+      imagePath: "lib/images/storage/23.png",
+      price: 189000,
+      category: PartsCategory.storage,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for SAMSUNG 990 EVO Gen.4 / Gen 5 1TB NVMe M.2 SSD
+      Part(
+      name1: "SAMSUNG 990 EVO Gen.4",
+      name: "SAMSUNG 990 EVO Gen.4 / Gen 5 1TB NVMe M.2 SSD",
+      description: "3 Years Warranty,Power for the power user Bringing Double Performance, and SSD Caching to the Small Business.",
+      description1:"2nd generation 4-bit MLC technology that delivers fast,read/write speeds of 560/530 MB/s*,• V-NAND reliability backed by up to 3-year or 360 TBW warranty,General Feature Product Type,870 QVO SATA III 2.5 SSD 1TB,Family Line 870 QVO SATA III 2.5 SSD,Capacity 1TB,Compatibility Windows10/Windows 8/Windows 7/Windows Server 2003 (32 bit and 64 bit), Vista (SP1 and above), XP (SP2 and above), MAC OSX and Linux,depending on system hardware & configuration.",
+      imagePath: "lib/images/storage/24.png",
+      price: 189000,
+      category: PartsCategory.storage,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for Samsung 980 NVMe M.2 SSD 1TB
+      Part(
+      name1: "Samsung 980 NVMe M.2 1TB",
+      name: "Samsung 980 NVMe M.2 SSD 1TB",
+      description: "3 Years Warranty,Power for the power user Bringing Double Performance, and SSD Caching to the Small Business.",
+      description1:"2nd generation 4-bit MLC technology that delivers fast,read/write speeds of 560/530 MB/s*,• V-NAND reliability backed by up to 3-year or 360 TBW warranty,General Feature Product Type,870 QVO SATA III 2.5 SSD 1TB,Family Line 870 QVO SATA III 2.5 SSD,Capacity 1TB,Compatibility Windows10/Windows 8/Windows 7/Windows Server 2003 (32 bit and 64 bit), Vista (SP1 and above), XP (SP2 and above), MAC OSX and Linux,depending on system hardware & configuration.",
+      imagePath: "lib/images/storage/25.png",
+      price: 189000,
+      category: PartsCategory.storage,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+       // for Corsair MP700 PRO 1TB PCIe Gen5 x4 NVMe 2.0 M.2 SSD
+      Part(
+      name1: "Corsair MP700 PRO 1TB",
+      name: "Corsair MP700 PRO 1TB PCIe Gen5 x4 NVMe 2.0 M.2 SSD",
+      description: "3 Years Warranty,Power for the power user Bringing Double Performance, and SSD Caching to the Small Business.",
+      description1:"2nd generation 4-bit MLC technology that delivers fast,read/write speeds of 560/530 MB/s*,• V-NAND reliability backed by up to 3-year or 360 TBW warranty,General Feature Product Type,870 QVO SATA III 2.5 SSD 1TB,Family Line 870 QVO SATA III 2.5 SSD,Capacity 1TB,Compatibility Windows10/Windows 8/Windows 7/Windows Server 2003 (32 bit and 64 bit), Vista (SP1 and above), XP (SP2 and above), MAC OSX and Linux,depending on system hardware & configuration.",
+      imagePath: "lib/images/storage/28.png",
+      price: 189000,
+      category: PartsCategory.storage,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for ASUSTOR DRIVESTOR 2 (AS1102T) NAS
+      Part(
+      name1: "ASUSTOR DRIVESTOR 2",
+      name: "ASUSTOR DRIVESTOR 2 (AS1102T) NAS",
+      description: "3 Years Warranty,Power for the power user Bringing Double Performance, and SSD Caching to the Small Business.",
+      description1:"2nd generation 4-bit MLC technology that delivers fast,read/write speeds of 560/530 MB/s*,• V-NAND reliability backed by up to 3-year or 360 TBW warranty,General Feature Product Type,870 QVO SATA III 2.5 SSD 1TB,Family Line 870 QVO SATA III 2.5 SSD,Capacity 1TB,Compatibility Windows10/Windows 8/Windows 7/Windows Server 2003 (32 bit and 64 bit), Vista (SP1 and above), XP (SP2 and above), MAC OSX and Linux,depending on system hardware & configuration.",
+      imagePath: "lib/images/storage/33.png",
+      price: 189000,
+      category: PartsCategory.storage,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for LEXAR NS100 1TB SATA SSD
+      Part(
+      name1: "LEXAR NS100 1TB SATA SSD",
+      name: "LEXAR NS100 1TB SATA SSD",
+      description: "3 Years Warranty,Power for the power user Bringing Double Performance, and SSD Caching to the Small Business.",
+      description1:"2nd generation 4-bit MLC technology that delivers fast,read/write speeds of 560/530 MB/s*,• V-NAND reliability backed by up to 3-year or 360 TBW warranty,General Feature Product Type,870 QVO SATA III 2.5 SSD 1TB,Family Line 870 QVO SATA III 2.5 SSD,Capacity 1TB,Compatibility Windows10/Windows 8/Windows 7/Windows Server 2003 (32 bit and 64 bit), Vista (SP1 and above), XP (SP2 and above), MAC OSX and Linux,depending on system hardware & configuration.",
+      imagePath: "lib/images/storage/34.png",
       price: 189000,
       category: PartsCategory.storage,
       availableAddons: [
@@ -2018,11 +2434,394 @@ class Shop extends ChangeNotifier{
       ),
 
       //=============================================
-     
+   //collers   
+  // for Corsair H150 RGB 360mm Liquid CPU Cooler
+      Part(
+      name1: "Corsair H150 RGB 360mm",
+      name: "Corsair H150 RGB 360mm Liquid CPU Cooler",
+      description: "2 Years Warranty,The CORSAIR H150 RGB all-in-one liquid CPU cooler,delivers strong, dependable cooling and stunning lighting",
+      description1:"Cooling Warranty 3 Year,Cold Plate Material Copper,Radiator Material Aluminum,PWM Yes,CORSAIR iCUE Compatibility Yes (Need a Separate ,Controller Not Included in the Box),Weight 1.05,Number of Fans 3,Cooling Socket Support Intel 115x/1200,Intel 2011/2066,AMD AM4,Lighting RGB,Fan Model SP Series.",
+      imagePath: "lib/images/coollers/1.png",
+      price: 43500,
+      category: PartsCategory.Coollers,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
 
+      // for Lian Li Galahad II TRINITY 240mm Liquid CPU Cooler
+      Part(
+      name1: "Lian Li Galahad II TRINITY",
+      name: "Lian Li Galahad II TRINITY 240mm Liquid CPU Cooler",
+      description: "2 Years Warranty,The CORSAIR H150 RGB all-in-one liquid CPU cooler,delivers strong, dependable cooling and stunning lighting",
+      description1:"Cooling Warranty 3 Year,Cold Plate Material Copper,Radiator Material Aluminum,PWM Yes,CORSAIR iCUE Compatibility Yes (Need a Separate ,Controller Not Included in the Box),Weight 1.05,Number of Fans 3,Cooling Socket Support Intel 115x/1200,Intel 2011/2066,AMD AM4,Lighting RGB,Fan Model SP Series.",
+      imagePath: "lib/images/coollers/2.png",
+      price: 43500,
+      category: PartsCategory.Coollers,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for LIAN LI ST120 ARGB 3 FAN PACK
+      Part(
+      name1: "LIAN LI ST120 ARGB 3 FAN PACK",
+      name: "LIAN LI ST120 ARGB 3 FAN PACK",
+      description: "2 Years Warranty,The CORSAIR H150 RGB all-in-one liquid CPU cooler,delivers strong, dependable cooling and stunning lighting",
+      description1:"Cooling Warranty 3 Year,Cold Plate Material Copper,Radiator Material Aluminum,PWM Yes,CORSAIR iCUE Compatibility Yes (Need a Separate ,Controller Not Included in the Box),Weight 1.05,Number of Fans 3,Cooling Socket Support Intel 115x/1200,Intel 2011/2066,AMD AM4,Lighting RGB,Fan Model SP Series.",
+      imagePath: "lib/images/coollers/3.png",
+      price: 43500,
+      category: PartsCategory.Coollers,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for NZXT Kraken Elite 360 RGB White Liquid Cooler with LCD Display & RGB Fans
+      Part(
+      name1: "NZXT Kraken Elite 360 RGB",
+      name: "NZXT Kraken Elite 360 RGB White Liquid Cooler with LCD Display & RGB Fans",
+      description: "2 Years Warranty,The CORSAIR H150 RGB all-in-one liquid CPU cooler,delivers strong, dependable cooling and stunning lighting",
+      description1:"Cooling Warranty 3 Year,Cold Plate Material Copper,Radiator Material Aluminum,PWM Yes,CORSAIR iCUE Compatibility Yes (Need a Separate ,Controller Not Included in the Box),Weight 1.05,Number of Fans 3,Cooling Socket Support Intel 115x/1200,Intel 2011/2066,AMD AM4,Lighting RGB,Fan Model SP Series.",
+      imagePath: "lib/images/coollers/4.png",
+      price: 43500,
+      category: PartsCategory.Coollers,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+       // for ASUS ROG RYUO III 240 ARGB
+      Part(
+      name1: "ASUS ROG RYUO III 240 ARGB",
+      name: "ASUS ROG RYUO III 240 ARGB",
+      description: "2 Years Warranty,The CORSAIR H150 RGB all-in-one liquid CPU cooler,delivers strong, dependable cooling and stunning lighting",
+      description1:"Cooling Warranty 3 Year,Cold Plate Material Copper,Radiator Material Aluminum,PWM Yes,CORSAIR iCUE Compatibility Yes (Need a Separate ,Controller Not Included in the Box),Weight 1.05,Number of Fans 3,Cooling Socket Support Intel 115x/1200,Intel 2011/2066,AMD AM4,Lighting RGB,Fan Model SP Series.",
+      imagePath: "lib/images/coollers/5.png",
+      price: 43500,
+      category: PartsCategory.Coollers,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+       // for ASUS ROG STRIX LC II 360 ARGB WHITE EDITION
+      Part(
+      name1: "ASUS ROG STRIX LC II",
+      name: "ASUS ROG STRIX LC II 360 ARGB WHITE EDITION",
+      description: "2 Years Warranty,The CORSAIR H150 RGB all-in-one liquid CPU cooler,delivers strong, dependable cooling and stunning lighting",
+      description1:"Cooling Warranty 3 Year,Cold Plate Material Copper,Radiator Material Aluminum,PWM Yes,CORSAIR iCUE Compatibility Yes (Need a Separate ,Controller Not Included in the Box),Weight 1.05,Number of Fans 3,Cooling Socket Support Intel 115x/1200,Intel 2011/2066,AMD AM4,Lighting RGB,Fan Model SP Series.",
+      imagePath: "lib/images/coollers/6.png",
+      price: 43500,
+      category: PartsCategory.Coollers,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for ASUS ROG STRIX LC II 240
+      Part(
+      name1: "ASUS ROG STRIX LC II 240",
+      name: "ASUS ROG STRIX LC II 240",
+      description: "2 Years Warranty,The CORSAIR H150 RGB all-in-one liquid CPU cooler,delivers strong, dependable cooling and stunning lighting",
+      description1:"Cooling Warranty 3 Year,Cold Plate Material Copper,Radiator Material Aluminum,PWM Yes,CORSAIR iCUE Compatibility Yes (Need a Separate ,Controller Not Included in the Box),Weight 1.05,Number of Fans 3,Cooling Socket Support Intel 115x/1200,Intel 2011/2066,AMD AM4,Lighting RGB,Fan Model SP Series.",
+      imagePath: "lib/images/coollers/7.png",
+      price: 43500,
+      category: PartsCategory.Coollers,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for Corsair iCUE H100i ELITE CAPELLIX XT Liquid CPU Cooler
+      Part(
+      name1: "Corsair iCUE H100i ELITE",
+      name: "Corsair iCUE H100i ELITE CAPELLIX XT Liquid CPU Cooler",
+      description: "2 Years Warranty,The CORSAIR H150 RGB all-in-one liquid CPU cooler,delivers strong, dependable cooling and stunning lighting",
+      description1:"Cooling Warranty 3 Year,Cold Plate Material Copper,Radiator Material Aluminum,PWM Yes,CORSAIR iCUE Compatibility Yes (Need a Separate ,Controller Not Included in the Box),Weight 1.05,Number of Fans 3,Cooling Socket Support Intel 115x/1200,Intel 2011/2066,AMD AM4,Lighting RGB,Fan Model SP Series.",
+      imagePath: "lib/images/coollers/8.png",
+      price: 43500,
+      category: PartsCategory.Coollers,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for ASUS ROG RYUJIN III 360 ARGB
+      Part(
+      name1: "ASUS ROG RYUJIN III 360 ARGB",
+      name: "ASUS ROG RYUJIN III 360 ARGB",
+      description: "2 Years Warranty,The CORSAIR H150 RGB all-in-one liquid CPU cooler,delivers strong, dependable cooling and stunning lighting",
+      description1:"Cooling Warranty 3 Year,Cold Plate Material Copper,Radiator Material Aluminum,PWM Yes,CORSAIR iCUE Compatibility Yes (Need a Separate ,Controller Not Included in the Box),Weight 1.05,Number of Fans 3,Cooling Socket Support Intel 115x/1200,Intel 2011/2066,AMD AM4,Lighting RGB,Fan Model SP Series.",
+      imagePath: "lib/images/coollers/9.png",
+      price: 43500,
+      category: PartsCategory.Coollers,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for ANTEC SYMPHONY 360 ARGB 12th GEN Support
+      Part(
+      name1: "ANTEC SYMPHONY 360 ARGB",
+      name: "ANTEC SYMPHONY 360 ARGB 12th GEN Support",
+      description: "2 Years Warranty,The CORSAIR H150 RGB all-in-one liquid CPU cooler,delivers strong, dependable cooling and stunning lighting",
+      description1:"Cooling Warranty 3 Year,Cold Plate Material Copper,Radiator Material Aluminum,PWM Yes,CORSAIR iCUE Compatibility Yes (Need a Separate ,Controller Not Included in the Box),Weight 1.05,Number of Fans 3,Cooling Socket Support Intel 115x/1200,Intel 2011/2066,AMD AM4,Lighting RGB,Fan Model SP Series.",
+      imagePath: "lib/images/coollers/10.png",
+      price: 43500,
+      category: PartsCategory.Coollers,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for NZXT Kraken 360 Black Liquid Cooler with LCD Display
+      Part(
+      name1: "NZXT Kraken 360 Black",
+      name: "NZXT Kraken 360 Black Liquid Cooler with LCD Display",
+      description: "2 Years Warranty,The CORSAIR H150 RGB all-in-one liquid CPU cooler,delivers strong, dependable cooling and stunning lighting",
+      description1:"Cooling Warranty 3 Year,Cold Plate Material Copper,Radiator Material Aluminum,PWM Yes,CORSAIR iCUE Compatibility Yes (Need a Separate ,Controller Not Included in the Box),Weight 1.05,Number of Fans 3,Cooling Socket Support Intel 115x/1200,Intel 2011/2066,AMD AM4,Lighting RGB,Fan Model SP Series.",
+      imagePath: "lib/images/coollers/11.png",
+      price: 43500,
+      category: PartsCategory.Coollers,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for ASUS ROG RYUO III 360 ARGB
+      Part(
+      name1: "ASUS ROG RYUO III 360 ARGB",
+      name: "ASUS ROG RYUO III 360 ARGB",
+      description: "2 Years Warranty,The CORSAIR H150 RGB all-in-one liquid CPU cooler,delivers strong, dependable cooling and stunning lighting",
+      description1:"Cooling Warranty 3 Year,Cold Plate Material Copper,Radiator Material Aluminum,PWM Yes,CORSAIR iCUE Compatibility Yes (Need a Separate ,Controller Not Included in the Box),Weight 1.05,Number of Fans 3,Cooling Socket Support Intel 115x/1200,Intel 2011/2066,AMD AM4,Lighting RGB,Fan Model SP Series.",
+      imagePath: "lib/images/coollers/12.png",
+      price: 43500,
+      category: PartsCategory.Coollers,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for ASUS ROG RYUO III 240 ARGB
+      Part(
+      name1: "ASUS ROG RYUO III 240 ARGB",
+      name: "ASUS ROG RYUO III 240 ARGB",
+      description: "2 Years Warranty,The CORSAIR H150 RGB all-in-one liquid CPU cooler,delivers strong, dependable cooling and stunning lighting",
+      description1:"Cooling Warranty 3 Year,Cold Plate Material Copper,Radiator Material Aluminum,PWM Yes,CORSAIR iCUE Compatibility Yes (Need a Separate ,Controller Not Included in the Box),Weight 1.05,Number of Fans 3,Cooling Socket Support Intel 115x/1200,Intel 2011/2066,AMD AM4,Lighting RGB,Fan Model SP Series.",
+      imagePath: "lib/images/coollers/13.png",
+      price: 43500,
+      category: PartsCategory.Coollers,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for MSI MAG CORELIQUID E240
+      Part(
+      name1: "MSI MAG CORELIQUID E240",
+      name: "MSI MAG CORELIQUID E240",
+      description: "2 Years Warranty,The CORSAIR H150 RGB all-in-one liquid CPU cooler,delivers strong, dependable cooling and stunning lighting",
+      description1:"Cooling Warranty 3 Year,Cold Plate Material Copper,Radiator Material Aluminum,PWM Yes,CORSAIR iCUE Compatibility Yes (Need a Separate ,Controller Not Included in the Box),Weight 1.05,Number of Fans 3,Cooling Socket Support Intel 115x/1200,Intel 2011/2066,AMD AM4,Lighting RGB,Fan Model SP Series.",
+      imagePath: "lib/images/coollers/14.png",
+      price: 43500,
+      category: PartsCategory.Coollers,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for Antec A400i RGB CPU Air Cooler
+      Part(
+      name1: "Antec A400i RGB CPU Air Cooler",
+      name: "Antec A400i RGB CPU Air Cooler",
+      description: "2 Years Warranty,The CORSAIR H150 RGB all-in-one liquid CPU cooler,delivers strong, dependable cooling and stunning lighting",
+      description1:"Cooling Warranty 3 Year,Cold Plate Material Copper,Radiator Material Aluminum,PWM Yes,CORSAIR iCUE Compatibility Yes (Need a Separate ,Controller Not Included in the Box),Weight 1.05,Number of Fans 3,Cooling Socket Support Intel 115x/1200,Intel 2011/2066,AMD AM4,Lighting RGB,Fan Model SP Series.",
+      imagePath: "lib/images/coollers/15.png",
+      price: 43500,
+      category: PartsCategory.Coollers,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for CORSAIR iCUE H150i ELITE CAPELLIX XT
+      Part(
+      name1: "CORSAIR iCUE H150i",
+      name: "CORSAIR iCUE H150i ELITE CAPELLIX XT",
+      description: "2 Years Warranty,The CORSAIR H150 RGB all-in-one liquid CPU cooler,delivers strong, dependable cooling and stunning lighting",
+      description1:"Cooling Warranty 3 Year,Cold Plate Material Copper,Radiator Material Aluminum,PWM Yes,CORSAIR iCUE Compatibility Yes (Need a Separate ,Controller Not Included in the Box),Weight 1.05,Number of Fans 3,Cooling Socket Support Intel 115x/1200,Intel 2011/2066,AMD AM4,Lighting RGB,Fan Model SP Series.",
+      imagePath: "lib/images/coollers/16.png",
+      price: 43500,
+      category: PartsCategory.Coollers,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for ASUS TUF Gaming LC II 360 ARGB
+      Part(
+      name1: "ASUS TUF Gaming LC",
+      name: "ASUS TUF Gaming LC II 360 ARGB",
+      description: "2 Years Warranty,The CORSAIR H150 RGB all-in-one liquid CPU cooler,delivers strong, dependable cooling and stunning lighting",
+      description1:"Cooling Warranty 3 Year,Cold Plate Material Copper,Radiator Material Aluminum,PWM Yes,CORSAIR iCUE Compatibility Yes (Need a Separate ,Controller Not Included in the Box),Weight 1.05,Number of Fans 3,Cooling Socket Support Intel 115x/1200,Intel 2011/2066,AMD AM4,Lighting RGB,Fan Model SP Series.",
+      imagePath: "lib/images/coollers/18.png",
+      price: 43500,
+      category: PartsCategory.Coollers,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ), 
+
+      // for Lian Li Galahad II LCD 360mm Liquid CPU Cooler
+      Part(
+      name1: "Lian Li Galahad II LCD",
+      name: "Lian Li Galahad II LCD 360mm Liquid CPU Cooler",
+      description: "2 Years Warranty,The CORSAIR H150 RGB all-in-one liquid CPU cooler,delivers strong, dependable cooling and stunning lighting",
+      description1:"Cooling Warranty 3 Year,Cold Plate Material Copper,Radiator Material Aluminum,PWM Yes,CORSAIR iCUE Compatibility Yes (Need a Separate ,Controller Not Included in the Box),Weight 1.05,Number of Fans 3,Cooling Socket Support Intel 115x/1200,Intel 2011/2066,AMD AM4,Lighting RGB,Fan Model SP Series.",
+      imagePath: "lib/images/coollers/19.png",
+      price: 43500,
+      category: PartsCategory.Coollers,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ), 
+
+       // for Antec A400 RGB Cpu Cooler
+      Part(
+      name1: "Antec A400 RGB Cpu Cooler",
+      name: "Antec A400 RGB Cpu Cooler",
+      description: "2 Years Warranty,The CORSAIR H150 RGB all-in-one liquid CPU cooler,delivers strong, dependable cooling and stunning lighting",
+      description1:"Cooling Warranty 3 Year,Cold Plate Material Copper,Radiator Material Aluminum,PWM Yes,CORSAIR iCUE Compatibility Yes (Need a Separate ,Controller Not Included in the Box),Weight 1.05,Number of Fans 3,Cooling Socket Support Intel 115x/1200,Intel 2011/2066,AMD AM4,Lighting RGB,Fan Model SP Series.",
+      imagePath: "lib/images/coollers/20.png",
+      price: 43500,
+      category: PartsCategory.Coollers,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+       // for ASUS ROG RYUJIN III 360 ARGB White Edition
+      Part(
+      name1: "ASUS ROG RYUJIN III",
+      name: "ASUS ROG RYUJIN III 360 ARGB White Edition",
+      description: "2 Years Warranty,The CORSAIR H150 RGB all-in-one liquid CPU cooler,delivers strong, dependable cooling and stunning lighting",
+      description1:"Cooling Warranty 3 Year,Cold Plate Material Copper,Radiator Material Aluminum,PWM Yes,CORSAIR iCUE Compatibility Yes (Need a Separate ,Controller Not Included in the Box),Weight 1.05,Number of Fans 3,Cooling Socket Support Intel 115x/1200,Intel 2011/2066,AMD AM4,Lighting RGB,Fan Model SP Series.",
+      imagePath: "lib/images/coollers/21.png",
+      price: 43500,
+      category: PartsCategory.Coollers,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+       // for NZXT Kraken Elite 360 RGB White Liquid Cooler with LCD Display & RGB Fans
+      Part(
+      name1: "NZXT Kraken Elite 360 RGB",
+      name: "NZXT Kraken Elite 360 RGB White Liquid Cooler with LCD Display & RGB Fans",
+      description: "2 Years Warranty,The CORSAIR H150 RGB all-in-one liquid CPU cooler,delivers strong, dependable cooling and stunning lighting",
+      description1:"Cooling Warranty 3 Year,Cold Plate Material Copper,Radiator Material Aluminum,PWM Yes,CORSAIR iCUE Compatibility Yes (Need a Separate ,Controller Not Included in the Box),Weight 1.05,Number of Fans 3,Cooling Socket Support Intel 115x/1200,Intel 2011/2066,AMD AM4,Lighting RGB,Fan Model SP Series.",
+      imagePath: "lib/images/coollers/22.png",
+      price: 43500,
+      category: PartsCategory.Coollers,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for ASUS ROG RYUJIN III 360
+      Part(
+      name1: "ASUS ROG RYUJIN III 360",
+      name: "ASUS ROG RYUJIN III 360",
+      description: "2 Years Warranty,The CORSAIR H150 RGB all-in-one liquid CPU cooler,delivers strong, dependable cooling and stunning lighting",
+      description1:"Cooling Warranty 3 Year,Cold Plate Material Copper,Radiator Material Aluminum,PWM Yes,CORSAIR iCUE Compatibility Yes (Need a Separate ,Controller Not Included in the Box),Weight 1.05,Number of Fans 3,Cooling Socket Support Intel 115x/1200,Intel 2011/2066,AMD AM4,Lighting RGB,Fan Model SP Series.",
+      imagePath: "lib/images/coollers/23.png",
+      price: 43500,
+      category: PartsCategory.Coollers,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ), 
+
+       // for ASUS ROG STRIX LC II 360
+      Part(
+      name1: "ASUS ROG STRIX LC II 360",
+      name: "ASUS ROG STRIX LC II 360",
+      description: "2 Years Warranty,The CORSAIR H150 RGB all-in-one liquid CPU cooler,delivers strong, dependable cooling and stunning lighting",
+      description1:"Cooling Warranty 3 Year,Cold Plate Material Copper,Radiator Material Aluminum,PWM Yes,CORSAIR iCUE Compatibility Yes (Need a Separate ,Controller Not Included in the Box),Weight 1.05,Number of Fans 3,Cooling Socket Support Intel 115x/1200,Intel 2011/2066,AMD AM4,Lighting RGB,Fan Model SP Series.",
+      imagePath: "lib/images/coollers/24.png",
+      price: 43500,
+      category: PartsCategory.Coollers,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+//=====================================================================================================
+// PowerSuply      
+     // for Asus ROG THOR 1600W Titanium Full Modular
+      Part(
+      name1: "Asus ROG THOR 1600W Titanium",
+      name: "Asus ROG THOR 1600W Titanium Full Modular",
+      description: "3 Years Warranty,80Plus Titanium,Hazardous Materials ROHS,Cybenetics Noise Level Certification.",
+      description1:"Efficiency 80Plus Titanium,Protection Features OPP/OVP/UVP/SCP/OCP/OTP,Hazardous Materials ROHS,AC Input Range,100-240Vac Thermal Features ROG Thermal Solution, DC Output Voltage +3.3V +5V +12V -12V +5Vsb,Maximum Load 20A 20A 133.3A 0.3A 3A,Addressable RGB Cable x 1 (800mm)",
+      imagePath: "lib/images/psu/1.png",
+      price: 265000,
+      category: PartsCategory.PowerSupluy,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
       
       
-
+//======================================================================================================
   ];
 
   /*
