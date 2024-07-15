@@ -2819,8 +2819,697 @@ class Shop extends ChangeNotifier{
         Addon(name: "Stands", price: 13500),
         ],
       ),
+
+      // for Asus ROG-THOR 1000 PLATINUM II 1000W 80+ Platinum Full Modular
+      Part(
+      name1: "Asus ROG-THOR 1000 PLATINUM",
+      name: "Asus ROG-THOR 1000 PLATINUM II 1000W 80+ Platinum Full Modular",
+      description: "3 Years Warranty,80Plus Titanium,Hazardous Materials ROHS,Cybenetics Noise Level Certification.",
+      description1:"Efficiency 80Plus Titanium,Protection Features OPP/OVP/UVP/SCP/OCP/OTP,Hazardous Materials ROHS,AC Input Range,100-240Vac Thermal Features ROG Thermal Solution, DC Output Voltage +3.3V +5V +12V -12V +5Vsb,Maximum Load 20A 20A 133.3A 0.3A 3A,Addressable RGB Cable x 1 (800mm)",
+      imagePath: "lib/images/psu/10.png",
+      price: 132000,
+      category: PartsCategory.PowerSupluy,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
       
-      
+       // for Asus ROG-THOR 1200 PLATINUM II 1200W 80+ Platinum Full Modular
+      Part(
+      name1: "Asus ROG-THOR 1200 PLATINUM",
+      name: "Asus ROG-THOR 1200 PLATINUM II 1200W 80+ Platinum Full Modular",
+      description: "3 Years Warranty,80Plus Titanium,Hazardous Materials ROHS,Cybenetics Noise Level Certification.",
+      description1:"Efficiency 80Plus Titanium,Protection Features OPP/OVP/UVP/SCP/OCP/OTP,Hazardous Materials ROHS,AC Input Range,100-240Vac Thermal Features ROG Thermal Solution, DC Output Voltage +3.3V +5V +12V -12V +5Vsb,Maximum Load 20A 20A 133.3A 0.3A 3A,Addressable RGB Cable x 1 (800mm)",
+      imagePath: "lib/images/psu/18.png",
+      price: 155000,
+      category: PartsCategory.PowerSupluy,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for ASUS ROG LOKI SFX-L 1000W Platinum ATX 3.0 Quiet Compact Form Factor Power Supply
+      Part(
+      name1: "ASUS ROG LOKI SFX-L 1000W Platinum",
+      name: "ASUS ROG LOKI SFX-L 1000W Platinum ATX 3.0 Quiet Compact Form Factor Power Supply",
+      description: "3 Years Warranty,80Plus Titanium,Hazardous Materials ROHS,Cybenetics Noise Level Certification.",
+      description1:"Efficiency 80Plus Titanium,Protection Features OPP/OVP/UVP/SCP/OCP/OTP,Hazardous Materials ROHS,AC Input Range,100-240Vac Thermal Features ROG Thermal Solution, DC Output Voltage +3.3V +5V +12V -12V +5Vsb,Maximum Load 20A 20A 133.3A 0.3A 3A,Addressable RGB Cable x 1 (800mm)",
+      imagePath: "lib/images/psu/17.png",
+      price: 155000,
+      category: PartsCategory.PowerSupluy,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      // for ASUS ROG LOKI SFX-L 750W Platinum ATX 3.0 Quiet Compact Form Factor Power Supply
+      Part(
+      name1: "ASUS ROG LOKI SFX-L 750W Platinum",
+      name: "ASUS ROG LOKI SFX-L 750W Platinum ATX 3.0 Quiet Compact Form Factor Power Supply",
+      description: "3 Years Warranty,80Plus Titanium,Hazardous Materials ROHS,Cybenetics Noise Level Certification.",
+      description1:"Efficiency 80Plus Titanium,Protection Features OPP/OVP/UVP/SCP/OCP/OTP,Hazardous Materials ROHS,AC Input Range,100-240Vac Thermal Features ROG Thermal Solution, DC Output Voltage +3.3V +5V +12V -12V +5Vsb,Maximum Load 20A 20A 133.3A 0.3A 3A,Addressable RGB Cable x 1 (800mm)",
+      imagePath: "lib/images/psu/21.png",
+      price: 72000,
+      category: PartsCategory.PowerSupluy,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for ASUS ROG LOKI SFX-L 850W Platinum ATX 3.0 Quiet Compact Form Factor Power Supply
+      Part(
+      name1: "ASUS ROG LOKI SFX-L 850W Platinum",
+      name: "ASUS ROG LOKI SFX-L 850W Platinum ATX 3.0 Quiet Compact Form Factor Power Supply",
+      description: "3 Years Warranty,80Plus Titanium,Hazardous Materials ROHS,Cybenetics Noise Level Certification.",
+      description1:"Efficiency 80Plus Titanium,Protection Features OPP/OVP/UVP/SCP/OCP/OTP,Hazardous Materials ROHS,AC Input Range,100-240Vac Thermal Features ROG Thermal Solution, DC Output Voltage +3.3V +5V +12V -12V +5Vsb,Maximum Load 20A 20A 133.3A 0.3A 3A,Addressable RGB Cable x 1 (800mm)",
+      imagePath: "lib/images/psu/27.png",
+      price: 83000,
+      category: PartsCategory.PowerSupluy,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+       //for Corsair RMe Series RM1000e Fully Modular 80+ GOLD
+      Part(
+      name1: "Corsair RMe Series RM1000e",
+      name: "Corsair RMe Series RM1000e Fully Modular 80+ GOLD",
+      description: "3 Years Warranty,80Plus Titanium,Hazardous Materials ROHS,Cybenetics Noise Level Certification.",
+      description1:"Efficiency 80Plus Titanium,Protection Features OPP/OVP/UVP/SCP/OCP/OTP,Hazardous Materials ROHS,AC Input Range,100-240Vac Thermal Features ROG Thermal Solution, DC Output Voltage +3.3V +5V +12V -12V +5Vsb,Maximum Load 20A 20A 133.3A 0.3A 3A,Addressable RGB Cable x 1 (800mm)",
+      imagePath: "lib/images/psu/8.png",
+      price: 83000,
+      category: PartsCategory.PowerSupluy,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+       //for Antec NeoEco GOLD Modular NE750G M ATX 3.0 750W
+      Part(
+      name1: "Antec NeoEco GOLD Modular",
+      name: "Antec NeoEco GOLD Modular NE750G M ATX 3.0 750W",
+      description: "3 Years Warranty,80Plus Titanium,Hazardous Materials ROHS,Cybenetics Noise Level Certification.",
+      description1:"Efficiency 80Plus Titanium,Protection Features OPP/OVP/UVP/SCP/OCP/OTP,Hazardous Materials ROHS,AC Input Range,100-240Vac Thermal Features ROG Thermal Solution, DC Output Voltage +3.3V +5V +12V -12V +5Vsb,Maximum Load 20A 20A 133.3A 0.3A 3A,Addressable RGB Cable x 1 (800mm)",
+      imagePath: "lib/images/psu/4.png",
+      price: 83000,
+      category: PartsCategory.PowerSupluy,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+       //for Antec NeoEco GOLD Modular NE850G M ATX 3.0 850W
+      Part(
+      name1: "Antec NeoEco GOLD Modular",
+      name: "Antec NeoEco GOLD Modular NE850G M ATX 3.0 850W",
+      description: "3 Years Warranty,80Plus Titanium,Hazardous Materials ROHS,Cybenetics Noise Level Certification.",
+      description1:"Efficiency 80Plus Titanium,Protection Features OPP/OVP/UVP/SCP/OCP/OTP,Hazardous Materials ROHS,AC Input Range,100-240Vac Thermal Features ROG Thermal Solution, DC Output Voltage +3.3V +5V +12V -12V +5Vsb,Maximum Load 20A 20A 133.3A 0.3A 3A,Addressable RGB Cable x 1 (800mm)",
+      imagePath: "lib/images/psu/7.png",
+      price: 83000,
+      category: PartsCategory.PowerSupluy,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for Antec NeoEco GOLD Modular NE1000G M ATX 3.0 1300W
+      Part(
+      name1: "Antec NeoEco GOLD Modular",
+      name: "Antec NeoEco GOLD Modular NE1000G M ATX 3.0 1300W",
+      description: "3 Years Warranty,80Plus Titanium,Hazardous Materials ROHS,Cybenetics Noise Level Certification.",
+      description1:"Efficiency 80Plus Titanium,Protection Features OPP/OVP/UVP/SCP/OCP/OTP,Hazardous Materials ROHS,AC Input Range,100-240Vac Thermal Features ROG Thermal Solution, DC Output Voltage +3.3V +5V +12V -12V +5Vsb,Maximum Load 20A 20A 133.3A 0.3A 3A,Addressable RGB Cable x 1 (800mm)",
+      imagePath: "lib/images/psu/6.png",
+      price: 83000,
+      category: PartsCategory.PowerSupluy,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for CORSAIR CX Series CX550 – 550 Watt 80 PLUS Bronze ATX Power Supply
+      Part(
+      name1: "CORSAIR CX Series CX550",
+      name: "CORSAIR CX Series CX550 – 550 Watt 80 PLUS Bronze ATX Power Supply",
+      description: "3 Years Warranty,80Plus Titanium,Hazardous Materials ROHS,Cybenetics Noise Level Certification.",
+      description1:"Efficiency 80Plus Titanium,Protection Features OPP/OVP/UVP/SCP/OCP/OTP,Hazardous Materials ROHS,AC Input Range,100-240Vac Thermal Features ROG Thermal Solution, DC Output Voltage +3.3V +5V +12V -12V +5Vsb,Maximum Load 20A 20A 133.3A 0.3A 3A,Addressable RGB Cable x 1 (800mm)",
+      imagePath: "lib/images/psu/9.png",
+      price: 83000,
+      category: PartsCategory.PowerSupluy,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for NZXT C1200 80+ Gold 1200W Fully Modular (2023 ATX 3.0)
+      Part(
+      name1: "NZXT C1200 80+ Gold 1200W",
+      name: "NZXT C1200 80+ Gold 1200W Fully Modular (2023 ATX 3.0)",
+      description: "3 Years Warranty,80Plus Titanium,Hazardous Materials ROHS,Cybenetics Noise Level Certification.",
+      description1:"Efficiency 80Plus Titanium,Protection Features OPP/OVP/UVP/SCP/OCP/OTP,Hazardous Materials ROHS,AC Input Range,100-240Vac Thermal Features ROG Thermal Solution, DC Output Voltage +3.3V +5V +12V -12V +5Vsb,Maximum Load 20A 20A 133.3A 0.3A 3A,Addressable RGB Cable x 1 (800mm)",
+      imagePath: "lib/images/psu/15.png",
+      price: 83000,
+      category: PartsCategory.PowerSupluy,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for CORSAIR RM750e 750W 80+ Gold Fully Modular Low Noise PSU 2023 version
+      Part(
+      name1: "CORSAIR RM750e 750W 80+ Gold",
+      name: "CORSAIR RM750e 750W 80+ Gold Fully Modular Low Noise PSU 2023 version",
+      description: "3 Years Warranty,80Plus Titanium,Hazardous Materials ROHS,Cybenetics Noise Level Certification.",
+      description1:"Efficiency 80Plus Titanium,Protection Features OPP/OVP/UVP/SCP/OCP/OTP,Hazardous Materials ROHS,AC Input Range,100-240Vac Thermal Features ROG Thermal Solution, DC Output Voltage +3.3V +5V +12V -12V +5Vsb,Maximum Load 20A 20A 133.3A 0.3A 3A,Addressable RGB Cable x 1 (800mm)",
+      imagePath: "lib/images/psu/16.png",
+      price: 83000,
+      category: PartsCategory.PowerSupluy,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for Antec NeoEco GOLD Modular NE1000G M ATX 3.0 1000W
+      Part(
+      name1: "Antec NeoEco GOLD Modular",
+      name: "Antec NeoEco GOLD Modular NE1000G M ATX 3.0 1000W",
+      description: "3 Years Warranty,80Plus Titanium,Hazardous Materials ROHS,Cybenetics Noise Level Certification.",
+      description1:"Efficiency 80Plus Titanium,Protection Features OPP/OVP/UVP/SCP/OCP/OTP,Hazardous Materials ROHS,AC Input Range,100-240Vac Thermal Features ROG Thermal Solution, DC Output Voltage +3.3V +5V +12V -12V +5Vsb,Maximum Load 20A 20A 133.3A 0.3A 3A,Addressable RGB Cable x 1 (800mm)",
+      imagePath: "lib/images/psu/19.png",
+      price: 83000,
+      category: PartsCategory.PowerSupluy,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for ANTEC Signature PLATINUM 1300W 80+ PLATINUM Full Modular
+      Part(
+      name1: "ANTEC Signature PLATINUM 1300W",
+      name: "ANTEC Signature PLATINUM 1300W 80+ PLATINUM Full Modular",
+      description: "3 Years Warranty,80Plus Titanium,Hazardous Materials ROHS,Cybenetics Noise Level Certification.",
+      description1:"Efficiency 80Plus Titanium,Protection Features OPP/OVP/UVP/SCP/OCP/OTP,Hazardous Materials ROHS,AC Input Range,100-240Vac Thermal Features ROG Thermal Solution, DC Output Voltage +3.3V +5V +12V -12V +5Vsb,Maximum Load 20A 20A 133.3A 0.3A 3A,Addressable RGB Cable x 1 (800mm)",
+      imagePath: "lib/images/psu/20.png",
+      price: 83000,
+      category: PartsCategory.PowerSupluy,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for NZXT C750 750W BRONZE NON MODULAR
+      Part(
+      name1: "NZXT C750 750W BRONZE NON MODULAR",
+      name: "NZXT C750 750W BRONZE NON MODULAR",
+      description: "3 Years Warranty,80Plus Titanium,Hazardous Materials ROHS,Cybenetics Noise Level Certification.",
+      description1:"Efficiency 80Plus Titanium,Protection Features OPP/OVP/UVP/SCP/OCP/OTP,Hazardous Materials ROHS,AC Input Range,100-240Vac Thermal Features ROG Thermal Solution, DC Output Voltage +3.3V +5V +12V -12V +5Vsb,Maximum Load 20A 20A 133.3A 0.3A 3A,Addressable RGB Cable x 1 (800mm)",
+      imagePath: "lib/images/psu/24.png",
+      price: 83000,
+      category: PartsCategory.PowerSupluy,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for MSI MAG A750GL PCIE5 FULL MODULAR
+      Part(
+      name1: "MSI MAG A750GL PCIE5 FULL MODULAR",
+      name: "MSI MAG A750GL PCIE5 FULL MODULAR",
+      description: "3 Years Warranty,80Plus Titanium,Hazardous Materials ROHS,Cybenetics Noise Level Certification.",
+      description1:"Efficiency 80Plus Titanium,Protection Features OPP/OVP/UVP/SCP/OCP/OTP,Hazardous Materials ROHS,AC Input Range,100-240Vac Thermal Features ROG Thermal Solution, DC Output Voltage +3.3V +5V +12V -12V +5Vsb,Maximum Load 20A 20A 133.3A 0.3A 3A,Addressable RGB Cable x 1 (800mm)",
+      imagePath: "lib/images/psu/25.png",
+      price: 83000,
+      category: PartsCategory.PowerSupluy,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for PROLINK Professional II Series 3KVA Online UPS
+      Part(
+      name1: "PROLINK Professional II Series",
+      name: "PROLINK Professional II Series 3KVA Online UPS",
+      description: "3 Years Warranty,80Plus Titanium,Hazardous Materials ROHS,Cybenetics Noise Level Certification.",
+      description1:"Efficiency 80Plus Titanium,Protection Features OPP/OVP/UVP/SCP/OCP/OTP,Hazardous Materials ROHS,AC Input Range,100-240Vac Thermal Features ROG Thermal Solution, DC Output Voltage +3.3V +5V +12V -12V +5Vsb,Maximum Load 20A 20A 133.3A 0.3A 3A,Addressable RGB Cable x 1 (800mm)",
+      imagePath: "lib/images/psu/13.png",
+      price: 165000,
+      category: PartsCategory.PowerSupluy,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for VERTIV LIEBERT GXT MT+ 2KVA ONLINE UPS
+      Part(
+      name1: "VERTIV LIEBERT ONLINE UPS",
+      name: "VERTIV LIEBERT GXT MT+ 2KVA ONLINE UPS",
+      description: "3 Years Warranty,80Plus Titanium,Hazardous Materials ROHS,Cybenetics Noise Level Certification.",
+      description1:"Efficiency 80Plus Titanium,Protection Features OPP/OVP/UVP/SCP/OCP/OTP,Hazardous Materials ROHS,AC Input Range,100-240Vac Thermal Features ROG Thermal Solution, DC Output Voltage +3.3V +5V +12V -12V +5Vsb,Maximum Load 20A 20A 133.3A 0.3A 3A,Addressable RGB Cable x 1 (800mm)",
+      imagePath: "lib/images/psu/11.png",
+      price: 165000,
+      category: PartsCategory.PowerSupluy,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for PROLINK Professional II+ Series 2KVA Online UPS
+      Part(
+      name1: "PROLINK Professional II+",
+      name: "PROLINK Professional II+ Series 2KVA Online UPS",
+      description: "3 Years Warranty,80Plus Titanium,Hazardous Materials ROHS,Cybenetics Noise Level Certification.",
+      description1:"Efficiency 80Plus Titanium,Protection Features OPP/OVP/UVP/SCP/OCP/OTP,Hazardous Materials ROHS,AC Input Range,100-240Vac Thermal Features ROG Thermal Solution, DC Output Voltage +3.3V +5V +12V -12V +5Vsb,Maximum Load 20A 20A 133.3A 0.3A 3A,Addressable RGB Cable x 1 (800mm)",
+      imagePath: "lib/images/psu/12.png",
+      price: 165000,
+      category: PartsCategory.PowerSupluy,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for PROLINK UPS PRO1201SFC
+      Part(
+      name1: "PROLINK UPS PRO1201SFC",
+      name: "PROLINK UPS PRO1201SFC",
+      description: "3 Years Warranty,80Plus Titanium,Hazardous Materials ROHS,Cybenetics Noise Level Certification.",
+      description1:"Efficiency 80Plus Titanium,Protection Features OPP/OVP/UVP/SCP/OCP/OTP,Hazardous Materials ROHS,AC Input Range,100-240Vac Thermal Features ROG Thermal Solution, DC Output Voltage +3.3V +5V +12V -12V +5Vsb,Maximum Load 20A 20A 133.3A 0.3A 3A,Addressable RGB Cable x 1 (800mm)",
+      imagePath: "lib/images/psu/3.png",
+      price: 165000,
+      category: PartsCategory.PowerSupluy,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for PROLINK UPS PRO701SFC
+      Part(
+      name1: "PROLINK UPS PRO701SFC",
+      name: "PROLINK UPS PRO701SFC",
+      description: "3 Years Warranty,80Plus Titanium,Hazardous Materials ROHS,Cybenetics Noise Level Certification.",
+      description1:"Efficiency 80Plus Titanium,Protection Features OPP/OVP/UVP/SCP/OCP/OTP,Hazardous Materials ROHS,AC Input Range,100-240Vac Thermal Features ROG Thermal Solution, DC Output Voltage +3.3V +5V +12V -12V +5Vsb,Maximum Load 20A 20A 133.3A 0.3A 3A,Addressable RGB Cable x 1 (800mm)",
+      imagePath: "lib/images/psu/2.png",
+      price: 165000,
+      category: PartsCategory.PowerSupluy,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+//======================================================================================================
+//monitors
+      //for MSI MPG491CQP 49 Inch QD-OLED UWQHD (5120 X 1440) 144Hz Gaming Monitor
+      Part(
+      name1: "MSI MPG491CQP 49 Inch QD-OLED",
+      name: "MSI MPG491CQP 49 Inch QD-OLED UWQHD (5120 X 1440) 144Hz Gaming Monitor.",
+      description: "3 Years Warranty,Panel Size 49-124.46 cm,Curvature Curve 1800R,TECHNOLOGY Adaptive-Sync,For True Gaming Monitor.",
+      description1:"Panel Resolution 5120 x 1440 (DQHD),Pixel Pitch (H x V) 0.233(H) x 0.233(V),Outre: 1350 x 301 x 520 mm,Frameless Design Yes,PIP / PBP Function Yes,Video ports 1x DisplayPort (1.4a)/2x HDMI™ 2.1/1 x Type-c (DP alt.) w/PD 90W,Contrast Ratio 1500000:1 (Typ.),HDR Support DisplayHDR True Black 400,Adobe RGB / DCI-P3 / sRGB 98% / 99% / 146%.",
+      imagePath: "lib/images/monitors/16.png",
+      price: 615000,
+      category: PartsCategory.Monitors,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for MSI MAG 341CQP 34 Inch QD-OLED UWQHD (3440 X 1440) 175Hz Gaming Monitor
+      Part(
+      name1: "MSI MAG 341CQP 34 Inch QD-OLED",
+      name: "MSI MAG 341CQP 34 Inch QD-OLED UWQHD (3440 X 1440) 175Hz Gaming Monitor",
+      description: "3 Years Warranty,Panel Size 49-124.46 cm,Curvature Curve 1800R,TECHNOLOGY Adaptive-Sync,For True Gaming Monitor.",
+      description1:"Panel Resolution 5120 x 1440 (DQHD),Pixel Pitch (H x V) 0.233(H) x 0.233(V),Outre: 1350 x 301 x 520 mm,Frameless Design Yes,PIP / PBP Function Yes,Video ports 1x DisplayPort (1.4a)/2x HDMI™ 2.1/1 x Type-c (DP alt.) w/PD 90W,Contrast Ratio 1500000:1 (Typ.),HDR Support DisplayHDR True Black 400,Adobe RGB / DCI-P3 / sRGB 98% / 99% / 146%.",
+      imagePath: "lib/images/monitors/7.png",
+      price: 455000,
+      category: PartsCategory.Monitors,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for MSI MAG 271QPX 27 Inch QD-OLED 2K (2560x1440) 360Hz Gaming Monitor
+      Part(
+      name1: "MSI MAG 271QPX 27 Inch QD-OLED 2K",
+      name: "MSI MAG 271QPX 27 Inch QD-OLED 2K (2560x1440) 360Hz Gaming Monitor",
+      description: "3 Years Warranty,Panel Size 49-124.46 cm,Curvature Curve 1800R,TECHNOLOGY Adaptive-Sync,For True Gaming Monitor.",
+      description1:"Panel Resolution 5120 x 1440 (DQHD),Pixel Pitch (H x V) 0.233(H) x 0.233(V),Outre: 1350 x 301 x 520 mm,Frameless Design Yes,PIP / PBP Function Yes,Video ports 1x DisplayPort (1.4a)/2x HDMI™ 2.1/1 x Type-c (DP alt.) w/PD 90W,Contrast Ratio 1500000:1 (Typ.),HDR Support DisplayHDR True Black 400,Adobe RGB / DCI-P3 / sRGB 98% / 99% / 146%.",
+      imagePath: "lib/images/monitors/19.png",
+      price: 413000,
+      category: PartsCategory.Monitors,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for ASUS ROG Strix XG49VQ Super Ultra-Wide HDR Gaming Monitor 49" (3840 x 1080), 144Hz
+      Part(
+      name1: "ASUS ROG Strix XG49VQ Super Ultra-Wide",
+      name: "ASUS ROG Strix XG49VQ Super Ultra-Wide HDR Gaming Monitor 49 (3840 x 1080), 144Hz",
+      description: "3 Years Warranty,49-inch 32:9 (3840 x 1080) super ultra-wide HDR gaming,monitor HDR with 144Hz refresh rate for super-smooth gaming visuals.",
+      description1:"Panel Resolution 5120 x 1440 (DQHD),Pixel Pitch (H x V) 0.233(H) x 0.233(V),Outre: 1350 x 301 x 520 mm,Frameless Design Yes,PIP / PBP Function Yes,Video ports 1x DisplayPort (1.4a)/2x HDMI™ 2.1/1 x Type-c (DP alt.) w/PD 90W,Contrast Ratio 1500000:1 (Typ.),HDR Support DisplayHDR True Black 400,Adobe RGB / DCI-P3 / sRGB 98% / 99% / 146%.",
+      imagePath: "lib/images/monitors/15.png",
+      price: 413000,
+      category: PartsCategory.Monitors,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for ASUS ROG Swift OLED PG34WCDM 34" 240HZ 3440 x 1440 Type-C Monitor
+      Part(
+      name1: "ASUS ROG Swift OLED PG34WCDM",
+      name: "ASUS ROG Swift OLED PG34WCDM 34 240HZ 3440 x 1440 Type-C Monitor",
+      description: "3 Years Warranty,49-inch 32:9 (3840 x 1080) super ultra-wide HDR gaming,monitor HDR with 144Hz refresh rate for super-smooth gaming visuals.",
+      description1:"Panel Resolution 5120 x 1440 (DQHD),Pixel Pitch (H x V) 0.233(H) x 0.233(V),Outre: 1350 x 301 x 520 mm,Frameless Design Yes,PIP / PBP Function Yes,Video ports 1x DisplayPort (1.4a)/2x HDMI™ 2.1/1 x Type-c (DP alt.) w/PD 90W,Contrast Ratio 1500000:1 (Typ.),HDR Support DisplayHDR True Black 400,Adobe RGB / DCI-P3 / sRGB 98% / 99% / 146%.",
+      imagePath: "lib/images/monitors/23.png",
+      price: 413000,
+      category: PartsCategory.Monitors,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for ASUS ROG Strix XG49WCR 49" Double QHD (5120 x 1440) USB-C 165HZ OC
+      Part(
+      name1: "ASUS ROG Strix XG49WCR 49",
+      name: "ASUS ROG Strix XG49WCR 49 Double QHD (5120 x 1440) USB-C 165HZ OC",
+      description: "3 Years Warranty,49-inch 32:9 (3840 x 1080) super ultra-wide HDR gaming,monitor HDR with 144Hz refresh rate for super-smooth gaming visuals.",
+      description1:"Panel Resolution 5120 x 1440 (DQHD),Pixel Pitch (H x V) 0.233(H) x 0.233(V),Outre: 1350 x 301 x 520 mm,Frameless Design Yes,PIP / PBP Function Yes,Video ports 1x DisplayPort (1.4a)/2x HDMI™ 2.1/1 x Type-c (DP alt.) w/PD 90W,Contrast Ratio 1500000:1 (Typ.),HDR Support DisplayHDR True Black 400,Adobe RGB / DCI-P3 / sRGB 98% / 99% / 146%.",
+      imagePath: "lib/images/monitors/21.png",
+      price: 413000,
+      category: PartsCategory.Monitors,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for ViewSonic Elite XG270QG Nano-IPS 27" 1ms 2K 165Hz Monitor
+      Part(
+      name1: "ViewSonic Elite XG270QG Nano-IPS",
+      name: "ViewSonic Elite XG270QG Nano-IPS 27 1ms 2K 165Hz Monitor",
+      description: "3 Years Warranty,49-inch 32:9 (3840 x 1080) super ultra-wide HDR gaming,monitor HDR with 144Hz refresh rate for super-smooth gaming visuals.",
+      description1:"Panel Resolution 5120 x 1440 (DQHD),Pixel Pitch (H x V) 0.233(H) x 0.233(V),Outre: 1350 x 301 x 520 mm,Frameless Design Yes,PIP / PBP Function Yes,Video ports 1x DisplayPort (1.4a)/2x HDMI™ 2.1/1 x Type-c (DP alt.) w/PD 90W,Contrast Ratio 1500000:1 (Typ.),HDR Support DisplayHDR True Black 400,Adobe RGB / DCI-P3 / sRGB 98% / 99% / 146%.",
+      imagePath: "lib/images/monitors/4.png",
+      price: 413000,
+      category: PartsCategory.Monitors,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for ASUS TUF Gaming VG34VQL3A 34” (3440 x 1440) 1500R 180Hz OC Curved Monitor
+      Part(
+      name1: "ASUS TUF Gaming VG34VQL3A 34",
+      name: "ASUS TUF Gaming VG34VQL3A 34” (3440 x 1440) 1500R 180Hz OC Curved Monitor",
+      description: "3 Years Warranty,49-inch 32:9 (3840 x 1080) super ultra-wide HDR gaming,monitor HDR with 144Hz refresh rate for super-smooth gaming visuals.",
+      description1:"Panel Resolution 5120 x 1440 (DQHD),Pixel Pitch (H x V) 0.233(H) x 0.233(V),Outre: 1350 x 301 x 520 mm,Frameless Design Yes,PIP / PBP Function Yes,Video ports 1x DisplayPort (1.4a)/2x HDMI™ 2.1/1 x Type-c (DP alt.) w/PD 90W,Contrast Ratio 1500000:1 (Typ.),HDR Support DisplayHDR True Black 400,Adobe RGB / DCI-P3 / sRGB 98% / 99% / 146%.",
+      imagePath: "lib/images/monitors/14.png",
+      price: 413000,
+      category: PartsCategory.Monitors,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for MSI Gaming MAG401QR 40 " IPS, 3440x1440 155Hz Type C
+      Part(
+      name1: "MSI Gaming MAG401QR 40 IPS",
+      name: "MSI Gaming MAG401QR 40 IPS, 3440x1440 155Hz Type C",
+      description: "3 Years Warranty,49-inch 32:9 (3840 x 1080) super ultra-wide HDR gaming,monitor HDR with 144Hz refresh rate for super-smooth gaming visuals.",
+      description1:"Panel Resolution 5120 x 1440 (DQHD),Pixel Pitch (H x V) 0.233(H) x 0.233(V),Outre: 1350 x 301 x 520 mm,Frameless Design Yes,PIP / PBP Function Yes,Video ports 1x DisplayPort (1.4a)/2x HDMI™ 2.1/1 x Type-c (DP alt.) w/PD 90W,Contrast Ratio 1500000:1 (Typ.),HDR Support DisplayHDR True Black 400,Adobe RGB / DCI-P3 / sRGB 98% / 99% / 146%.",
+      imagePath: "lib/images/monitors/20.png",
+      price: 413000,
+      category: PartsCategory.Monitors,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for ASUS ProArt 32" PA329CRV 4K UHD USB-C PD 96W 98% DCI-P3
+      Part(
+      name1: "ASUS ProArt 32 PA329CRV 4K",
+      name: "ASUS ProArt 32 PA329CRV 4K UHD USB-C PD 96W 98% DCI-P3",
+      description: "3 Years Warranty,49-inch 32:9 (3840 x 1080) super ultra-wide HDR gaming,monitor HDR with 144Hz refresh rate for super-smooth gaming visuals.",
+      description1:"Panel Resolution 5120 x 1440 (DQHD),Pixel Pitch (H x V) 0.233(H) x 0.233(V),Outre: 1350 x 301 x 520 mm,Frameless Design Yes,PIP / PBP Function Yes,Video ports 1x DisplayPort (1.4a)/2x HDMI™ 2.1/1 x Type-c (DP alt.) w/PD 90W,Contrast Ratio 1500000:1 (Typ.),HDR Support DisplayHDR True Black 400,Adobe RGB / DCI-P3 / sRGB 98% / 99% / 146%.",
+      imagePath: "lib/images/monitors/8.png",
+      price: 413000,
+      category: PartsCategory.Monitors,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for ASUS TUF Gaming VG328QA1A FHD 170HZ VA Freesync Premium
+      Part(
+      name1: "ASUS TUF Gaming VG328QA1A",
+      name: "ASUS TUF Gaming VG328QA1A FHD 170HZ VA Freesync Premium",
+      description: "3 Years Warranty,49-inch 32:9 (3840 x 1080) super ultra-wide HDR gaming,monitor HDR with 144Hz refresh rate for super-smooth gaming visuals.",
+      description1:"Panel Resolution 5120 x 1440 (DQHD),Pixel Pitch (H x V) 0.233(H) x 0.233(V),Outre: 1350 x 301 x 520 mm,Frameless Design Yes,PIP / PBP Function Yes,Video ports 1x DisplayPort (1.4a)/2x HDMI™ 2.1/1 x Type-c (DP alt.) w/PD 90W,Contrast Ratio 1500000:1 (Typ.),HDR Support DisplayHDR True Black 400,Adobe RGB / DCI-P3 / sRGB 98% / 99% / 146%.",
+      imagePath: "lib/images/monitors/26.png",
+      price: 413000,
+      category: PartsCategory.Monitors,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for ASUS TUF Gaming VG249Q3A 24" FAST IPS 180HZ Adaptive-sync, FreeSync,1ms
+      Part(
+      name1: "ASUS TUF Gaming VG249Q3A 24",
+      name: "ASUS TUF Gaming VG249Q3A 24 FAST IPS 180HZ Adaptive-sync, FreeSync,1ms",
+      description: "3 Years Warranty,49-inch 32:9 (3840 x 1080) super ultra-wide HDR gaming,monitor HDR with 144Hz refresh rate for super-smooth gaming visuals.",
+      description1:"Panel Resolution 5120 x 1440 (DQHD),Pixel Pitch (H x V) 0.233(H) x 0.233(V),Outre: 1350 x 301 x 520 mm,Frameless Design Yes,PIP / PBP Function Yes,Video ports 1x DisplayPort (1.4a)/2x HDMI™ 2.1/1 x Type-c (DP alt.) w/PD 90W,Contrast Ratio 1500000:1 (Typ.),HDR Support DisplayHDR True Black 400,Adobe RGB / DCI-P3 / sRGB 98% / 99% / 146%.",
+      imagePath: "lib/images/monitors/27.png",
+      price: 413000,
+      category: PartsCategory.Monitors,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for ASUS ProArt PA247CV 1080P USB-C Calman Verified Professional Monitor
+      Part(
+      name1: "ASUS ProArt PA247CV 1080P USB-C",
+      name: "ASUS ProArt PA247CV 1080P USB-C Calman Verified Professional Monitor",
+      description: "3 Years Warranty,49-inch 32:9 (3840 x 1080) super ultra-wide HDR gaming,monitor HDR with 144Hz refresh rate for super-smooth gaming visuals.",
+      description1:"Panel Resolution 5120 x 1440 (DQHD),Pixel Pitch (H x V) 0.233(H) x 0.233(V),Outre: 1350 x 301 x 520 mm,Frameless Design Yes,PIP / PBP Function Yes,Video ports 1x DisplayPort (1.4a)/2x HDMI™ 2.1/1 x Type-c (DP alt.) w/PD 90W,Contrast Ratio 1500000:1 (Typ.),HDR Support DisplayHDR True Black 400,Adobe RGB / DCI-P3 / sRGB 98% / 99% / 146%.",
+      imagePath: "lib/images/monitors/9.png",
+      price: 413000,
+      category: PartsCategory.Monitors,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+       //for Gigabyte AORUS FO48U OLED UHD 4K 120Hz Gaming Monitor
+      Part(
+      name1: "Gigabyte AORUS FO48U OLED",
+      name: "Gigabyte AORUS FO48U OLED UHD 4K 120Hz Gaming Monitor",
+      description: "3 Years Warranty,49-inch 32:9 (3840 x 1080) super ultra-wide HDR gaming,monitor HDR with 144Hz refresh rate for super-smooth gaming visuals.",
+      description1:"Panel Resolution 5120 x 1440 (DQHD),Pixel Pitch (H x V) 0.233(H) x 0.233(V),Outre: 1350 x 301 x 520 mm,Frameless Design Yes,PIP / PBP Function Yes,Video ports 1x DisplayPort (1.4a)/2x HDMI™ 2.1/1 x Type-c (DP alt.) w/PD 90W,Contrast Ratio 1500000:1 (Typ.),HDR Support DisplayHDR True Black 400,Adobe RGB / DCI-P3 / sRGB 98% / 99% / 146%.",
+      imagePath: "lib/images/monitors/12.png",
+      price: 413000,
+      category: PartsCategory.Monitors,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+       //for Gigabyte GS32QC 32" 2K QHD 170HZ OC Curved Gaming Monitor
+      Part(
+      name1: "Gigabyte GS32QC 32 2K QHD",
+      name: "Gigabyte GS32QC 32 2K QHD 170HZ OC Curved Gaming Monitor",
+      description: "3 Years Warranty,49-inch 32:9 (3840 x 1080) super ultra-wide HDR gaming,monitor HDR with 144Hz refresh rate for super-smooth gaming visuals.",
+      description1:"Panel Resolution 5120 x 1440 (DQHD),Pixel Pitch (H x V) 0.233(H) x 0.233(V),Outre: 1350 x 301 x 520 mm,Frameless Design Yes,PIP / PBP Function Yes,Video ports 1x DisplayPort (1.4a)/2x HDMI™ 2.1/1 x Type-c (DP alt.) w/PD 90W,Contrast Ratio 1500000:1 (Typ.),HDR Support DisplayHDR True Black 400,Adobe RGB / DCI-P3 / sRGB 98% / 99% / 146%.",
+      imagePath: "lib/images/monitors/17.png",
+      price: 413000,
+      category: PartsCategory.Monitors,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+       //for ASUS ProArt 34 " PA348CGV Ultra Wide QHD (3440 x 1440) IPS USB-C 120HZ Calman Verified
+      Part(
+      name1: "ASUS ProArt 34 PA348CGV",
+      name: "ASUS ProArt 34 PA348CGV Ultra Wide QHD (3440 x 1440) IPS USB-C 120HZ Calman Verified",
+      description: "3 Years Warranty,49-inch 32:9 (3840 x 1080) super ultra-wide HDR gaming,monitor HDR with 144Hz refresh rate for super-smooth gaming visuals.",
+      description1:"Panel Resolution 5120 x 1440 (DQHD),Pixel Pitch (H x V) 0.233(H) x 0.233(V),Outre: 1350 x 301 x 520 mm,Frameless Design Yes,PIP / PBP Function Yes,Video ports 1x DisplayPort (1.4a)/2x HDMI™ 2.1/1 x Type-c (DP alt.) w/PD 90W,Contrast Ratio 1500000:1 (Typ.),HDR Support DisplayHDR True Black 400,Adobe RGB / DCI-P3 / sRGB 98% / 99% / 146%.",
+      imagePath: "lib/images/monitors/18.png",
+      price: 413000,
+      category: PartsCategory.Monitors,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+       //for ASUS ROG STRIX XG35VQ (3440x1440) 100Hz, Adaptive-Sync
+      Part(
+      name1: "ASUS ROG STRIX XG35VQ (3440x1440)",
+      name: "ASUS ROG STRIX XG35VQ (3440x1440) 100Hz, Adaptive-Sync",
+      description: "3 Years Warranty,49-inch 32:9 (3840 x 1080) super ultra-wide HDR gaming,monitor HDR with 144Hz refresh rate for super-smooth gaming visuals.",
+      description1:"Panel Resolution 5120 x 1440 (DQHD),Pixel Pitch (H x V) 0.233(H) x 0.233(V),Outre: 1350 x 301 x 520 mm,Frameless Design Yes,PIP / PBP Function Yes,Video ports 1x DisplayPort (1.4a)/2x HDMI™ 2.1/1 x Type-c (DP alt.) w/PD 90W,Contrast Ratio 1500000:1 (Typ.),HDR Support DisplayHDR True Black 400,Adobe RGB / DCI-P3 / sRGB 98% / 99% / 146%.",
+      imagePath: "lib/images/monitors/24.png",
+      price: 413000,
+      category: PartsCategory.Monitors,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for MSI PRO MP341CQ 3440 x 1440 (UWQHD) 100HZ Ultra Wide Monitor
+      Part(
+      name1: "MSI PRO MP341CQ 3440 x 1440",
+      name: "MSI PRO MP341CQ 3440 x 1440 (UWQHD) 100HZ Ultra Wide Monitor",
+      description: "3 Years Warranty,49-inch 32:9 (3840 x 1080) super ultra-wide HDR gaming,monitor HDR with 144Hz refresh rate for super-smooth gaming visuals.",
+      description1:"Panel Resolution 5120 x 1440 (DQHD),Pixel Pitch (H x V) 0.233(H) x 0.233(V),Outre: 1350 x 301 x 520 mm,Frameless Design Yes,PIP / PBP Function Yes,Video ports 1x DisplayPort (1.4a)/2x HDMI™ 2.1/1 x Type-c (DP alt.) w/PD 90W,Contrast Ratio 1500000:1 (Typ.),HDR Support DisplayHDR True Black 400,Adobe RGB / DCI-P3 / sRGB 98% / 99% / 146%.",
+      imagePath: "lib/images/monitors/1.png",
+      price: 413000,
+      category: PartsCategory.Monitors,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for GIGABYTE G24F 2 24' 1080P IPS 165HZ (180HZ OC) Gaming Monitor
+      Part(
+      name1: "GIGABYTE G24F 2 24' 1080P IPS 165HZ",
+      name: "GIGABYTE G24F 2 24' 1080P IPS 165HZ (180HZ OC) Gaming Monitor",
+      description: "3 Years Warranty,49-inch 32:9 (3840 x 1080) super ultra-wide HDR gaming,monitor HDR with 144Hz refresh rate for super-smooth gaming visuals.",
+      description1:"Panel Resolution 5120 x 1440 (DQHD),Pixel Pitch (H x V) 0.233(H) x 0.233(V),Outre: 1350 x 301 x 520 mm,Frameless Design Yes,PIP / PBP Function Yes,Video ports 1x DisplayPort (1.4a)/2x HDMI™ 2.1/1 x Type-c (DP alt.) w/PD 90W,Contrast Ratio 1500000:1 (Typ.),HDR Support DisplayHDR True Black 400,Adobe RGB / DCI-P3 / sRGB 98% / 99% / 146%.",
+      imagePath: "lib/images/monitors/10.png",
+      price: 413000,
+      category: PartsCategory.Monitors,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for Lenovo L29w-30 29" Ultrawide 90Hz Monitor
+      Part(
+      name1: "Lenovo L29w-30 29",
+      name: "Lenovo L29w-30 29 Ultrawide 90Hz Monitor",
+      description: "3 Years Warranty,49-inch 32:9 (3840 x 1080) super ultra-wide HDR gaming,monitor HDR with 144Hz refresh rate for super-smooth gaming visuals.",
+      description1:"Panel Resolution 5120 x 1440 (DQHD),Pixel Pitch (H x V) 0.233(H) x 0.233(V),Outre: 1350 x 301 x 520 mm,Frameless Design Yes,PIP / PBP Function Yes,Video ports 1x DisplayPort (1.4a)/2x HDMI™ 2.1/1 x Type-c (DP alt.) w/PD 90W,Contrast Ratio 1500000:1 (Typ.),HDR Support DisplayHDR True Black 400,Adobe RGB / DCI-P3 / sRGB 98% / 99% / 146%.",
+      imagePath: "lib/images/monitors/22.png",
+      price: 413000,
+      category: PartsCategory.Monitors,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for ASUS VA24EHF 24" IPS 100HZ Frameless Monitor Adaptive Sync
+      Part(
+      name1: "ASUS VA24EHF 24 IPS 100HZ",
+      name: "ASUS VA24EHF 24 IPS 100HZ Frameless Monitor Adaptive Sync",
+      description: "3 Years Warranty,49-inch 32:9 (3840 x 1080) super ultra-wide HDR gaming,monitor HDR with 144Hz refresh rate for super-smooth gaming visuals.",
+      description1:"Panel Resolution 5120 x 1440 (DQHD),Pixel Pitch (H x V) 0.233(H) x 0.233(V),Outre: 1350 x 301 x 520 mm,Frameless Design Yes,PIP / PBP Function Yes,Video ports 1x DisplayPort (1.4a)/2x HDMI™ 2.1/1 x Type-c (DP alt.) w/PD 90W,Contrast Ratio 1500000:1 (Typ.),HDR Support DisplayHDR True Black 400,Adobe RGB / DCI-P3 / sRGB 98% / 99% / 146%.",
+      imagePath: "lib/images/monitors/6.png",
+      price: 413000,
+      category: PartsCategory.Monitors,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for North Bayou M80 22"-32" Gas-Strut Partition Rail Dual Mount
+      Part(
+      name1: "North Bayou M80 22-32 Gas-Strut",
+      name: "North Bayou M80 22-32 Gas-Strut Partition Rail Dual Mount",
+      description: "3 Years Warranty,49-inch 32:9 (3840 x 1080) super ultra-wide HDR gaming,monitor HDR with 144Hz refresh rate for super-smooth gaming visuals.",
+      description1:"Panel Resolution 5120 x 1440 (DQHD),Pixel Pitch (H x V) 0.233(H) x 0.233(V),Outre: 1350 x 301 x 520 mm,Frameless Design Yes,PIP / PBP Function Yes,Video ports 1x DisplayPort (1.4a)/2x HDMI™ 2.1/1 x Type-c (DP alt.) w/PD 90W,Contrast Ratio 1500000:1 (Typ.),HDR Support DisplayHDR True Black 400,Adobe RGB / DCI-P3 / sRGB 98% / 99% / 146%.",
+      imagePath: "lib/images/monitors/3.png",
+      price: 413000,
+      category: PartsCategory.Monitors,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+
 //======================================================================================================
   ];
 

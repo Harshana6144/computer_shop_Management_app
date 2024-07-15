@@ -32,6 +32,7 @@ enum PartsCategory
   Coollers,
   PowerSupluy,
   Monitors,
+  Laptops,
   keyboardMouse,
   GamingDesktop,
   Warktations,
