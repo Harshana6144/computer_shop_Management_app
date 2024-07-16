@@ -3509,6 +3509,23 @@ class Shop extends ChangeNotifier{
         ],
       ),
 
+//======================================================================================================
+//Laptop
+//for North Bayou M80 22"-32" Gas-Strut Partition Rail Dual Mount
+      Part(
+      name1: "North Bayou M80 22-32 Gas-Strut",
+      name: "North Bayou M80 22-32 Gas-Strut Partition Rail Dual Mount",
+      description: "3 Years Warranty,49-inch 32:9 (3840 x 1080) super ultra-wide HDR gaming,monitor HDR with 144Hz refresh rate for super-smooth gaming visuals.",
+      description1:"Panel Resolution 5120 x 1440 (DQHD),Pixel Pitch (H x V) 0.233(H) x 0.233(V),Outre: 1350 x 301 x 520 mm,Frameless Design Yes,PIP / PBP Function Yes,Video ports 1x DisplayPort (1.4a)/2x HDMI™ 2.1/1 x Type-c (DP alt.) w/PD 90W,Contrast Ratio 1500000:1 (Typ.),HDR Support DisplayHDR True Black 400,Adobe RGB / DCI-P3 / sRGB 98% / 99% / 146%.",
+      imagePath: "lib/images/laptops/1.png",
+      price: 413000,
+      category: PartsCategory.Laptops,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
 
 //======================================================================================================
   ];
