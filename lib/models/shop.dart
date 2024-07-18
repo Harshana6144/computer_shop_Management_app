@@ -3511,14 +3511,30 @@ class Shop extends ChangeNotifier{
 
 //======================================================================================================
 //Laptop
-//for North Bayou M80 22"-32" Gas-Strut Partition Rail Dual Mount
+//for MSI Stealth 16 Mercedes-AMG A13V I9 13TH RTX 4070
       Part(
-      name1: "North Bayou M80 22-32 Gas-Strut",
-      name: "North Bayou M80 22-32 Gas-Strut Partition Rail Dual Mount",
-      description: "3 Years Warranty,49-inch 32:9 (3840 x 1080) super ultra-wide HDR gaming,monitor HDR with 144Hz refresh rate for super-smooth gaming visuals.",
-      description1:"Panel Resolution 5120 x 1440 (DQHD),Pixel Pitch (H x V) 0.233(H) x 0.233(V),Outre: 1350 x 301 x 520 mm,Frameless Design Yes,PIP / PBP Function Yes,Video ports 1x DisplayPort (1.4a)/2x HDMI™ 2.1/1 x Type-c (DP alt.) w/PD 90W,Contrast Ratio 1500000:1 (Typ.),HDR Support DisplayHDR True Black 400,Adobe RGB / DCI-P3 / sRGB 98% / 99% / 146%.",
+      name1: "MSI Stealth 16 Mercedes-AMG",
+      name: "MSI Stealth 16 Mercedes-AMG A13V I9 13TH RTX 4070",
+      description: "3 Years Warranty,MSI Stealth series x Mercedes-AMG Motorsport, AMG experience paired with MSI cooling technology paves the road to success in gaming.",
+      description1:"MSI Stealth 16 Mercedes-AMG Motorsport A13V I9 13TH,RTX 4070 OLED,Intel® Core™ i9-13900H (24M Cache, up to 5.40Hz, 14,Cores 20 Threads), 32GB DDR5 5200MHZ (16GB x 2 Removable),NVIDIA® GeForce RTX 4070 8GB GDDR6,Per-Key RGB Gaming Keyboard by SteelSeries,Fingerprint Reader,Free MSI AMG Pouch, MSI AMG USB Driver, MSI AMG.",
       imagePath: "lib/images/laptops/1.png",
-      price: 413000,
+      price: 790000,
+      category: PartsCategory.Laptops,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+//for ASUS ROG Strix SCAR 16 (2024) G634JZR i9 14TH GEN RTX 4080
+      Part(
+      name1: "ASUS ROG Strix SCAR 16 (2024)",
+      name: "ASUS ROG Strix SCAR 16 (2024) G634JZR i9 14TH GEN RTX 4080",
+      description: "3 Years Warranty,Dominate the Windows 11 Home battlefield with the ROG,Strix SCAR 16,Get the drop on the competition with a lightning-fast and crystal-clear 16-inch 2.5K 240Hz Nebula.",
+      description1:"MSI Stealth 16 Mercedes-AMG Motorsport A13V I9 13TH,RTX 4070 OLED,Intel® Core™ i9-13900H (24M Cache, up to 5.40Hz, 14,Cores 20 Threads), 32GB DDR5 5200MHZ (16GB x 2 Removable),NVIDIA® GeForce RTX 4070 8GB GDDR6,Per-Key RGB Gaming Keyboard by SteelSeries,Fingerprint Reader,Free MSI AMG Pouch, MSI AMG USB Driver, MSI AMG.",
+      imagePath: "lib/images/laptops/16.png",
+      price: 1589000,
       category: PartsCategory.Laptops,
       availableAddons: [
         Addon(name: "Stikers", price: 1000),
