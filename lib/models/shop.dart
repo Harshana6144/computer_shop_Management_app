@@ -3515,7 +3515,7 @@ class Shop extends ChangeNotifier{
       Part(
       name1: "MSI Stealth 16 Mercedes-AMG",
       name: "MSI Stealth 16 Mercedes-AMG A13V I9 13TH RTX 4070",
-      description: "3 Years Warranty,MSI Stealth series x Mercedes-AMG Motorsport, AMG experience paired with MSI cooling technology paves the road to success in gaming.",
+      description: "3 Years Warranty,AMG experience paired with MSI cooling technology paves the road to success in gaming.",
       description1:"MSI Stealth 16 Mercedes-AMG Motorsport A13V I9 13TH,RTX 4070 OLED,Intel® Core™ i9-13900H (24M Cache, up to 5.40Hz, 14,Cores 20 Threads), 32GB DDR5 5200MHZ (16GB x 2 Removable),NVIDIA® GeForce RTX 4070 8GB GDDR6,Per-Key RGB Gaming Keyboard by SteelSeries,Fingerprint Reader,Free MSI AMG Pouch, MSI AMG USB Driver, MSI AMG.",
       imagePath: "lib/images/laptops/1.png",
       price: 790000,
@@ -3531,10 +3531,250 @@ class Shop extends ChangeNotifier{
       Part(
       name1: "ASUS ROG Strix SCAR 16 (2024)",
       name: "ASUS ROG Strix SCAR 16 (2024) G634JZR i9 14TH GEN RTX 4080",
-      description: "3 Years Warranty,Dominate the Windows 11 Home battlefield with the ROG,Strix SCAR 16,Get the drop on the competition with a lightning-fast and crystal-clear 16-inch 2.5K 240Hz Nebula.",
+      description: "3 Years Warranty,Dominate the Windows 11 Home battlefield with the ROG Strix SCAR 16,Crystal-clear 16-inch 240Hz Nebula.",
       description1:"MSI Stealth 16 Mercedes-AMG Motorsport A13V I9 13TH,RTX 4070 OLED,Intel® Core™ i9-13900H (24M Cache, up to 5.40Hz, 14,Cores 20 Threads), 32GB DDR5 5200MHZ (16GB x 2 Removable),NVIDIA® GeForce RTX 4070 8GB GDDR6,Per-Key RGB Gaming Keyboard by SteelSeries,Fingerprint Reader,Free MSI AMG Pouch, MSI AMG USB Driver, MSI AMG.",
       imagePath: "lib/images/laptops/16.png",
       price: 1589000,
+      category: PartsCategory.Laptops,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+  //for ASUS TUF GAMING F15 2023 FX507VV4 i7 13th RTX 4060
+      Part(
+      name1: "ASUS TUF GAMING F15 2023 FX507VV4",
+      name: "ASUS TUF GAMING F15 2023 FX507VV4 i7 13th RTX 4060",
+      description: "3 Years Warranty,Dominate the Windows 11 Home battlefield with the ROG Strix SCAR 16,Crystal-clear 16-inch 240Hz Nebula.",
+      description1:"MSI Stealth 16 Mercedes-AMG Motorsport A13V I9 13TH,RTX 4070 OLED,Intel® Core™ i9-13900H (24M Cache, up to 5.40Hz, 14,Cores 20 Threads), 32GB DDR5 5200MHZ (16GB x 2 Removable),NVIDIA® GeForce RTX 4070 8GB GDDR6,Per-Key RGB Gaming Keyboard by SteelSeries,Fingerprint Reader,Free MSI AMG Pouch, MSI AMG USB Driver, MSI AMG.",
+      imagePath: "lib/images/laptops/2.png",
+      price: 474000,
+      category: PartsCategory.Laptops,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+  //for MSI Cyborg 15 A12UDX I5 12TH GEN RTX 3050 6GB
+      Part(
+      name1: "MSI Cyborg 15 A12UDX I5",
+      name: "MSI Cyborg 15 A12UDX I5 12TH GEN RTX 3050 6GB",
+      description: "3 Years Warranty,Dominate the Windows 11 Home battlefield with the ROG Strix SCAR 16,Crystal-clear 16-inch 240Hz Nebula.",
+      description1:"MSI Stealth 16 Mercedes-AMG Motorsport A13V I9 13TH,RTX 4070 OLED,Intel® Core™ i9-13900H (24M Cache, up to 5.40Hz, 14,Cores 20 Threads), 32GB DDR5 5200MHZ (16GB x 2 Removable),NVIDIA® GeForce RTX 4070 8GB GDDR6,Per-Key RGB Gaming Keyboard by SteelSeries,Fingerprint Reader,Free MSI AMG Pouch, MSI AMG USB Driver, MSI AMG.",
+      imagePath: "lib/images/laptops/25.png",
+      price: 295000,
+      category: PartsCategory.Laptops,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+  //for MSI THIN 15 B13UC I5 13TH GEN RTX 3050
+      Part(
+      name1: "MSI THIN 15 B13UC I5 13TH GEN RTX 3050",
+      name: "MSI THIN 15 B13UC I5 13TH GEN RTX 3050",
+      description: "3 Years Warranty,Dominate the Windows 11 Home battlefield with the ROG Strix SCAR 16,Crystal-clear 16-inch 240Hz Nebula.",
+      description1:"MSI Stealth 16 Mercedes-AMG Motorsport A13V I9 13TH,RTX 4070 OLED,Intel® Core™ i9-13900H (24M Cache, up to 5.40Hz, 14,Cores 20 Threads), 32GB DDR5 5200MHZ (16GB x 2 Removable),NVIDIA® GeForce RTX 4070 8GB GDDR6,Per-Key RGB Gaming Keyboard by SteelSeries,Fingerprint Reader,Free MSI AMG Pouch, MSI AMG USB Driver, MSI AMG.",
+      imagePath: "lib/images/laptops/7.png",
+      price: 289000,
+      category: PartsCategory.Laptops,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+  //for ASUS ROG STRIX G16 2024 G614JIR I9 14TH GEN RTX 4070
+      Part(
+      name1: "ASUS ROG STRIX G16 G614JIR I9",
+      name: "ASUS ROG STRIX G16 2024 G614JIR I9 14TH GEN RTX 4070",
+      description: "3 Years Warranty,Dominate the Windows 11 Home battlefield with the ROG Strix SCAR 16,Crystal-clear 16-inch 240Hz Nebula.",
+      description1:"MSI Stealth 16 Mercedes-AMG Motorsport A13V I9 13TH,RTX 4070 OLED,Intel® Core™ i9-13900H (24M Cache, up to 5.40Hz, 14,Cores 20 Threads), 32GB DDR5 5200MHZ (16GB x 2 Removable),NVIDIA® GeForce RTX 4070 8GB GDDR6,Per-Key RGB Gaming Keyboard by SteelSeries,Fingerprint Reader,Free MSI AMG Pouch, MSI AMG USB Driver, MSI AMG.",
+      imagePath: "lib/images/laptops/50.png",
+      price: 969000,
+      category: PartsCategory.Laptops,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+  //for ASUS ZENBOOK 14 Q425MA ULTRA 7 14TH GEN OLED
+      Part(
+      name1: "ASUS ZENBOOK 14 Q425MA ULTRA 7",
+      name: "ASUS ZENBOOK 14 Q425MA ULTRA 7 14TH GEN OLED",
+      description: "3 Years Warranty,Dominate the Windows 11 Home battlefield with the ROG Strix SCAR 16,Crystal-clear 16-inch 240Hz Nebula.",
+      description1:"MSI Stealth 16 Mercedes-AMG Motorsport A13V I9 13TH,RTX 4070 OLED,Intel® Core™ i9-13900H (24M Cache, up to 5.40Hz, 14,Cores 20 Threads), 32GB DDR5 5200MHZ (16GB x 2 Removable),NVIDIA® GeForce RTX 4070 8GB GDDR6,Per-Key RGB Gaming Keyboard by SteelSeries,Fingerprint Reader,Free MSI AMG Pouch, MSI AMG USB Driver, MSI AMG.",
+      imagePath: "lib/images/laptops/17.png",
+      price: 359000,
+      category: PartsCategory.Laptops,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+   //for MSI Katana GF66 12UEOK Core I5 RTX 3060 144Hz
+      Part(
+      name1: "MSI Katana GF66 12UEOK Core I5",
+      name: "MSI Katana GF66 12UEOK Core I5 RTX 3060 144Hz",
+      description: "3 Years Warranty,Dominate the Windows 11 Home battlefield with the ROG Strix SCAR 16,Crystal-clear 16-inch 240Hz Nebula.",
+      description1:"MSI Stealth 16 Mercedes-AMG Motorsport A13V I9 13TH,RTX 4070 OLED,Intel® Core™ i9-13900H (24M Cache, up to 5.40Hz, 14,Cores 20 Threads), 32GB DDR5 5200MHZ (16GB x 2 Removable),NVIDIA® GeForce RTX 4070 8GB GDDR6,Per-Key RGB Gaming Keyboard by SteelSeries,Fingerprint Reader,Free MSI AMG Pouch, MSI AMG USB Driver, MSI AMG.",
+      imagePath: "lib/images/laptops/18.png",
+      price: 349000,
+      category: PartsCategory.Laptops,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+   //for MSI Cyborg 15 A13UCX I7 13TH GEN RTX 2050 4GB
+      Part(
+      name1: "MSI Cyborg 15 A13UCX I7",
+      name: "MSI Cyborg 15 A13UCX I7 13TH GEN RTX 2050 4GB",
+      description: "3 Years Warranty,Dominate the Windows 11 Home battlefield with the ROG Strix SCAR 16,Crystal-clear 16-inch 240Hz Nebula.",
+      description1:"MSI Stealth 16 Mercedes-AMG Motorsport A13V I9 13TH,RTX 4070 OLED,Intel® Core™ i9-13900H (24M Cache, up to 5.40Hz, 14,Cores 20 Threads), 32GB DDR5 5200MHZ (16GB x 2 Removable),NVIDIA® GeForce RTX 4070 8GB GDDR6,Per-Key RGB Gaming Keyboard by SteelSeries,Fingerprint Reader,Free MSI AMG Pouch, MSI AMG USB Driver, MSI AMG.",
+      imagePath: "lib/images/laptops/27.png",
+      price: 295000,
+      category: PartsCategory.Laptops,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+  //for MSI Vector 15 A13UCX I7 13TH GEN RTX 4080 8GB
+      Part(
+      name1: "MSI Vector 15 A13UCX I7",
+      name: "MSI Vector 15 A13UCX I7 13TH GEN RTX 4080 8GB",
+      description: "3 Years Warranty,Dominate the Windows 11 Home battlefield with the ROG Strix SCAR 16,Crystal-clear 16-inch 240Hz Nebula.",
+      description1:"MSI Stealth 16 Mercedes-AMG Motorsport A13V I9 13TH,RTX 4070 OLED,Intel® Core™ i9-13900H (24M Cache, up to 5.40Hz, 14,Cores 20 Threads), 32GB DDR5 5200MHZ (16GB x 2 Removable),NVIDIA® GeForce RTX 4070 8GB GDDR6,Per-Key RGB Gaming Keyboard by SteelSeries,Fingerprint Reader,Free MSI AMG Pouch, MSI AMG USB Driver, MSI AMG.",
+      imagePath: "lib/images/laptops/23.png",
+      price: 295000,
+      category: PartsCategory.Laptops,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+  //for ASUS ROG Zephyrus G16 GU603VV i7 13th Gen RTX 4060 8GB
+      Part(
+      name1: "ASUS ROG Zephyrus G16 GU603VV i7",
+      name: "ASUS ROG Zephyrus G16 GU603VV i7 13th Gen RTX 4060 8GB",
+      description: "3 Years Warranty,Dominate the Windows 11 Home battlefield with the ROG Strix SCAR 16,Crystal-clear 16-inch 240Hz Nebula.",
+      description1:"MSI Stealth 16 Mercedes-AMG Motorsport A13V I9 13TH,RTX 4070 OLED,Intel® Core™ i9-13900H (24M Cache, up to 5.40Hz, 14,Cores 20 Threads), 32GB DDR5 5200MHZ (16GB x 2 Removable),NVIDIA® GeForce RTX 4070 8GB GDDR6,Per-Key RGB Gaming Keyboard by SteelSeries,Fingerprint Reader,Free MSI AMG Pouch, MSI AMG USB Driver, MSI AMG.",
+      imagePath: "lib/images/laptops/47.png",
+      price: 499000,
+      category: PartsCategory.Laptops,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+  //for ASUS TUF GAMING F15 FX507ZC4 i5 12th GEN RTX 3050
+      Part(
+      name1: "ASUS TUF GAMING F15 FX507ZC4 i5",
+      name: "ASUS TUF GAMING F15 FX507ZC4 i5 12th GEN RTX 3050",
+      description: "3 Years Warranty,Dominate the Windows 11 Home battlefield with the ROG Strix SCAR 16,Crystal-clear 16-inch 240Hz Nebula.",
+      description1:"MSI Stealth 16 Mercedes-AMG Motorsport A13V I9 13TH,RTX 4070 OLED,Intel® Core™ i9-13900H (24M Cache, up to 5.40Hz, 14,Cores 20 Threads), 32GB DDR5 5200MHZ (16GB x 2 Removable),NVIDIA® GeForce RTX 4070 8GB GDDR6,Per-Key RGB Gaming Keyboard by SteelSeries,Fingerprint Reader,Free MSI AMG Pouch, MSI AMG USB Driver, MSI AMG.",
+      imagePath: "lib/images/laptops/67.png",
+      price: 319000,
+      category: PartsCategory.Laptops,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+  //for MSI RAIDER GE78 HX 14VIG i9 14TH GEN + RTX 4090
+      Part(
+      name1: "MSI RAIDER GE78 HX 14VIG i9",
+      name: "MSI RAIDER GE78 HX 14VIG i9 14TH GEN + RTX 4090",
+      description: "3 Years Warranty,Dominate the Windows 11 Home battlefield with the ROG Strix SCAR 16,Crystal-clear 16-inch 240Hz Nebula.",
+      description1:"MSI Stealth 16 Mercedes-AMG Motorsport A13V I9 13TH,RTX 4070 OLED,Intel® Core™ i9-13900H (24M Cache, up to 5.40Hz, 14,Cores 20 Threads), 32GB DDR5 5200MHZ (16GB x 2 Removable),NVIDIA® GeForce RTX 4070 8GB GDDR6,Per-Key RGB Gaming Keyboard by SteelSeries,Fingerprint Reader,Free MSI AMG Pouch, MSI AMG USB Driver, MSI AMG.",
+      imagePath: "lib/images/laptops/61.png",
+      price: 1640000,
+      category: PartsCategory.Laptops,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+  //for Zenbook Duo OLED UX8406MA ULTRA 9 (2024) with ARC Graphics
+      Part(
+      name1: "Zenbook Duo OLED UX8406MA ULTRA 9",
+      name: "Zenbook Duo OLED UX8406MA ULTRA 9 (2024) with ARC Graphics",
+      description: "3 Years Warranty,Dominate the Windows 11 Home battlefield with the ROG Strix SCAR 16,Crystal-clear 16-inch 240Hz Nebula.",
+      description1:"MSI Stealth 16 Mercedes-AMG Motorsport A13V I9 13TH,RTX 4070 OLED,Intel® Core™ i9-13900H (24M Cache, up to 5.40Hz, 14,Cores 20 Threads), 32GB DDR5 5200MHZ (16GB x 2 Removable),NVIDIA® GeForce RTX 4070 8GB GDDR6,Per-Key RGB Gaming Keyboard by SteelSeries,Fingerprint Reader,Free MSI AMG Pouch, MSI AMG USB Driver, MSI AMG.",
+      imagePath: "lib/images/laptops/4.png",
+      price: 889000,
+      category: PartsCategory.Laptops,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+  //for Acer Nitro ANV15-51 i5 13TH GEN RTX 3050 6GB
+      Part(
+      name1: "Acer Nitro ANV15-51 i5",
+      name: "Acer Nitro ANV15-51 i5 13TH GEN RTX 3050 6GB",
+      description: "3 Years Warranty,Dominate the Windows 11 Home battlefield with the ROG Strix SCAR 16,Crystal-clear 16-inch 240Hz Nebula.",
+      description1:"MSI Stealth 16 Mercedes-AMG Motorsport A13V I9 13TH,RTX 4070 OLED,Intel® Core™ i9-13900H (24M Cache, up to 5.40Hz, 14,Cores 20 Threads), 32GB DDR5 5200MHZ (16GB x 2 Removable),NVIDIA® GeForce RTX 4070 8GB GDDR6,Per-Key RGB Gaming Keyboard by SteelSeries,Fingerprint Reader,Free MSI AMG Pouch, MSI AMG USB Driver, MSI AMG.",
+      imagePath: "lib/images/laptops/43.png",
+      price: 319000,
+      category: PartsCategory.Laptops,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+  //for GIGABYTE G5 MF5 2023 I7 13TH GEN RTX 4050 6GB
+      Part(
+      name1: "GIGABYTE G5 MF5 2023 I7",
+      name: "GIGABYTE G5 MF5 2023 I7 13TH GEN RTX 4050 6GB",
+      description: "3 Years Warranty,Dominate the Windows 11 Home battlefield with the ROG Strix SCAR 16,Crystal-clear 16-inch 240Hz Nebula.",
+      description1:"MSI Stealth 16 Mercedes-AMG Motorsport A13V I9 13TH,RTX 4070 OLED,Intel® Core™ i9-13900H (24M Cache, up to 5.40Hz, 14,Cores 20 Threads), 32GB DDR5 5200MHZ (16GB x 2 Removable),NVIDIA® GeForce RTX 4070 8GB GDDR6,Per-Key RGB Gaming Keyboard by SteelSeries,Fingerprint Reader,Free MSI AMG Pouch, MSI AMG USB Driver, MSI AMG.",
+      imagePath: "lib/images/laptops/24.png",
+      price: 359000,
+      category: PartsCategory.Laptops,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+   //for Asus Vivobook 15 X1504V i7 13th GEN
+      Part(
+      name1: "Asus Vivobook 15 X1504V i7",
+      name: "Asus Vivobook 15 X1504V i7 13th GEN",
+      description: "3 Years Warranty,Dominate the Windows 11 Home battlefield with the ROG Strix SCAR 16,Crystal-clear 16-inch 240Hz Nebula.",
+      description1:"MSI Stealth 16 Mercedes-AMG Motorsport A13V I9 13TH,RTX 4070 OLED,Intel® Core™ i9-13900H (24M Cache, up to 5.40Hz, 14,Cores 20 Threads), 32GB DDR5 5200MHZ (16GB x 2 Removable),NVIDIA® GeForce RTX 4070 8GB GDDR6,Per-Key RGB Gaming Keyboard by SteelSeries,Fingerprint Reader,Free MSI AMG Pouch, MSI AMG USB Driver, MSI AMG.",
+      imagePath: "lib/images/laptops/40.png",
+      price: 279000,
       category: PartsCategory.Laptops,
       availableAddons: [
         Addon(name: "Stikers", price: 1000),
