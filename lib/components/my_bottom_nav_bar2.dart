@@ -2,7 +2,9 @@ import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 
 class MyBottemNavBar2 extends StatelessWidget {
-  const MyBottemNavBar2({super.key, required void Function(dynamic index) onTabChange});
+  final void Function(int index) onTabChange;
+
+  const MyBottemNavBar2({Key? key,required this.onTabChange}): super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -11,10 +13,9 @@ class MyBottemNavBar2 extends StatelessWidget {
       backgroundColor: Theme.of(context).colorScheme.background,
       color: Colors.deepPurple.shade200,
      //animationDuration:const Duration(microseconds: 50),
-     onTap: (index){
+     onTap:onTabChange,
 
-     },
-      items: const[
+    items: const[
         Icon(Icons.home,
         color: Colors.white,
         size: 35,
@@ -36,3 +37,4 @@ class MyBottemNavBar2 extends StatelessWidget {
     );
   }
 }
+

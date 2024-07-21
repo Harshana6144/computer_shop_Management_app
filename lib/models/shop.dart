@@ -3783,6 +3783,493 @@ class Shop extends ChangeNotifier{
         ],
       ),
 
+  //for ASUS Zenbook 14X OLED Q420V I7 13TH GEN
+      Part(
+      name1: "ASUS Zenbook 14X OLED Q420V",
+      name: "ASUS Zenbook 14X OLED Q420V I7 13TH GEN",
+      description: "3 Years Warranty,Dominate the Windows 11 Home battlefield with the ROG Strix SCAR 16,Crystal-clear 16-inch 240Hz Nebula.",
+      description1:"MSI Stealth 16 Mercedes-AMG Motorsport A13V I9 13TH,RTX 4070 OLED,Intel® Core™ i9-13900H (24M Cache, up to 5.40Hz, 14,Cores 20 Threads), 32GB DDR5 5200MHZ (16GB x 2 Removable),NVIDIA® GeForce RTX 4070 8GB GDDR6,Per-Key RGB Gaming Keyboard by SteelSeries,Fingerprint Reader,Free MSI AMG Pouch, MSI AMG USB Driver, MSI AMG.",
+      imagePath: "lib/images/laptops/38.png",
+      price: 309000,
+      category: PartsCategory.Laptops,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+    
+    //for MSI Summit E16 AI Studio A1VETG Ultra 7 14th Gen RTX 4050
+      Part(
+      name1: "MSI Summit A1VETG Ultra 7",
+      name: "MSI Summit E16 AI Studio A1VETG Ultra 7 14th Gen RTX 4050",
+      description: "3 Years Warranty,Dominate the Windows 11 Home battlefield with the ROG Strix SCAR 16,Crystal-clear 16-inch 240Hz Nebula.",
+      description1:"MSI Stealth 16 Mercedes-AMG Motorsport A13V I9 13TH,RTX 4070 OLED,Intel® Core™ i9-13900H (24M Cache, up to 5.40Hz, 14,Cores 20 Threads), 32GB DDR5 5200MHZ (16GB x 2 Removable),NVIDIA® GeForce RTX 4070 8GB GDDR6,Per-Key RGB Gaming Keyboard by SteelSeries,Fingerprint Reader,Free MSI AMG Pouch, MSI AMG USB Driver, MSI AMG.",
+      imagePath: "lib/images/laptops/36.png",
+      price: 790000,
+      category: PartsCategory.Laptops,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+    //for ASUS Zenbook 18X OLED Q480Vh I7 13TH GEN
+      Part(
+      name1: "ASUS Zenbook 18X OLED",
+      name: "ASUS Zenbook 18X OLED Q480Vh I7 13TH GEN",
+      description: "3 Years Warranty,Dominate the Windows 11 Home battlefield with the ROG Strix SCAR 16,Crystal-clear 16-inch 240Hz Nebula.",
+      description1:"MSI Stealth 16 Mercedes-AMG Motorsport A13V I9 13TH,RTX 4070 OLED,Intel® Core™ i9-13900H (24M Cache, up to 5.40Hz, 14,Cores 20 Threads), 32GB DDR5 5200MHZ (16GB x 2 Removable),NVIDIA® GeForce RTX 4070 8GB GDDR6,Per-Key RGB Gaming Keyboard by SteelSeries,Fingerprint Reader,Free MSI AMG Pouch, MSI AMG USB Driver, MSI AMG.",
+      imagePath: "lib/images/laptops/37.png",
+      price: 450000,
+      category: PartsCategory.Laptops,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ), 
+
+//======================================================================================================
+//KeyBoard Mouse
+  //for ASUS ROG Claymore II Wireless Modular Mechanical Gaming Keyboard
+      Part(
+      name1: "ASUS ROG Claymore Gaming Keyboard",
+      name: "ASUS ROG Claymore II Wireless Modular Mechanical Gaming Keyboard",
+      description: "1 Years Warranty,Key Switch,ROG NX: Red,Per-Key RGB LEDs,AURA Sync,Anti-Ghosting,N-Key Rollover.",
+      description1:"Connectivity USB 2.0,Size (Full/TKL) 80%,Macro Keys All keys programmable-- except Fn,USB Report rate,1000 Hz,Macro Hot Keys Step 1: Fn + Left-ALT to start recording,Step 2: Fn + Left-ALT to end recording,Step 3: Assign Macro Key,Media Hot Keys Play/Pause (F5), Stop (F6), Previous (F7), Next (F8),Mute (F9),Color Black and Gray.",
+      imagePath: "lib/images/keyboard&mouse/1.png",
+      price: 450000,
+      category: PartsCategory.keyboardMouse,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+  //for ASUS ROG Claymore II Wireless Modular Mechanical Gaming Keyboard
+      Part(
+      name1: "ASUS ROG Strix Scope NX TKL",
+      name: "ASUS ROG Strix Scope NX TKL",
+      description: "1 Years Warranty,Key Switch,ROG NX: Red,Per-Key RGB LEDs,AURA Sync,Anti-Ghosting,N-Key Rollover.",
+      description1:"Connectivity USB 2.0,Size (Full/TKL) 80%,Macro Keys All keys programmable-- except Fn,USB Report rate,1000 Hz,Macro Hot Keys Step 1: Fn + Left-ALT to start recording,Step 2: Fn + Left-ALT to end recording,Step 3: Assign Macro Key,Media Hot Keys Play/Pause (F5), Stop (F6), Previous (F7), Next (F8),Mute (F9),Color Black and Gray.",
+      imagePath: "lib/images/keyboard&mouse/2.png",
+      price: 470000,
+      category: PartsCategory.keyboardMouse,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+    //for ASUS ROG FLARE II ANIMATE Mechanical Keyboard
+      Part(
+      name1: "ASUS ROG FLARE II ANIMATE Keyboard",
+      name: "ASUS ROG FLARE II ANIMATE Mechanical Keyboard",
+      description: "1 Years Warranty,Key Switch,ROG NX: Red,Per-Key RGB LEDs,AURA Sync,Anti-Ghosting,N-Key Rollover.",
+      description1:"Connectivity USB 2.0,Size (Full/TKL) 80%,Macro Keys All keys programmable-- except Fn,USB Report rate,1000 Hz,Macro Hot Keys Step 1: Fn + Left-ALT to start recording,Step 2: Fn + Left-ALT to end recording,Step 3: Assign Macro Key,Media Hot Keys Play/Pause (F5), Stop (F6), Previous (F7), Next (F8),Mute (F9),Color Black and Gray.",
+      imagePath: "lib/images/keyboard&mouse/17.png",
+      price: 470000,
+      category: PartsCategory.keyboardMouse,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+    //for Asus TUF Gaming K1 RGB Gaming Keyboard
+      Part(
+      name1: "Asus TUF Gaming RGB Gaming Keyboard",
+      name: "Asus TUF Gaming K1 RGB Gaming Keyboard",
+      description: "1 Years Warranty,Key Switch,ROG NX: Red,Per-Key RGB LEDs,AURA Sync,Anti-Ghosting,N-Key Rollover.",
+      description1:"Connectivity USB 2.0,Size (Full/TKL) 80%,Macro Keys All keys programmable-- except Fn,USB Report rate,1000 Hz,Macro Hot Keys Step 1: Fn + Left-ALT to start recording,Step 2: Fn + Left-ALT to end recording,Step 3: Assign Macro Key,Media Hot Keys Play/Pause (F5), Stop (F6), Previous (F7), Next (F8),Mute (F9),Color Black and Gray.",
+      imagePath: "lib/images/keyboard&mouse/9.png",
+      price: 470000,
+      category: PartsCategory.keyboardMouse,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+    //for STELTH SLT-3 Gaming Keyboard
+      Part(
+      name1: "STELTH SLT-3 Gaming Keyboard",
+      name: "STELTH SLT-3 Gaming Keyboard",
+      description: "1 Years Warranty,Key Switch,ROG NX: Red,Per-Key RGB LEDs,AURA Sync,Anti-Ghosting,N-Key Rollover.",
+      description1:"Connectivity USB 2.0,Size (Full/TKL) 80%,Macro Keys All keys programmable-- except Fn,USB Report rate,1000 Hz,Macro Hot Keys Step 1: Fn + Left-ALT to start recording,Step 2: Fn + Left-ALT to end recording,Step 3: Assign Macro Key,Media Hot Keys Play/Pause (F5), Stop (F6), Previous (F7), Next (F8),Mute (F9),Color Black and Gray.",
+      imagePath: "lib/images/keyboard&mouse/5.png",
+      price: 470000,
+      category: PartsCategory.keyboardMouse,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+    //for ASUS TUF Gaming M4 Air Lightweight Gaming Mouse
+      Part(
+      name1: "ASUS TUF Lightweight Gaming Mouse",
+      name: "ASUS TUF Gaming M4 Air Lightweight Gaming Mouse",
+      description: "1 Years Warranty,Key Switch,ROG NX: Red,Per-Key RGB LEDs,AURA Sync,Anti-Ghosting,N-Key Rollover.",
+      description1:"Connectivity USB 2.0,Size (Full/TKL) 80%,Macro Keys All keys programmable-- except Fn,USB Report rate,1000 Hz,Macro Hot Keys Step 1: Fn + Left-ALT to start recording,Step 2: Fn + Left-ALT to end recording,Step 3: Assign Macro Key,Media Hot Keys Play/Pause (F5), Stop (F6), Previous (F7), Next (F8),Mute (F9),Color Black and Gray.",
+      imagePath: "lib/images/keyboard&mouse/4.png",
+      price: 470000,
+      category: PartsCategory.keyboardMouse,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+    //for MSI Vigor GK30 Gaming Keyboard
+      Part(
+      name1: "MSI Vigor GK30 Gaming Keyboard",
+      name: "MSI Vigor GK30 Gaming Keyboard",
+      description: "1 Years Warranty,Key Switch,ROG NX: Red,Per-Key RGB LEDs,AURA Sync,Anti-Ghosting,N-Key Rollover.",
+      description1:"Connectivity USB 2.0,Size (Full/TKL) 80%,Macro Keys All keys programmable-- except Fn,USB Report rate,1000 Hz,Macro Hot Keys Step 1: Fn + Left-ALT to start recording,Step 2: Fn + Left-ALT to end recording,Step 3: Assign Macro Key,Media Hot Keys Play/Pause (F5), Stop (F6), Previous (F7), Next (F8),Mute (F9),Color Black and Gray.",
+      imagePath: "lib/images/keyboard&mouse/3.png",
+      price: 470000,
+      category: PartsCategory.keyboardMouse,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+    //for Asus TUF Gaming K3 RGB mechanical Gaming Keyboard
+      Part(
+      name1: "Asus TUF Gaming mechanical Keyboard",
+      name: "Asus TUF Gaming K3 RGB mechanical Gaming Keyboard",
+      description: "1 Years Warranty,Key Switch,ROG NX: Red,Per-Key RGB LEDs,AURA Sync,Anti-Ghosting,N-Key Rollover.",
+      description1:"Connectivity USB 2.0,Size (Full/TKL) 80%,Macro Keys All keys programmable-- except Fn,USB Report rate,1000 Hz,Macro Hot Keys Step 1: Fn + Left-ALT to start recording,Step 2: Fn + Left-ALT to end recording,Step 3: Assign Macro Key,Media Hot Keys Play/Pause (F5), Stop (F6), Previous (F7), Next (F8),Mute (F9),Color Black and Gray.",
+      imagePath: "lib/images/keyboard&mouse/8.png",
+      price: 470000,
+      category: PartsCategory.keyboardMouse,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+    //for Asus TUF Gaming K1 RGB Gaming Keyboard
+      Part(
+      name1: "Asus TUF Gaming RGB Gaming Keyboard",
+      name: "Asus TUF Gaming K1 RGB Gaming Keyboard",
+      description: "1 Years Warranty,Key Switch,ROG NX: Red,Per-Key RGB LEDs,AURA Sync,Anti-Ghosting,N-Key Rollover.",
+      description1:"Connectivity USB 2.0,Size (Full/TKL) 80%,Macro Keys All keys programmable-- except Fn,USB Report rate,1000 Hz,Macro Hot Keys Step 1: Fn + Left-ALT to start recording,Step 2: Fn + Left-ALT to end recording,Step 3: Assign Macro Key,Media Hot Keys Play/Pause (F5), Stop (F6), Previous (F7), Next (F8),Mute (F9),Color Black and Gray.",
+      imagePath: "lib/images/keyboard&mouse/7.png",
+      price: 470000,
+      category: PartsCategory.keyboardMouse,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+    //for Fantech MAXPOWER MK853 V2 MECHANICAL KEYBOARD
+      Part(
+      name1: "Fantech MAXPOWER KEYBOARD",
+      name: "Fantech MAXPOWER MK853 V2 MECHANICAL KEYBOARD",
+      description: "1 Years Warranty,Key Switch,ROG NX: Red,Per-Key RGB LEDs,AURA Sync,Anti-Ghosting,N-Key Rollover.",
+      description1:"Connectivity USB 2.0,Size (Full/TKL) 80%,Macro Keys All keys programmable-- except Fn,USB Report rate,1000 Hz,Macro Hot Keys Step 1: Fn + Left-ALT to start recording,Step 2: Fn + Left-ALT to end recording,Step 3: Assign Macro Key,Media Hot Keys Play/Pause (F5), Stop (F6), Previous (F7), Next (F8),Mute (F9),Color Black and Gray.",
+      imagePath: "lib/images/keyboard&mouse/6.png",
+      price: 470000,
+      category: PartsCategory.keyboardMouse,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+    //for MSI VIGOR GK20 RGB GAMING KEYBOARD
+      Part(
+      name1: "MSI VIGOR GK20 GAMING KEYBOARD",
+      name: "MSI VIGOR GK20 RGB GAMING KEYBOARD",
+      description: "1 Years Warranty,Key Switch,ROG NX: Red,Per-Key RGB LEDs,AURA Sync,Anti-Ghosting,N-Key Rollover.",
+      description1:"Connectivity USB 2.0,Size (Full/TKL) 80%,Macro Keys All keys programmable-- except Fn,USB Report rate,1000 Hz,Macro Hot Keys Step 1: Fn + Left-ALT to start recording,Step 2: Fn + Left-ALT to end recording,Step 3: Assign Macro Key,Media Hot Keys Play/Pause (F5), Stop (F6), Previous (F7), Next (F8),Mute (F9),Color Black and Gray.",
+      imagePath: "lib/images/keyboard&mouse/9.png",
+      price: 470000,
+      category: PartsCategory.keyboardMouse,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+    //for ROG Gladius II Core
+      Part(
+      name1: "ROG Gladius II Core",
+      name: "ROG Gladius II Core",
+      description: "1 Years Warranty,Key Switch,ROG NX: Red,Per-Key RGB LEDs,AURA Sync,Anti-Ghosting,N-Key Rollover.",
+      description1:"Connectivity USB 2.0,Size (Full/TKL) 80%,Macro Keys All keys programmable-- except Fn,USB Report rate,1000 Hz,Macro Hot Keys Step 1: Fn + Left-ALT to start recording,Step 2: Fn + Left-ALT to end recording,Step 3: Assign Macro Key,Media Hot Keys Play/Pause (F5), Stop (F6), Previous (F7), Next (F8),Mute (F9),Color Black and Gray.",
+      imagePath: "lib/images/keyboard&mouse/10.png",
+      price: 140000,
+      category: PartsCategory.keyboardMouse,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+    //for CORSAIR NIGHTSWORD RGB Tunable Gaming Mouse
+      Part(
+      name1: "CORSAIR NIGHTSWORD Gaming Mouse",
+      name: "CORSAIR NIGHTSWORD RGB Tunable Gaming Mouse",
+      description: "1 Years Warranty,Key Switch,ROG NX: Red,Per-Key RGB LEDs,AURA Sync,Anti-Ghosting,N-Key Rollover.",
+      description1:"Connectivity USB 2.0,Size (Full/TKL) 80%,Macro Keys All keys programmable-- except Fn,USB Report rate,1000 Hz,Macro Hot Keys Step 1: Fn + Left-ALT to start recording,Step 2: Fn + Left-ALT to end recording,Step 3: Assign Macro Key,Media Hot Keys Play/Pause (F5), Stop (F6), Previous (F7), Next (F8),Mute (F9),Color Black and Gray.",
+      imagePath: "lib/images/keyboard&mouse/12.png",
+      price: 140000,
+      category: PartsCategory.keyboardMouse,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+    //for ASUS ROG Strix Impact III Lightweight RGB Gaming Mouse
+      Part(
+      name1: "ASUS ROG Strix RGB Gaming Mouse",
+      name: "ASUS ROG Strix Impact III Lightweight RGB Gaming Mouse",
+      description: "1 Years Warranty,Key Switch,ROG NX: Red,Per-Key RGB LEDs,AURA Sync,Anti-Ghosting,N-Key Rollover.",
+      description1:"Connectivity USB 2.0,Size (Full/TKL) 80%,Macro Keys All keys programmable-- except Fn,USB Report rate,1000 Hz,Macro Hot Keys Step 1: Fn + Left-ALT to start recording,Step 2: Fn + Left-ALT to end recording,Step 3: Assign Macro Key,Media Hot Keys Play/Pause (F5), Stop (F6), Previous (F7), Next (F8),Mute (F9),Color Black and Gray.",
+      imagePath: "lib/images/keyboard&mouse/13.png",
+      price: 14000,
+      category: PartsCategory.keyboardMouse,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+    //for Corsair Harpoon RGB Gaming Mouse
+      Part(
+      name1: "Corsair Harpoon RGB Gaming Mouse",
+      name: "Corsair Harpoon RGB Gaming Mouse",
+      description: "1 Years Warranty,Key Switch,ROG NX: Red,Per-Key RGB LEDs,AURA Sync,Anti-Ghosting,N-Key Rollover.",
+      description1:"Connectivity USB 2.0,Size (Full/TKL) 80%,Macro Keys All keys programmable-- except Fn,USB Report rate,1000 Hz,Macro Hot Keys Step 1: Fn + Left-ALT to start recording,Step 2: Fn + Left-ALT to end recording,Step 3: Assign Macro Key,Media Hot Keys Play/Pause (F5), Stop (F6), Previous (F7), Next (F8),Mute (F9),Color Black and Gray.",
+      imagePath: "lib/images/keyboard&mouse/14.png",
+      price: 27000,
+      category: PartsCategory.keyboardMouse,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+    //for CORSAIR K60 RGB PRO Cherry Vola Mechanical Gaming Keyboard
+      Part(
+      name1: "CORSAIR K60 RGB Gaming Keyboard",
+      name: "CORSAIR K60 RGB PRO Cherry Vola Mechanical Gaming Keyboard",
+      description: "1 Years Warranty,Key Switch,ROG NX: Red,Per-Key RGB LEDs,AURA Sync,Anti-Ghosting,N-Key Rollover.",
+      description1:"Connectivity USB 2.0,Size (Full/TKL) 80%,Macro Keys All keys programmable-- except Fn,USB Report rate,1000 Hz,Macro Hot Keys Step 1: Fn + Left-ALT to start recording,Step 2: Fn + Left-ALT to end recording,Step 3: Assign Macro Key,Media Hot Keys Play/Pause (F5), Stop (F6), Previous (F7), Next (F8),Mute (F9),Color Black and Gray.",
+      imagePath: "lib/images/keyboard&mouse/15.png",
+      price: 27000,
+      category: PartsCategory.keyboardMouse,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+    //for ASUS TUF Gaming M3 Gen II
+      Part(
+      name1: "ASUS TUF Gaming M3 Gen II",
+      name: "ASUS TUF Gaming M3 Gen II",
+      description: "1 Years Warranty,Key Switch,ROG NX: Red,Per-Key RGB LEDs,AURA Sync,Anti-Ghosting,N-Key Rollover.",
+      description1:"Connectivity USB 2.0,Size (Full/TKL) 80%,Macro Keys All keys programmable-- except Fn,USB Report rate,1000 Hz,Macro Hot Keys Step 1: Fn + Left-ALT to start recording,Step 2: Fn + Left-ALT to end recording,Step 3: Assign Macro Key,Media Hot Keys Play/Pause (F5), Stop (F6), Previous (F7), Next (F8),Mute (F9),Color Black and Gray.",
+      imagePath: "lib/images/keyboard&mouse/19.png",
+      price: 85000,
+      category: PartsCategory.keyboardMouse,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+//======================================================================================================
+//gaming desktop
+
+  //for ගමේ ලස්සනම ලේලි
+      Part(
+      name1: "ගමේ ලස්සනම ලේලි",
+      name: "ගමේ ලස්සනම ලේලි - Powered by ASUS",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/gaming_desktop/7.png",
+      price: 1950000,
+      category: PartsCategory.GamingDesktop,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+   //for ASUS TUF PRO ULTIMATE
+      Part(
+      name1: "ASUS TUF PRO ULTIMATE",
+      name: "ASUS TUF PRO ULTIMATE - Powered by ASUS",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/gaming_desktop/14.png",
+      price: 843500,
+      category: PartsCategory.GamingDesktop,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+    //for ASUS FLAME ULTIMATE
+      Part(
+      name1: "ASUS FLAME ULTIMATE",
+      name: "ASUS FLAME ULTIMATE-Powered by ASUS",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/gaming_desktop/15.png",
+      price: 1430000,
+      category: PartsCategory.GamingDesktop,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+    //for ASUS FLAME KILLER
+      Part(
+      name1: "ASUS FLAME KILLER",
+      name: "ASUS FLAME KILLER - Powered by ASUS",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/gaming_desktop/15.png",
+      price: 1430000,
+      category: PartsCategory.GamingDesktop,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+    //for ASUS TUF PRO 
+      Part(
+      name1: "ASUS TUF PRO",
+      name: "ASUS TUF PRO - Powered by ASUS ",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/gaming_desktop/14.png",
+      price: 835000,
+      category: PartsCategory.GamingDesktop,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+    //for ASUS NANO ANIMATOR 
+      Part(
+      name1: "ASUS NANO ANIMATOR",
+      name: "ASUS NANO ANIMATOR - Powered by ASUS ",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/gaming_desktop/19.png",
+      price: 1310000,
+      category: PartsCategory.GamingDesktop,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+    //for ASUS NANO DESIGNER 
+      Part(
+      name1: "ASUS NANO DESIGNER",
+      name: "ASUS NANO DESIGNER - Powered by ASUS ",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/gaming_desktop/19.png",
+      price: 1288500,
+      category: PartsCategory.GamingDesktop,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+    //for ASUS NANO CORP PRO 
+      Part(
+      name1: "ASUS NANO CORP PRO",
+      name: "ASUS NANO CORP PRO - Powered by ASUS ",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/gaming_desktop/20.png",
+      price: 1288500,
+      category: PartsCategory.GamingDesktop,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+     //for ASUS NANO CORP 
+      Part(
+      name1: "ASUS NANO CORP",
+      name: "ASUS NANO CORP - Powered by ASUS ",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/gaming_desktop/20.png",
+      price: 1288500,
+      category: PartsCategory.GamingDesktop,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+    //for ASUS ULTIMATE FLAME KILLER 
+      Part(
+      name1: "ASUS ULTIMATE FLAME KILLER",
+      name: "ASUS ULTIMATE FLAME KILLER - Powered by ASUS ",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/gaming_desktop/4.png",
+      price: 1888500,
+      category: PartsCategory.GamingDesktop,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+  
+
 //======================================================================================================
   ];
 

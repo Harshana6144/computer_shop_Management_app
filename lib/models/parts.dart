@@ -24,6 +24,7 @@ class Part{
 // parts categories
 enum PartsCategory
 {
+  GamingDesktop,
   processors,
   motherBoards,
   ram,
@@ -34,7 +35,6 @@ enum PartsCategory
   Monitors,
   Laptops,
   keyboardMouse,
-  GamingDesktop,
   Warktations,
   grapics_tablet,
   Apple,
