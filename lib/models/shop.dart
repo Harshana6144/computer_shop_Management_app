@@ -4268,6 +4268,153 @@ class Shop extends ChangeNotifier{
         ],
       ),
 
+//======================================================================================================
+//Warktations
+     //for NANO-X CREATOR PRO V2 
+      Part(
+      name1: "NANO-X CREATOR PRO V2",
+      name: "NANO-X CREATOR PRO V2",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/warktations/7.png",
+      price: 1020000,
+      category: PartsCategory.Warktations,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for Nano-X Creator PRO V1
+      Part(
+      name1: "Nano-X Creator PRO V1",
+      name: "Nano-X Creator PRO V1",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/warktations/11.png",
+      price: 710000,
+      category: PartsCategory.Warktations,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for ANYTHING FOR YOU සුද්දා
+      Part(
+      name1: "ANYTHING FOR YOU සුද්දා",
+      name: "ANYTHING FOR YOU සුද්දා",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/warktations/1.png",
+      price: 126500,
+      category: PartsCategory.Warktations,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for Nano-X Director Lite
+      Part(
+      name1: "Nano-X Director Lite",
+      name: "Nano-X Director Lite",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/warktations/2.png",
+      price: 193000,
+      category: PartsCategory.Warktations,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for Nano-X Director PRO
+      Part(
+      name1: "Nano-X Director PRO",
+      name: "Nano-X Director PRO",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/warktations/3.png",
+      price: 326000,
+      category: PartsCategory.Warktations,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for NANO-X CREATOR V1
+      Part(
+      name1: "NANO-X CREATOR V1",
+      name: "NANO-X CREATOR V1",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/warktations/3.png",
+      price: 440000,
+      category: PartsCategory.Warktations,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+       //for NANO XE NEO I
+      Part(
+      name1: "NANO XE NEO I",
+      name: "NANO XE NEO I",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/warktations/5.png",
+      price: 440000,
+      category: PartsCategory.Warktations,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for NANO XE MINI ULTRA
+      Part(
+      name1: "NANO XE MINI ULTRA",
+      name: "NANO XE MINI ULTRA",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/warktations/10.png",
+      price: 440000,
+      category: PartsCategory.Warktations,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for NANO XE PRO
+      Part(
+      name1: "NANO XE PRO",
+      name: "NANO XE PRO",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/warktations/9.png",
+      price: 440000,
+      category: PartsCategory.Warktations,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+  
+
   
 
 //======================================================================================================
