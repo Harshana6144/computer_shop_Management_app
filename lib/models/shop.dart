@@ -4413,9 +4413,23 @@ class Shop extends ChangeNotifier{
         Addon(name: "Stands", price: 13500),
         ],
       ),
-  
-
-  
+//===================================================================================================== 
+//Grapic tablet
+//for Wacom One Creative Pen Display 13" - DTC133
+      Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/grapics_tablet/1.png",
+      price: 159000,
+      category: PartsCategory.grapics_tablet,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ), 
 
 //======================================================================================================
   ];
