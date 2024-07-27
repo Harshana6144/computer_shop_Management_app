@@ -36,6 +36,7 @@ enum PartsCategory
   Laptops,
   keyboardMouse,
   Warktations,
+  PlayStations,
   grapics_tablet,
   Apple,
 

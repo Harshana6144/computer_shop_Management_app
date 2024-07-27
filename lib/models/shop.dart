@@ -4431,6 +4431,600 @@ class Shop extends ChangeNotifier{
         ],
       ), 
 
+  //for Wacom One Creative Pen Display 13" - DTC133
+      Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/grapics_tablet/2.png",
+      price: 159000,
+      category: PartsCategory.grapics_tablet,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+  //for Wacom One Creative Pen Display 13" - DTC133
+      Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/grapics_tablet/3.png",
+      price: 159000,
+      category: PartsCategory.grapics_tablet,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+  //for Wacom One Creative Pen Display 13" - DTC133
+      Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/grapics_tablet/4.png",
+      price: 159000,
+      category: PartsCategory.grapics_tablet,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+  //for Wacom One Creative Pen Display 13" - DTC133
+      Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/grapics_tablet/5.png",
+      price: 159000,
+      category: PartsCategory.grapics_tablet,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+    //for Wacom One Creative Pen Display 13" - DTC133
+      Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/grapics_tablet/6.png",
+      price: 159000,
+      category: PartsCategory.grapics_tablet,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+    //for Wacom One Creative Pen Display 13" - DTC133
+      Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/grapics_tablet/7.png",
+      price: 159000,
+      category: PartsCategory.grapics_tablet,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+//===================================================================================================== 
+//console gaming
+//for playstation
+Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/console/20.png",
+      price: 159000,
+      category: PartsCategory.PlayStations,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+//for XBOX 360
+  Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/console/21.png",
+      price: 159000,
+      category: PartsCategory.PlayStations,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+//for XBOX 
+  Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/console/22.png",
+      price: 159000,
+      category: PartsCategory.PlayStations,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+//for controler
+   Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/console/22.png",
+      price: 159000,
+      category: PartsCategory.PlayStations,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+//for msi gaming pad
+   Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/console/24.png",
+      price: 159000,
+      category: PartsCategory.PlayStations,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+  //for msi gaming pad2
+   Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/console/25.png",
+      price: 159000,
+      category: PartsCategory.PlayStations,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+  //for msi gaming pad3
+   Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/console/26.png",
+      price: 159000,
+      category: PartsCategory.PlayStations,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+  //for controller 1
+   Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/console/1.png",
+      price: 159000,
+      category: PartsCategory.PlayStations,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+  //for controller 2
+   Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/console/2.png",
+      price: 159000,
+      category: PartsCategory.PlayStations,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+  //for controller 3
+   Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/console/3.png",
+      price: 159000,
+      category: PartsCategory.PlayStations,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+  //for controller 4
+   Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/console/4.png",
+      price: 159000,
+      category: PartsCategory.PlayStations,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+  //for controller 5
+   Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/console/5.png",
+      price: 159000,
+      category: PartsCategory.PlayStations,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+  //for controller 6
+   Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/console/6.png",
+      price: 159000,
+      category: PartsCategory.PlayStations,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+  //for controller 7
+   Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/console/7.png",
+      price: 159000,
+      category: PartsCategory.PlayStations,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+  //for controller 7
+   Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/console/7.png",
+      price: 159000,
+      category: PartsCategory.PlayStations,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+  //for controller 8
+   Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/console/8.png",
+      price: 159000,
+      category: PartsCategory.PlayStations,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+  //for controller 9
+   Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/console/9.png",
+      price: 159000,
+      category: PartsCategory.PlayStations,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+  //for controller 11
+   Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/console/11.png",
+      price: 159000,
+      category: PartsCategory.PlayStations,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+  //for controller 12
+   Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/console/12.png",
+      price: 159000,
+      category: PartsCategory.PlayStations,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+  //for controller 13
+   Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/console/13.png",
+      price: 159000,
+      category: PartsCategory.PlayStations,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+  //for controller 14
+   Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/console/14.png",
+      price: 159000,
+      category: PartsCategory.PlayStations,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+  //for controller 15
+   Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/console/15.png",
+      price: 159000,
+      category: PartsCategory.PlayStations,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+    //for controller 16
+   Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/console/16.png",
+      price: 159000,
+      category: PartsCategory.PlayStations,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+     //for controller 17
+   Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/console/17.png",
+      price: 159000,
+      category: PartsCategory.PlayStations,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+      //for controller 18
+   Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/console/18.png",
+      price: 159000,
+      category: PartsCategory.PlayStations,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+       //for controller 19
+   Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/console/19.png",
+      price: 159000,
+      category: PartsCategory.PlayStations,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ), 
+//======================================================================================================
+//for Apple
+    //for apple1
+   Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/apple/1.png",
+      price: 159000,
+      category: PartsCategory.Apple,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+   //for magic keyboadr
+   Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/apple/2.png",
+      price: 159000,
+      category: PartsCategory.Apple,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+   //for magic mouse
+   Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/apple/3.png",
+      price: 159000,
+      category: PartsCategory.Apple,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+  
+  //for convertors
+   Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/apple/4.png",
+      price: 159000,
+      category: PartsCategory.Apple,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
+    //for lapttop5
+   Part(
+      name1: "Wacom One Creative Pen Display",
+      name: "Wacom One Creative Pen Display 13 - DTC133",
+      description: "10 Years Warranty,*No. 1 Gaming Brand,World’s No.1 Motherboard Brand,The Best-selling and The Most Award-Winning Graphics Card Brand,No.1 Gaming Monitor Brand,Made for Elite Gamers.",
+      description1:"PROCESSOR - INTEL CORE I9 14900KS,MOTHERBOARD -ASUS ROG MAXIMUS Z790 DARK HERO,MEMORY (RAM) - 128GB 6400MHZ RAM (32GBx4.,GRAPHICS - ASUS RTX 4090 SUPER 24GB GRAPHIC CARD,POWER SUPPLY - ASUS 1600W 80+ TITANIUM,PSU,STORAGE : SSD - 2TB PCIE 5.0 NVME SSD,COOLER - ASUS 360MM HIGH PERFORMANCE AIO,CASING - ASUS ROG HYPERION GR701",
+      imagePath: "lib/images/apple/5.png",
+      price: 159000,
+      category: PartsCategory.Apple,
+      availableAddons: [
+        Addon(name: "Stikers", price: 1000),
+        Addon(name: "Cable ties", price: 2500),
+        Addon(name: "Stands", price: 13500),
+        ],
+      ),
+
 //======================================================================================================
   ];
 
