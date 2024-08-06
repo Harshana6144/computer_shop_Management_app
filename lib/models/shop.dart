@@ -5087,7 +5087,7 @@ Part(
       notifyListeners();
     }
 
-  // get total price of cart
+  //get total price of cart
   double getTotalPrice(){
     double total =0.0;
 
@@ -5105,7 +5105,7 @@ Part(
     }
 
 
-  // get total number of item in the cart
+  //get total number of item in the cart
     int getTotalItemCount(){
       int getTotalItemCount =0;
 
@@ -5138,7 +5138,7 @@ Part(
   
   */
 
-  // generate the receipt
+  //generate the receipt
   String displayCartReceipt(){
     final receipt = StringBuffer();
     receipt.writeln("Here's your receipt");

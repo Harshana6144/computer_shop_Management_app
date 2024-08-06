@@ -9,7 +9,7 @@ import 'package:food_dilivery_app/components/my_tab_bar.dart';
 import 'package:food_dilivery_app/models/parts.dart';
 import 'package:food_dilivery_app/models/shop.dart';
 import 'package:food_dilivery_app/pages/parts_page.dart';
-import 'package:food_dilivery_app/pages/searchPage.dart';
+import 'package:food_dilivery_app/pages/search_page.dart';
 import 'package:provider/provider.dart';
 
 class HomePage extends StatefulWidget {
