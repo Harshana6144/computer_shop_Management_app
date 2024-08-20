@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:food_dilivery_app/components/my_pctitle.dart';
+import 'package:food_dilivery_app/models/cart.dart';
 import 'package:food_dilivery_app/models/pc.dart';
+import 'package:provider/provider.dart';
 
 class SearchPage extends StatefulWidget {
   const SearchPage({super.key});
@@ -10,9 +12,23 @@ class SearchPage extends StatefulWidget {
 }
 
 class _SearchPageState extends State<SearchPage> {
+
+//add pc to cart
+void addPcToCart(Pc pc){
+  Provider.of<Cart>(context,listen: false).addItemToCart(pc);
+
+  //alert to user,pc successfully added to cart
+  showDialog(context: context,
+   builder: (context)=>AlertDialog(
+      title: Text('successfully added!'),
+      content: Text("Check your cart"),
+    ),
+  );
+}
+
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return Consumer<Cart>(builder: (context, value, child) => Column(
       children: [
 
         //Add a SizedBox to craete for get space 
@@ -64,33 +80,34 @@ class _SearchPageState extends State<SearchPage> {
 
         const SizedBox(height:10),
 
+        //list of pc for sale
         Expanded(
           child: ListView.builder(
             itemCount: 4,
             scrollDirection: Axis.horizontal,
             itemBuilder: (context,index){
-              //create a pc
-              Pc pc = Pc(
-                name:'Powered by ASUS',
-                price:'1,950,000',
-                description:'Powered by ASUS',
-                imagePath:'lib/images/gaming_desktop/16.png'
-                );
+              //get a pc from pc list
+              Pc pc = value.getPcList()[index];
+
+              //return the pc
+
               return PcTitle(
-              pc: pc,
+                pc: pc,
+                onTap: () => addPcToCart(pc),
                 );
               },
             ),
           ),
 
-          Padding(
-            padding: const EdgeInsets.only(top:25.0),
+          const Padding(
+            padding: EdgeInsets.only(top:25.0),
             child: Divider(
               color: Colors.white,
             ),
           ),
       ],
 
+      ),
     );
   }
 

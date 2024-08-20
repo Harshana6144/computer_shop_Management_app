@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_dilivery_app/auth/login_or_register.dart';
+import 'package:food_dilivery_app/models/cart.dart';
 import 'package:food_dilivery_app/models/shop.dart';
 import 'package:food_dilivery_app/themes/theme_provider.dart';
 import 'package:provider/provider.dart';
@@ -26,12 +27,15 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp(
+    return  ChangeNotifierProvider(
+      create: (context)=> Cart(),
+      builder: (context,child)=> MaterialApp(
       debugShowCheckedModeBanner: false,
       home:const LoginOrRegister(),
       theme: Provider.of<ThemeProvider>(context).themeData,
      
-    );
+    ),
+      );
   }
 
   

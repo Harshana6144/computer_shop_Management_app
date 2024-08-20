@@ -1,9 +1,14 @@
 import "package:flutter/material.dart";
+import "package:flutter/widgets.dart";
 import "../models/pc.dart";
 
 class PcTitle extends StatelessWidget {
   Pc pc;
-  PcTitle ({super.key,required this.pc});
+  void Function()? onTap;
+  PcTitle ({
+          super.key,required this.pc,
+          required this.onTap,
+          });
 
   @override
   Widget build(BuildContext context) {
@@ -24,10 +29,13 @@ class PcTitle extends StatelessWidget {
 
 
           //discription
-          Text(
-            pc.description,
-            style: TextStyle(color:Colors.grey[600]),
-            ),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 25.0),
+            child: Text(
+              pc.description,
+              style: TextStyle(color:Colors.grey[600]),
+              ),
+          ),
 
 
           //price + details
@@ -63,18 +71,21 @@ class PcTitle extends StatelessWidget {
                 ),
               
               //plut button
-              Container(
-                padding:const EdgeInsets.all(20),
-                decoration:const BoxDecoration(
-                  color:Colors.black,borderRadius: BorderRadius.only(
-                    topLeft:Radius.circular(12),
-                    bottomRight:Radius.circular(12), 
+              GestureDetector(
+                onTap: onTap,
+                child: Container(
+                  padding:const EdgeInsets.all(20),
+                  decoration:const BoxDecoration(
+                    color:Colors.black,borderRadius: BorderRadius.only(
+                      topLeft:Radius.circular(12),
+                      bottomRight:Radius.circular(12), 
+                        ),
                       ),
+                    child:const Icon(Icons.add,
+                    color: Colors.white,
                     ),
-                  child:const Icon(Icons.add,
-                  color: Colors.white,
                   ),
-                ),
+              ),
             
             
               ],
