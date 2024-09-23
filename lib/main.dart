@@ -1,12 +1,17 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:food_dilivery_app/auth/login_or_register.dart';
+import 'package:food_dilivery_app/services/auth/auth_gate.dart';
+import 'package:food_dilivery_app/firebase_options.dart';
 import 'package:food_dilivery_app/models/cart.dart';
 import 'package:food_dilivery_app/models/shop.dart';
 import 'package:food_dilivery_app/themes/theme_provider.dart';
 import 'package:provider/provider.dart';
 
 
-void main() {
+void main() async {
+WidgetsFlutterBinding.ensureInitialized();
+await Firebase.initializeApp(options:DefaultFirebaseOptions.currentPlatform);
+
   runApp(
    MultiProvider(providers: [
     //theme provider
@@ -31,7 +36,7 @@ class MyApp extends StatelessWidget {
       create: (context)=> Cart(),
       builder: (context,child)=> MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:const LoginOrRegister(),
+      home:const AuthGate(),
       theme: Provider.of<ThemeProvider>(context).themeData,
      
     ),

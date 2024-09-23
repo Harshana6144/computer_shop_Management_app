@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "162932874006",
+    "project_id": "computershoptute",
+    "storage_bucket": "computershoptute.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162932874006:android:b1d34a72b12519557a4e37",
+        "android_client_info": {
+          "package_name": "com.example.food_dilivery_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAclJDwIvNIrsmA_QZpRQPqT5j2Cg2ZHDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
