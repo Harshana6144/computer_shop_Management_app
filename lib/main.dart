@@ -1,6 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:food_dilivery_app/services/auth/auth_gate.dart';
+import 'package:food_dilivery_app/pages/intro_page.dart';
 import 'package:food_dilivery_app/firebase_options.dart';
 import 'package:food_dilivery_app/models/cart.dart';
 import 'package:food_dilivery_app/models/shop.dart';
@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
       create: (context)=> Cart(),
       builder: (context,child)=> MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:const AuthGate(),
+      home:const IntroPage(),
       theme: Provider.of<ThemeProvider>(context).themeData,
      
     ),

@@ -4,7 +4,8 @@ import 'package:flutter/material.dart';
 class MyBottemNavBar2 extends StatelessWidget {
   final void Function(int index) onTabChange;
 
-  const MyBottemNavBar2({Key? key,required this.onTabChange}): super(key: key);
+  const MyBottemNavBar2({Key? key, required this.onTabChange})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -12,29 +13,31 @@ class MyBottemNavBar2 extends StatelessWidget {
       buttonBackgroundColor: Colors.green,
       backgroundColor: Theme.of(context).colorScheme.background,
       color: Colors.deepPurple.shade200,
-     //animationDuration:const Duration(microseconds: 50),
-     onTap:onTabChange,
+      //animationDuration:const Duration(microseconds: 50),
+      onTap: onTabChange,
 
-    items: const[
-        Icon(Icons.home,
-        color: Colors.white,
-        size: 35,
+      items: const [
+        Icon(
+          Icons.home,
+          color: Colors.white,
+          size: 35,
         ),
-        Icon(Icons.search,
-         color: Colors.white,
-         size: 35,
+        Icon(
+          Icons.search,
+          color: Colors.white,
+          size: 35,
         ),
-        Icon(Icons.location_on,
-         color: Colors.white,
-         size: 35,
+        Icon(
+          Icons.location_on,
+          color: Colors.white,
+          size: 35,
         ),
-         Icon(Icons.favorite,
-         color: Colors.white,
-         size: 35,
+        Icon(
+          Icons.favorite,
+          color: Colors.white,
+          size: 35,
         ),
-        
       ],
     );
   }
 }
-

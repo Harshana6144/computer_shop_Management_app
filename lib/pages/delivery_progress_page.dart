@@ -4,6 +4,7 @@ import 'package:food_dilivery_app/models/shop.dart';
 import 'package:food_dilivery_app/services/database/firestore.dart';
 import 'package:provider/provider.dart';
 
+
 class DeliveryProgressPage extends StatefulWidget {
   const DeliveryProgressPage({super.key});
 
@@ -12,124 +13,121 @@ class DeliveryProgressPage extends StatefulWidget {
 }
 
 class _DeliveryProgressPageState extends State<DeliveryProgressPage> {
-
   // get access to the database
   FirestoreService db = FirestoreService();
 
   @override
   void initState() {
-   super.initState();
+    super.initState();
 
-   // if we get to this page,submit order to  firestore db
-   String receipt = context.read<Shop>().displayCartReceipt();
-   db.saveOrderToDatabase(receipt);
+    // if we get to this page,submit order to  firestore db
+    String receipt = context.read<Shop>().displayCartReceipt();
+    String address = context.read<Shop>().deliveryAddress; // Corrected to directly access the deliveryAddress property
+    db.saveOrderToDatabase(receipt, address);
   }
-
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        //title:const Text("Dellivery in progress.."),
+        title: const Text("Dellivery in progress.."),
         backgroundColor: Colors.transparent,
       ),
       bottomNavigationBar: _buildBottomNavBar(context),
-      body:const SingleChildScrollView(
+      body: const SingleChildScrollView(
         child: Column(
           children: [
-              MyReceipt(),
-               ],
-            ),
-          ),
-      );
-    
+            MyReceipt(),
+          ],
+        ),
+      ),
+    );
   }
 
-  //Custom Bottem Nav Bar -Message / Call Delivery 
-  Widget _buildBottomNavBar(BuildContext context){
+  //Custom Bottem Nav Bar -Message / Call Delivery
+  Widget _buildBottomNavBar(BuildContext context) {
     return Container(
-      height:100,
+      height: 100,
       decoration: BoxDecoration(
         color: Theme.of(context).colorScheme.secondary,
         borderRadius: const BorderRadius.only(
           topLeft: Radius.circular(40),
           topRight: Radius.circular(40),
-          ),
         ),
-        padding:const EdgeInsets.all(25),
-        child:Row(
-          children: [
-            //picture
-            Container(
-              decoration: BoxDecoration(
+      ),
+      padding: const EdgeInsets.all(25),
+      child: Row(
+        children: [
+          //picture
+          Container(
+            decoration: BoxDecoration(
               color: Theme.of(context).colorScheme.background,
-              shape:BoxShape.circle,
-              ),
-              child: IconButton(
-                onPressed: () {},
-                icon:const Icon(Icons.person),
-              ),
+              shape: BoxShape.circle,
             ),
+            child: IconButton(
+              onPressed: () {},
+              icon: const Icon(Icons.person),
+            ),
+          ),
 
-            const SizedBox(width: 10),
+          const SizedBox(width: 10),
 
-            //driver details
-            Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text("Koko",
-                style:TextStyle(
+          //driver details
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                "Koko",
+                style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 18,
                   color: Theme.of(context).colorScheme.inversePrimary,
-                    ),
-                  ),
-                Text("Deliver",
-                style:TextStyle(
-                color: Theme.of(context).colorScheme.primary,
-                    ),
                 ),
-              ],
-            ),
+              ),
+              Text(
+                "Deliver",
+                style: TextStyle(
+                  color: Theme.of(context).colorScheme.primary,
+                ),
+              ),
+            ],
+          ),
 
-            const Spacer(),
+          const Spacer(),
 
           Row(
             children: [
-            //message button
-             Container(
-              decoration: BoxDecoration(
-              color: Theme.of(context).colorScheme.background,
-              shape:BoxShape.circle,
+              //message button
+              Container(
+                decoration: BoxDecoration(
+                  color: Theme.of(context).colorScheme.background,
+                  shape: BoxShape.circle,
+                ),
+                child: IconButton(
+                  onPressed: () {},
+                  icon: const Icon(Icons.email),
+                  color: Theme.of(context).colorScheme.primary,
+                ),
               ),
-              child: IconButton(
-                onPressed: () {},
-                icon:const Icon(Icons.email),
-                color: Theme.of(context).colorScheme.primary,
+
+              const SizedBox(width: 10),
+
+              //call button
+              Container(
+                decoration: BoxDecoration(
+                  color: Theme.of(context).colorScheme.background,
+                  shape: BoxShape.circle,
+                ),
+                child: IconButton(
+                  onPressed: () {},
+                  icon: const Icon(Icons.call),
+                  color: Colors.green,
+                ),
               ),
-            ),
-
-            const SizedBox(width: 10),
-
-            //call button
-             Container(
-              decoration: BoxDecoration(
-              color: Theme.of(context).colorScheme.background,
-              shape:BoxShape.circle,
-              ),
-              child: IconButton(
-                onPressed: () {},
-                icon:const Icon(Icons.call),
-                color: Colors.green,
-              ),
-            ),
-
-              ],
-            )
-
-
-          ],
-        ),
+            ],
+          )
+        ],
+      ),
     );
   }
 }

@@ -15,17 +15,17 @@ class MyDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Drawer(
-      backgroundColor:Theme.of(context).colorScheme.background,
+      backgroundColor: Theme.of(context).colorScheme.background,
       child: Column(
         children: [
           // app logo
           Padding(
-            padding: const EdgeInsets.only(top:100.0),
+            padding: const EdgeInsets.only(top: 100.0),
             child: Icon(
-              Icons.lock_open_rounded,
-              size:80,
+              Icons.person,
+              size: 80,
               color: Theme.of(context).colorScheme.inversePrimary,
-              ),
+            ),
           ),
 
           Padding(
@@ -36,47 +36,49 @@ class MyDrawer extends StatelessWidget {
           ),
 
           //home_list_title
-          MyDrawerTile(text: "H O M E",
-           icon: Icons.home,
+          MyDrawerTile(
+            text: "H O M E",
+            icon: Icons.home,
             onTap: () => Navigator.pop(context),
           ),
 
           //setting list title
-          MyDrawerTile(text: "S E T T I N G S",
-           icon: Icons.settings,
+          MyDrawerTile(
+            text: "S E T T I N G S",
+            icon: Icons.settings,
             onTap: () {
               Navigator.pop(context);
               Navigator.push(
                 context,
                 MaterialPageRoute(
                   builder: (context) => const SettingsPage(),
-                  ),
-                );
+                ),
+              );
             },
           ),
 
           //about us
 
-          MyDrawerTile(text: "A B O U T  U S",
-           icon: Icons.info,
+          MyDrawerTile(
+            text: "A B O U T  U S",
+            icon: Icons.info,
             onTap: () {
               Navigator.pop(context);
               Navigator.push(
                 context,
                 MaterialPageRoute(
                   builder: (context) => const AboutPage(),
-                  ),
-                );
+                ),
+              );
             },
           ),
 
-
-
-        const Spacer(),
+          const Spacer(),
 
           //logout list title
-          MyDrawerTile(text: "L O G O U T",
-           icon: Icons.logout,
+          MyDrawerTile(
+            text: "L O G O U T",
+            icon: Icons.logout,
             onTap: () {
               logout();
               Navigator.pop(context);
@@ -86,7 +88,6 @@ class MyDrawer extends StatelessWidget {
           const SizedBox(height: 25),
         ],
       ),
-
     );
   }
 }

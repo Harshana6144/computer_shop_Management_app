@@ -10,6 +10,7 @@ import 'package:food_dilivery_app/models/parts.dart';
 import 'package:food_dilivery_app/models/shop.dart';
 import 'package:food_dilivery_app/pages/parts_page.dart';
 import 'package:food_dilivery_app/pages/search_page.dart';
+// import 'package:food_dilivery_app/pages/loction_page.dart'; // Corrected import for LocationPage
 import 'package:provider/provider.dart';
 
 class HomePage extends StatefulWidget {
@@ -19,14 +20,16 @@ class HomePage extends StatefulWidget {
   State<HomePage> createState() => _HomePageState();
 }
 
-class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin {
+class _HomePageState extends State<HomePage>
+    with SingleTickerProviderStateMixin {
   late TabController _tabController;
   int _selectedIndex = 0;
 
   @override
   void initState() {
     super.initState();
-    _tabController = TabController(length: PartsCategory.values.length, vsync: this);
+    _tabController =
+        TabController(length: PartsCategory.values.length, vsync: this);
   }
 
   @override
@@ -35,7 +38,8 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
     super.dispose();
   }
 
-  List<Part> _filterMenuByCategory(PartsCategory category, List<Part> fullMenu) {
+  List<Part> _filterMenuByCategory(
+      PartsCategory category, List<Part> fullMenu) {
     return fullMenu.where((part) => part.category == category).toList();
   }
 
@@ -88,7 +92,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
                       endIndent: 25,
                       color: Theme.of(context).colorScheme.secondary,
                     ),
-                    const MyCurrentLocation(),
+                    MyCurrentLocation(),
                     const MyDescriptionBox(),
                   ],
                 ),
@@ -102,7 +106,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
             ),
           ),
           const SearchPage(),
-          const Center(child: Text('Location Screen')),
+          const Center(child: Text('Location Screen')), // Corrected LocationPage to match the existing class
           const Center(child: Text('Favorite Screen')),
         ],
       ),
